@@ -1,4 +1,4 @@
-\documentclass[modern,a4paper]{aastex6}
+\documentclass[12pt,twoside]{report}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -7,10 +7,12 @@
 \usepackage{mathpazo}
 \usepackage{graphicx}
 \usepackage{afterpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
 \usepackage[caption=false]{subfig}
 \newcommand\mynotes[1]{\textcolor{red}{#1}}
 %\usepackage[round]{natbib}
-\usepackage[left=3cm,right=1.5cm,top=4cm,bottom=1cm]{geometry}
+\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm]{geometry}
 \graphicspath{ {images/} }
 
 
@@ -46,11 +48,33 @@
 
     \end{center}
 \end{titlepage}
-% \large
-% \title{\Large Literature Survey and Outline}
-% \author{\large Andrei Cuceu}
-% \date{\today}
-% \maketitle
 
+
+
+\chapter*{\Huge Abstract}
+
+HERERERERE
+
+\tableofcontents
+
+\newpage
+\chapter{Introduction}
+\input{chapters/introduction}
+
+\newpage
+\chapter{Chapter 1 Title}
+\input{chapters/chapter01}
+
+\newpage
+\chapter{Chapter 2 Title}
+\input{chapters/chapter02}
+
+\newpage
+\chapter{Chapter 3 Title}
+\input{chapters/chapter03}
+
+\newpage
+\chapter{Chapter 4 Title}
+\input{chapters/chapter04}
 
 \end{document}
