@@ -1,5 +1,6 @@
 \documentclass[12pt,twoside]{report}
 \usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
@@ -16,39 +17,39 @@
 \graphicspath{ {images/} }
 
 \usepackage{biblatex}
-\addbibresource{citations/references.bib}
+\addbibresource{references.bib}
 
 
 \begin{document}
 \begin{titlepage}
     \begin{center}
-
+        
         \vspace*{5cm}
         {\fontsize{50}{60}\selectfont \textbf{Title Here}}
         
-
+        
         \vspace{3cm}
-
+        
         \Huge
         \textbf{Andrei Cuceu}
         
         % \huge
         % Astrophysics MSci
-
+        
         \vspace{1cm}
-
+        
         \huge
         \textbf{Supervisor: Dr.\ Andrew Pontzen}
-
+        
         \vspace{8cm}
-
+        
         \huge
         University College London
-
+        
         \vspace{1cm}
         \huge
         \today
-
+        
     \end{center}
 \end{titlepage}
 
@@ -75,10 +76,13 @@ HERERERERE
 \newpage
 \chapter{Chapter 3 Title}
 \input{chapters/chapter03}
+\cite{Eisenstein_BAOpeak_reconstruction}
 
 \newpage
 \chapter{Chapter 4 Title}
 \input{chapters/chapter04}
 
-\printbibliography
+
+\printbibliography{}
+
 \end{document}

@@ -1,0 +1,69 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global}
+    \entry{Eisenstein_BAOpeak_reconstruction}{article}{}
+      \name{author}{4}{}{%
+        {{hash=614786b954eedcfcba7140e1fdf45ad8}{%
+           family={{Eisenstein}},
+           family_i={E\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           given_i={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8c88b06034939ca333e3a120fab03a15}{%
+           family={{Seo}},
+           family_i={S\bibinitperiod},
+           given={H.-J.},
+           given_i={H\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=6f92a2b819b9d80e6c808b16df5f6b15}{%
+           family={{Sirko}},
+           family_i={S\bibinitperiod},
+           given={E.},
+           given_i={E\bibinitperiod}}}%
+        {{hash=812a508994bce34e17030cb620acf117}{%
+           family={{Spergel}},
+           family_i={S\bibinitperiod},
+           given={D.\bibnamedelimi N.},
+           given_i={D\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{45c9dc85f32357aca8d3f69159bc7731}
+      \strng{fullhash}{25873e38d17697d073dbdcd71bfb8795}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{apj}
+      \field{month}{08}
+      \field{title}{{Improving Cosmological Distance Measurements by Reconstruction of the Baryon Acoustic Peak}}
+      \field{volume}{664}
+      \field{year}{2007}
+      \field{pages}{675\bibrangedash 679}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1086/518712
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0604362
+      \endverb
+      \keyw{Cosmology: Cosmic Microwave Background,Cosmology: Cosmological Parameters,Cosmology: Distance Scale,Cosmology: Large-Scale Structure of Universe}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
