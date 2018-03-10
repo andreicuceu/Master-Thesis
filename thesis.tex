@@ -1,6 +1,7 @@
-\documentclass[12pt,twoside]{report}
+\documentclass[12pt,aas_macros,twoside]{report}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
+\usepackage{csquotes}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
@@ -16,7 +17,8 @@
 \usepackage[a4paper,width=150mm,top=25mm,bottom=25mm]{geometry}
 \graphicspath{ {images/} }
 
-\usepackage{biblatex}
+\usepackage{aas_macros}
+\usepackage[backend=biber,style=authoryear]{biblatex}
 \addbibresource{references.bib}
 
 
@@ -57,31 +59,33 @@
 
 \chapter*{\Huge Abstract}
 
-HERERERERE
+\cite{Eisenstein_BAOpeak_reconstruction}
 
 \tableofcontents
 
 \newpage
 \chapter{Introduction}
-\input{chapters/introduction}
-
-\newpage
-\chapter{Chapter 1 Title}
 \input{chapters/chapter01}
 
 \newpage
-\chapter{Chapter 2 Title}
+\chapter{The Growth of Structure}
 \input{chapters/chapter02}
 
 \newpage
-\chapter{Chapter 3 Title}
+\chapter{Methods}
 \input{chapters/chapter03}
-\cite{Eisenstein_BAOpeak_reconstruction}
 
 \newpage
-\chapter{Chapter 4 Title}
+\chapter{Perfect Reconstruction}
 \input{chapters/chapter04}
 
+\newpage
+\chapter{Realistic Reconstructions}
+\input{chapters/chapter05}
+
+\newpage
+\chapter{Conclusions}
+\input{chapters/chapter06}
 
 \printbibliography{}
 
