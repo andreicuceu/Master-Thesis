@@ -12,46 +12,44 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.4}The Missing Link (Reconstruction)}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}The Growth of Structure}{5}
+\contentsline {chapter}{\numberline {2}The Growth of Structure}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Perturbation Theory}{5}
+\contentsline {section}{\numberline {2.1}Perturbation Theory}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Linear vs Non-Linear Collapse}{5}
+\contentsline {section}{\numberline {2.2}Linear vs Non-Linear Collapse}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}The Zeldovich Approximation}{5}
+\contentsline {section}{\numberline {2.3}The Zeldovich Approximation}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Reconstruction (BAO)}{5}
+\contentsline {section}{\numberline {2.4}Reconstruction (BAO)}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Methods}{6}
+\contentsline {chapter}{\numberline {3}Methods}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Cosmological Simulations}{6}
+\contentsline {section}{\numberline {3.1}Cosmological Simulations}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}The Power Spectrum}{6}
+\contentsline {section}{\numberline {3.2}The Power Spectrum}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Calculating the Power Spectrum of a Simulation}{6}
+\contentsline {section}{\numberline {3.3}Calculating the Power Spectrum of a Simulation}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Perfect Reconstruction}{7}
+\contentsline {chapter}{\numberline {4}Perfect Reconstruction}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Method}{7}
+\contentsline {section}{\numberline {4.1}Method}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Results}{7}
+\contentsline {section}{\numberline {4.2}Results}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Analysis}{7}
+\contentsline {section}{\numberline {4.3}Analysis}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Realistic Reconstructions}{8}
+\contentsline {chapter}{\numberline {5}Realistic Reconstructions}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}The velocity field}{8}
+\contentsline {section}{\numberline {5.1}The velocity field}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Getting back to the linear regime}{8}
+\contentsline {section}{\numberline {5.2}Getting back to the linear regime}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Results}{8}
+\contentsline {section}{\numberline {5.3}Results}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Analysis}{8}
+\contentsline {section}{\numberline {5.4}Analysis}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Conclusions}{9}
+\contentsline {chapter}{\numberline {6}Conclusions}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Information loss}{9}
+\contentsline {section}{\numberline {6.1}Information loss}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Problems}{9}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Future Work}{9}
+\contentsline {section}{\numberline {6.2}Future Work}{12}

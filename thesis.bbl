@@ -66,6 +66,69 @@
       \endverb
       \keyw{Cosmology: Cosmic Microwave Background,Cosmology: Cosmological Parameters,Cosmology: Distance Scale,Cosmology: Large-Scale Structure of Universe}
     \endentry
+    \entry{2012MNRAS.427.2132P}{article}{}
+      \name{author}{7}{}{%
+        {{uniquename=0,hash=7e7367b9945b79e5ce362b1dd67d11ad}{%
+           family={{Padmanabhan}},
+           family_i={P\bibinitperiod},
+           given={N.},
+           given_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=71d9ce203ea11260c2072edf05a1fe09}{%
+           family={{Xu}},
+           family_i={X\bibinitperiod},
+           given={X.},
+           given_i={X\bibinitperiod}}}%
+        {{uniquename=0,hash=614786b954eedcfcba7140e1fdf45ad8}{%
+           family={{Eisenstein}},
+           family_i={E\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           given_i={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=39e89f6ce4979a013b2e3c67252ade83}{%
+           family={{Scalzo}},
+           family_i={S\bibinitperiod},
+           given={R.},
+           given_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=ab181ffc7eb4ea6604a8d8e8455d9e9c}{%
+           family={{Cuesta}},
+           family_i={C\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           given_i={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=ef031090859868b39eec6d1780a355d8}{%
+           family={{Mehta}},
+           family_i={M\bibinitperiod},
+           given={K.\bibnamedelimi T.},
+           given_i={K\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{uniquename=0,hash=fbbfdcc5d3adfa6e33ea4e9481e80f9a}{%
+           family={{Kazin}},
+           family_i={K\bibinitperiod},
+           given={E.},
+           given_i={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0b3b792e03db72f9148cb57dbb3aa69}
+      \strng{fullhash}{18f935dbb561869a79ae3dbd8841c032}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{2012}
+      \field{labelmonth}{12}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{12}
+      \field{title}{{A 2 per cent distance to z = 0.35 by reconstructing baryon acoustic oscillations - I. Methods and application to the Sloan Digital Sky Survey}}
+      \field{volume}{427}
+      \field{year}{2012}
+      \field{pages}{2132\bibrangedash 2145}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1111/j.1365-2966.2012.21888.x
+      \endverb
+      \verb{eprint}
+      \verb 1202.0090
+      \endverb
+      \keyw{cosmological parameters,cosmology: observations,dark energy,distance scale,large-scale structure of Universe}
+    \endentry
   \endsortlist
 \endrefsection
 \endinput
