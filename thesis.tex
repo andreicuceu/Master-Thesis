@@ -10,9 +10,15 @@
 \usepackage{graphicx}
 \usepackage{afterpage}
 \usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{indentfirst}
 \pagestyle{fancy}
 \fancyhead[RO]{}
 \fancyhead[LE]{}
+
+% \setlength{\parindent}{6em}
+\renewcommand{\baselinestretch}{1.5}
+\renewcommand{\arraystretch}{1.5}
 
 \usepackage[caption=false]{subfig}
 % \newcommand\mynotes[1]{\textcolor{red}{#1}}
@@ -78,16 +84,16 @@
 \chapter{The Growth of Structure}
 \input{chapters/chapter02}
 
-\newpage
-\chapter{Methods}
-\input{chapters/chapter03}
+% \newpage
+% \chapter{Methods}
+% \input{chapters/chapter03}
 
 \newpage
-\chapter{Perfect Reconstruction}
+\chapter{The Perfect Reconstruction}
 \input{chapters/chapter04}
 
 \newpage
-\chapter{Realistic Reconstructions}
+\chapter{Towards Realistic Reconstructions}
 \input{chapters/chapter05}
 
 \newpage

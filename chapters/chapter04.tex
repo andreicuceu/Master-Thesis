@@ -1,16 +1,38 @@
 % \Huge
 
-\todo[inline]{The section names here are just temporary.}
+% \todo[inline]{The section names here are just temporary.}
 
-\section{Method}
+\indent The first step in understanding the evolution of the universe is to look at the theoretical limits we encounter when trying to reconstruct it. As a field is defined at every point in space, any attempt at representing it with data is inherently imperfect. We would have to measure the density field at every point in the Universe in order to obtain all the information it contains. This fact already implies that no data driven reconstruction will ever succeed at perfectly recovering the primordial density field (unless we manage to make an infinity of measurements). To show this unavoidable loss of information we performed a `perfect' reconstruction. 
 
-\todo[inline]{Present how we did the perfect reconstruction}
+\section{Methods}
 
-The first step in understanding the evolution of the universe is to look at the theoretical limits we encounter when trying to reconstruct it. As a field is defined at every point in space, any attempt at representing it with data is inherently imperfect. We would have to measure the density field at every point in the Universe in order to obtain all the information it contains. This fact already implies that no data driven reconstruction will ever succeed at perfectly recovering the primordial density field (unless we manage to make an infinity of measurements). 
+% \todo[inline]{Present how we did the perfect reconstruction}
 
-To show this unavoidable loss of information we performed a `perfect' reconstruction. We have access to multiple snapshots at various redshifts in our simulations, including the initial positions of all particles (at $z = 99$). Therefore, we used this information to reconstruct the density field. We first calculated the density field at various redshifts in the interval $z = 0 - 9$. The field was calculated at the particle positions instead of being calculated on a regular grid. This is because we want the particles to carry the density field when we move them. After that, all the particles were moved to their initial positions at $z = 99$.
+The first step in studying reconstruction is to find a way to test its effectiveness. To do this, we use cosmological N-body simulations. These simulations give us important insights into how structure evolves in the Universe. More importantly for this project, it allows us to compare any reconstructed density field to the real starting density field. We use data from three simulations available to us. The first one is Simulation A presented in~\cite{Pontzen_paired_simulations} (also referred to as Simulation A in this work). The other two simulations are variations of the same initial setup, with smaller size and smaller resolution respectively. The details of all three simulations are presented in Table 1.
 
-The density field is carried by the particles to $z = 99$. As the particle distribution was almost perfectly uniform at the beginning, the density field will also be very uniform. However, this procedure also creates an interesting side effect. At late time, most particles tend to be clumped together. Therefore, when measuring the density field at the particle positions, we will mostly get very high values. These values don't change when moving the particles, so the final field will also have very high values, but this time distributed on an almost uniform grid. This results in an apparent increase in the total mass of the simulation. As this increase is just a result of the way we represent the density field, it needs to be accounted for when analysing the results. The total mass of the simulation should be conserved. 
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{ |c|c|c|c| } 
+        \hline
+        Lable & Size & Number of Particles \\
+        \hline
+        Sim A & $(200 Mpc)^3$ & $512^3$  \\ 
+        \hline
+        Sim B & $(200 Mpc)^3$ & $256^3$  \\ 
+        \hline
+        Sim C & $(100 Mpc)^3$ & $256^3$  \\ 
+        \hline
+        
+    \end{tabular}
+    \caption{The sizes and number of particles of the three simulations used in this project.}
+    \label{table:1}
+\end{table}
+
+% \cite{Eisenstein_BAOpeak_reconstruction}
+
+\indent We have access to multiple snapshots at various redshifts in our simulations, including the initial positions of all particles (at $z = 99$). Therefore, we used this information to reconstruct the density field. We first calculated the density field at various redshifts in the interval $z = 0 - 9$. The field was calculated at the particle positions instead of being calculated on a regular grid. This is because we want the particles to carry the density field when we move them. After that, all the particles were moved to their initial positions at $z = 99$.
+
+The density field is carried by the particles to $z = 99$. As the particle distribution was almost perfectly uniform at the beginning, the density field will also be very uniform. However, this procedure also creates an interesting side effect. At late times, most particles tend to be clumped together. Therefore, when measuring the density field at the particle positions, we will mostly get very high values. These values don't change when moving the particles, so the final field will also have very high values, but this time distributed on an almost uniform grid. This results in an apparent increase in the total mass of the simulation. As this increase is just a result of the way we represent the density field, it needs to be accounted for when analysing the results. The total mass of the simulation should be conserved. 
 
 \section{Results}
 
@@ -48,13 +70,13 @@ Sim C: $(100 Mpc)^3$, $256^3$ Particles}
     \label{fig:5}
 \end{figure}
 
-\begin{figure}
-    \centering
-    \includegraphics[width=1\columnwidth]{images/crossSpectra/Spec_3_perf.png}%
+% \begin{figure}
+%     \centering
+%     \includegraphics[width=1\columnwidth]{images/crossSpectra/Spec_3_perf.png}%
     
-    \caption{
-    Perfect Reconstruction from different redshifts in Sim A and Sim B
-    }
+%     \caption{
+%     Perfect Reconstruction from different redshifts in Sim A and Sim B
+%     }
     
-    \label{fig:6}
-\end{figure}
+%     \label{fig:6}
+% \end{figure}

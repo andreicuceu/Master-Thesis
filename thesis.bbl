@@ -129,6 +129,55 @@
       \endverb
       \keyw{cosmological parameters,cosmology: observations,dark energy,distance scale,large-scale structure of Universe}
     \endentry
+    \entry{Pontzen_paired_simulations}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=c0fccd237181077bebbfbf6e5b2747c2}{%
+           family={{Pontzen}},
+           family_i={P\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=5eb155e86be208ece7c3fb8c0ecfba82}{%
+           family={{Slosar}},
+           family_i={S\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=9648b6f5e773e85a1a4f8d8bae462357}{%
+           family={{Roth}},
+           family_i={R\bibinitperiod},
+           given={N.},
+           given_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=49bfdff634f43059f9325bdbae420a15}{%
+           family={{Peiris}},
+           family_i={P\bibinitperiod},
+           given={H.\bibnamedelimi V.},
+           given_i={H\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b75649e19dde9ce289f11d617e56fdf}
+      \strng{fullhash}{be532ddcd6f600f6c56ea0c56403cea3}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{2016}
+      \field{labelmonth}{05}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{103519}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\prd}
+      \field{month}{05}
+      \field{number}{10}
+      \field{title}{{Inverted initial conditions: Exploring the growth of cosmic structure and voids}}
+      \field{volume}{93}
+      \field{year}{2016}
+      \field{pages}{103519}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.93.103519
+      \endverb
+      \verb{eprint}
+      \verb 1511.04090
+      \endverb
+    \endentry
   \endsortlist
 \endrefsection
 \endinput
