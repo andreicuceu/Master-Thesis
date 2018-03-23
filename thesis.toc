@@ -44,8 +44,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Analysis}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusions}{19}
+\contentsline {chapter}{\numberline {5}Conclusions}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Information loss}{19}
+\contentsline {section}{\numberline {5.1}Information loss}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Future Work}{19}
+\contentsline {section}{\numberline {5.2}Future Work}{22}

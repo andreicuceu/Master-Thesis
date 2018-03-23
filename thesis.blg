@@ -1,15 +1,15 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
-[0] Config.pm:343> INFO - Logfile is 'thesis.blg'
-[38] biber:287> INFO - === Fri Mar 23, 2018, 10:43:06
-[131] Biber.pm:348> INFO - Reading 'thesis.bcf'
-[273] Biber.pm:742> INFO - Found 4 citekeys in bib section 0
-[279] Biber.pm:3151> INFO - Processing section 0
-[307] Biber.pm:3308> INFO - Looking for bibtex format file 'references.bib' for section 0
-[320] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[331] bibtex.pm:974> INFO - Found BibTeX data source 'references.bib'
-[409] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[409] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[409] Biber.pm:3028> INFO - Sorting list 'nyt/global' of type 'entry' with scheme 'nyt' and locale 'en-US'
-[409] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
-[415] bbl.pm:519> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[433] bbl.pm:615> INFO - Output to thesis.bbl
+[1] Config.pm:343> INFO - Logfile is 'thesis.blg'
+[43] biber:287> INFO - === Fri Mar 23, 2018, 11:52:04
+[143] Biber.pm:348> INFO - Reading 'thesis.bcf'
+[297] Biber.pm:742> INFO - Found 4 citekeys in bib section 0
+[303] Biber.pm:3151> INFO - Processing section 0
+[333] Biber.pm:3308> INFO - Looking for bibtex format file 'references.bib' for section 0
+[347] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[360] bibtex.pm:974> INFO - Found BibTeX data source 'references.bib'
+[444] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[444] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[444] Biber.pm:3028> INFO - Sorting list 'nyt/global' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[444] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[450] bbl.pm:519> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[469] bbl.pm:615> INFO - Output to thesis.bbl
