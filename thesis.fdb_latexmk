@@ -1,11 +1,10 @@
 # Fdb version 3
-["biber thesis"] 1521800272 "thesis.bcf" "thesis.bbl" "thesis" 1521801672
+["biber thesis"] 1521801785 "thesis.bcf" "thesis.bbl" "thesis" 1521801790
   "references.bib" 1521741199 2911 c4dcf019706b90eb3b209b3f759fecbb ""
-  "thesis.bcf" 1521801672 91736 f6e1e5ad1f773ef16ca2a1b16f4cbf77 ""
+  "thesis.bcf" 1521801790 91736 f6e1e5ad1f773ef16ca2a1b16f4cbf77 ""
   (generated)
   "thesis.bbl"
-  "thesis.blg"
-["pdflatex"] 1521801671 "/home/andrei/Documents/project/Thesis/thesis.tex" "thesis.pdf" "thesis" 1521801672
+["pdflatex"] 1521801789 "/home/andrei/Documents/project/Thesis/thesis.tex" "thesis.pdf" "thesis" 1521801790
   "/etc/texmf/web2c/texmf.cnf" 1510940014 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/andrei/Documents/project/Thesis/thesis.tex" 1521713238 1982 0f6022738b592ea7d37566bce3434102 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -203,15 +202,15 @@
   "images/perfRecon/orig.png" 1521749755 45156 16245cd34277f71186fad399612b5e3b ""
   "images/perfRecon/perfRecon.png" 1521641413 78849 a7879590403c677b6013533e16ead61a ""
   "images/perfRecon/simComp.png" 1521641744 50952 f4e830ca3d226bbeac5fb6ff4f51c604 ""
-  "thesis.aux" 1521801672 14785 00a0ce0a0d140ae65a55d0f49028a490 ""
-  "thesis.bbl" 1521800281 6729 049d67146cfc5c20b0521c958bcf8b6e "biber thesis"
-  "thesis.run.xml" 1521801672 2326 f0c26861403cf111d1284f3404d7f0b9 ""
+  "thesis.aux" 1521801790 14785 00a0ce0a0d140ae65a55d0f49028a490 ""
+  "thesis.bbl" 1521801786 6729 049d67146cfc5c20b0521c958bcf8b6e "biber thesis"
+  "thesis.run.xml" 1521801790 2326 f0c26861403cf111d1284f3404d7f0b9 ""
   "thesis.tex" 1521713238 1982 0f6022738b592ea7d37566bce3434102 ""
-  "thesis.toc" 1521801672 2646 b74b36c049322ea2b709d160467f56ee ""
+  "thesis.toc" 1521801790 2646 b74b36c049322ea2b709d160467f56ee ""
   (generated)
-  "thesis.toc"
-  "thesis.aux"
-  "thesis.pdf"
-  "thesis.run.xml"
-  "thesis.bcf"
   "thesis.log"
+  "thesis.pdf"
+  "thesis.aux"
+  "thesis.toc"
+  "thesis.bcf"
+  "thesis.run.xml"
