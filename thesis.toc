@@ -22,26 +22,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Reconstruction (BAO)}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}The Perfect Reconstruction}{11}
+\contentsline {chapter}{\numberline {3}The Perfect Reconstruction}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Methods}{11}
+\contentsline {section}{\numberline {3.1}Methods}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Results}{12}
+\contentsline {section}{\numberline {3.2}From Images to Statistics}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Analysis}{13}
+\contentsline {subsection}{\numberline {3.2.1}The Reconstructed Density Field}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Towards Realistic Reconstructions}{15}
+\contentsline {subsection}{\numberline {3.2.2}Correlation with the Initial Field}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}The velocity field}{15}
+\contentsline {section}{\numberline {3.3}Analysis}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Getting back to the linear regime}{15}
+\contentsline {chapter}{\numberline {4}Towards Realistic Reconstructions}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Results}{15}
+\contentsline {section}{\numberline {4.1}The velocity field}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Getting back to the linear regime}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Results}{17}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Analysis}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusions}{20}
+\contentsline {chapter}{\numberline {5}Conclusions}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Information loss}{20}
+\contentsline {section}{\numberline {5.1}Information loss}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Future Work}{20}
+\contentsline {section}{\numberline {5.2}Future Work}{19}

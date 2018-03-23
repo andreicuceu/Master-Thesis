@@ -19,6 +19,33 @@
 
 \refsection{0}
   \sortlist[entry]{nyt/global}
+    \entry{2017ascl.soft06006B}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=0d07a5cf660ee8f219c6bc7e997f1043}{%
+           family={{Bird}},
+           family_i={B\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{0d07a5cf660ee8f219c6bc7e997f1043}
+      \strng{fullhash}{0d07a5cf660ee8f219c6bc7e997f1043}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2017}
+      \field{labelmonth}{06}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{ascl}
+      \field{howpublished}{Astrophysics Source Code Library}
+      \field{month}{06}
+      \field{title}{{GenPK: Power spectrum generator}}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1706.006
+      \endverb
+      \keyw{Software}
+    \endentry
     \entry{Eisenstein_BAOpeak_reconstruction}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,hash=614786b954eedcfcba7140e1fdf45ad8}{%
@@ -66,71 +93,50 @@
       \endverb
       \keyw{Cosmology: Cosmic Microwave Background,Cosmology: Cosmological Parameters,Cosmology: Distance Scale,Cosmology: Large-Scale Structure of Universe}
     \endentry
-    \entry{2012MNRAS.427.2132P}{article}{}
-      \name{author}{7}{}{%
-        {{uniquename=0,hash=7e7367b9945b79e5ce362b1dd67d11ad}{%
-           family={{Padmanabhan}},
+    \entry{2013ascl.soft05002P}{misc}{}
+      \name{author}{4}{uniquelist=2}{%
+        {{uniquename=0,hash=c0fccd237181077bebbfbf6e5b2747c2}{%
+           family={{Pontzen}},
            family_i={P\bibinitperiod},
-           given={N.},
-           given_i={N\bibinitperiod}}}%
-        {{uniquename=0,hash=71d9ce203ea11260c2072edf05a1fe09}{%
-           family={{Xu}},
-           family_i={X\bibinitperiod},
-           given={X.},
-           given_i={X\bibinitperiod}}}%
-        {{uniquename=0,hash=614786b954eedcfcba7140e1fdf45ad8}{%
-           family={{Eisenstein}},
-           family_i={E\bibinitperiod},
-           given={D.\bibnamedelimi J.},
-           given_i={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{uniquename=0,hash=39e89f6ce4979a013b2e3c67252ade83}{%
-           family={{Scalzo}},
-           family_i={S\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=c22b36391ce0ee1367c2c1983f46e7b7}{%
+           family={{Roškar}},
+           family_i={R\bibinitperiod},
            given={R.},
            given_i={R\bibinitperiod}}}%
-        {{uniquename=0,hash=ab181ffc7eb4ea6604a8d8e8455d9e9c}{%
-           family={{Cuesta}},
-           family_i={C\bibinitperiod},
-           given={A.\bibnamedelimi J.},
-           given_i={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{uniquename=0,hash=ef031090859868b39eec6d1780a355d8}{%
-           family={{Mehta}},
-           family_i={M\bibinitperiod},
-           given={K.\bibnamedelimi T.},
-           given_i={K\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{uniquename=0,hash=fbbfdcc5d3adfa6e33ea4e9481e80f9a}{%
-           family={{Kazin}},
-           family_i={K\bibinitperiod},
-           given={E.},
-           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=42f285ac4e5ac087425b894795d90cd4}{%
+           family={{Stinson}},
+           family_i={S\bibinitperiod},
+           given={G.},
+           given_i={G\bibinitperiod}}}%
+        {{uniquename=0,hash=08350f89cc98fcc6e01823e35fc6c7e2}{%
+           family={{Woods}},
+           family_i={W\bibinitperiod},
+           given={R.},
+           given_i={R\bibinitperiod}}}%
       }
-      \strng{namehash}{c0b3b792e03db72f9148cb57dbb3aa69}
-      \strng{fullhash}{18f935dbb561869a79ae3dbd8841c032}
+      \strng{namehash}{b4b4d84a3b3132a31e33fcb8b2f114de}
+      \strng{fullhash}{d8b0fe73d5a0054462480cbf71129c23}
       \field{sortinit}{P}
       \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
-      \field{labelyear}{2012}
-      \field{labelmonth}{12}
+      \field{labelyear}{2013}
+      \field{labelmonth}{05}
       \field{datelabelsource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{\mnras}
-      \field{month}{12}
-      \field{title}{{A 2 per cent distance to z = 0.35 by reconstructing baryon acoustic oscillations - I. Methods and application to the Sloan Digital Sky Survey}}
-      \field{volume}{427}
-      \field{year}{2012}
-      \field{pages}{2132\bibrangedash 2145}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.1111/j.1365-2966.2012.21888.x
-      \endverb
+      \field{eprinttype}{ascl}
+      \field{howpublished}{Astrophysics Source Code Library}
+      \field{month}{05}
+      \field{title}{{pynbody: N-Body/SPH analysis for python}}
+      \field{year}{2013}
       \verb{eprint}
-      \verb 1202.0090
+      \verb 1305.002
       \endverb
-      \keyw{cosmological parameters,cosmology: observations,dark energy,distance scale,large-scale structure of Universe}
+      \keyw{Software}
     \endentry
     \entry{Pontzen_paired_simulations}{article}{}
-      \name{author}{4}{}{%
+      \name{author}{4}{uniquelist=2}{%
         {{uniquename=0,hash=c0fccd237181077bebbfbf6e5b2747c2}{%
            family={{Pontzen}},
            family_i={P\bibinitperiod},
@@ -152,7 +158,7 @@
            given={H.\bibnamedelimi V.},
            given_i={H\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
       }
-      \strng{namehash}{1b75649e19dde9ce289f11d617e56fdf}
+      \strng{namehash}{64eeedfd37fd4fd733da398e01d3c42f}
       \strng{fullhash}{be532ddcd6f600f6c56ea0c56403cea3}
       \field{sortinit}{P}
       \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
