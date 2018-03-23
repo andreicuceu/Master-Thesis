@@ -47,15 +47,18 @@ As outlined above, the first step is to measure the density field in a snapshot.
 
 To have a visual understanding of the reconstruction, we first make some images of the density field. We use \textit{pynbody} to import the initial snapshot and the snapshot at $z=0$. The density field at the particle locations in the final snapshot is calculated and assigned as the density field of the initial snapshot. Density slices through this reconstructed field are compared to the initial and final fields in Figure \todo{put image in and ref}. 
 
-We can already see from this comparison that the reconstruction hasn't recovered all the information, as it's not identical to the initial filed. However, we see the effect that we are after. The reconstruction spreads out the matter from the collapsed filaments onto a more uniform field. Also notice the large difference in the values of the density field. The reconstructed field has density values about 3 orders of magnitude larger than the initial field. \todo{also talk about the density distribution}
+We can already see from this comparison that the reconstruction has not recovered all the information, as it is not identical to the initial filed. However, we see the effect that we are after. The reconstruction spreads out the matter from the collapsed filaments onto a more uniform field. Also notice the large difference in the values of the density field. The reconstructed field has density values about 3 orders of magnitude larger than the initial field. \todo{also talk about the density distribution}
 
-This large difference is an interesting side effect of our method. At late times, most particles tend to be clumped together. Therefore, when measuring the density field at the particle positions, we will mostly get very high values. These values don't change when moving the particles, so the final field will also have very high values, but this time distributed on an almost uniform grid. This results in an apparent increase in the total mass of the simulation. As this increase is just a result of the way we represent the density field, it needs to be accounted for when analysing the results. The total mass of the simulation should be conserved.
+This large difference is an interesting side effect of our method. At late times, most particles tend to be clumped together. Therefore, when measuring the density field at the particle positions, we will mostly get very high values. These values do not change when moving the particles, so the final field will also have very high values, but this time distributed on an almost uniform grid. This results in an apparent increase in the total mass of the simulation. As this increase is just a result of the way we represent the density field, it needs to be accounted for when analysing the results. The total mass of the simulation should be conserved.
 
 \subsection{Correlation with the Initial Field}
+
+\todo[inline]{TALK ABOUT TAKING THE LOG OF THE DENSITY FIELD}
 
 In order to get a better understanding of how well this reconstruction worked, we turn to statistics. A good way to represent the reconstruction  is to look at the normalized Cross-Spectrum between the initial and the reconstructed field: $$ \frac{P_{IX}(k)}{\sqrt{P_I(k) * P_X(k)}} $$ where $I$ represents the initial field, and $X$ the reconstructed field. \todo{The power-spectrum will be introduced in chapter 2}
 
 We used the \textsc{GenPK} code\footnote{https://github.com/sbird/GenPK.git} (\cite{2017ascl.soft06006B}) to measure auto and cross power-spectra of \textsc{Gadget} outputs. The original normalized cross-spectra between the initial and the final fields (from Sim A) can be seen in Figure \ref{fig:3.1}. For small wavenumbers $k$ (corresponding to large scales), the correlation is very good (converges to 1: perfect correlation). On the other hand, for large wavenumbers (corresponding to small scales), the two fields are completely decorrelated. 
+\todo[inline]{Talk about the binning??}
 
 \begin{figure}
     \centering
@@ -68,7 +71,7 @@ We used the \textsc{GenPK} code\footnote{https://github.com/sbird/GenPK.git} (\c
     \label{fig:3.1}
 \end{figure}
 
-The small $k$ convergence towards perfect correlation indicates that gravitational collapse doesn't have a large impact over such large scales. Because of this, both the initial and the final density fields tend to be very uniform, which preserves the correlation on these scales. However, over small scales, gravity has a large impact. This results in a large discrepancy between massive collapsed regions and mostly empty voids. This is in stark contrast to the relative uniformity of the initial field, leading to breakdown in correlation.
+The small $k$ convergence towards perfect correlation indicates that gravitational collapse does not have a large impact over such large scales. Because of this, both the initial and the final density fields tend to be very uniform, which preserves the correlation on these scales. However, over small scales, gravity has a large impact. This results in a large discrepancy between massive collapsed regions and mostly empty voids. This is in stark contrast to the relative uniformity of the initial field, leading to breakdown in correlation.
 
 Figure \ref{fig:3.1} also shows the evolution of this correlation with redshift. The wavenumber at which the two fields decorrelate indicates the progress of gravitational collapse at that redshift. This results in the decorrelation scale moving to smaller wavenumbers with the progress of gravitational collapse. The objective of reconstruction methods is to bring this decorrelation scale to larger $k$ (in order to recover information about the initial field).
 
@@ -89,21 +92,21 @@ In order to measure the power-spectra of our reconstructed fields, we modified \
 
 \section{Analysis}
 
-The cross-spectra presented in Figure~\ref{fig:3.2} show a large improvement in the correlation with the initial field. There is also an increase in the amount of information recovered for lower redshifts. This means redshift doesn't play a role as large in the perfect reconstruction as it originally did. 
+The cross-spectra presented in Figure~\ref{fig:3.2} show a large improvement in the correlation with the initial field. There is also an increase in the amount of information recovered for lower redshifts. This means redshift does not play a role as large in the perfect reconstruction as it originally did. 
 
 \begin{figure}
     \centering
     \includegraphics[width=1\columnwidth]{images/perfRecon/simComp.png}%
     
     \caption{
-    Normalized cross-spectra across the three simulations. The left plot shows the original correlation between the initial and the final fields, and the right panel shows the correlation with the reconstructed field. For the original correlations, the size of the simulation plays an important role, with the smaller simulation decorrelating on smaller scales. However, after the reconstruction, the size of the simulation doesn't seem to have any impact (with Sim A being almost identical to Sim C). In this case, the resolution of the simulation is the only factor that matters, with the larger resolution simulations showing a better correlation.
+    Normalized cross-spectra across the three simulations. The left plot shows the original correlation between the initial and the final fields, and the right panel shows the correlation with the reconstructed field. For the original correlations, the size of the simulation plays an important role, with the smaller simulation decorrelating on smaller scales. However, after the reconstruction, the size of the simulation does not seem to have any impact (with Sim A being almost identical to Sim C). In this case, the resolution of the simulation is the only factor that matters, with the larger resolution simulations showing a better correlation.
     }
     
     \label{fig:3.3}
 \end{figure}
 However, in order to understand this perfect reconstruction, we need to look at the key role played by the resolution of the simulation. Figure~\ref{fig:3.3} shows a comparison of the cross-spectra across the three simulations. For the original correlations, the size of the simulation plays a larger role than the resolution. Simulation C (smaller size) shows a smaller scale of decorrelation. Simulations A and B (same size) are very close, with a slight edge for simulation B (lower resolution). \todo{better explination here}
 
-A completely different structure can be seen once we perform the perfect reconstruction. Simulation A and C (same resolution) show identical reconstructed correlation, while the reconstruction in Simulation B (lower resolution) doesn't perform as well. This indicates that resolution plays the decisive role in the perfect reconstruction. However, this was exactly the starting point of this chapter. The limiting factor for this reconstruction is the resolution used to measure the density field. The right panel in Figure~\ref{fig:3.3} shows the lowest scale that can be reconstructed depending on the resolution of our simulation.
+A completely different structure can be seen once we perform the perfect reconstruction. Simulation A and C (same resolution) show identical reconstructed correlation, while the reconstruction in Simulation B (lower resolution) does not perform as well. This indicates that resolution plays the decisive role in the perfect reconstruction. However, this was exactly the starting point of this chapter. The limiting factor for this reconstruction is the resolution used to measure the density field. The right panel in Figure~\ref{fig:3.3} shows the lowest scale that can be reconstructed depending on the resolution of our simulation.
 
 The perfect reconstructions in Figure~\ref{fig:3.2} show that a perfect correlation cannot be achieved even in the ideal case of perfect knowledge of all the starting particle positions. However, a large improvement in the correlation can be seen, with the decorrelation scale moving to very small scales (of the order $1 Mpc$). This ideal reconstruction using perfect knowledge of the particle positions serves as a theoretical upper limit to reconstruction techniques. The perfect reconstruction, along with the original correlation, will always be present in the next chapter when we look at realistic reconstructions. This can give us a better understanding to how well our techniques work.
 

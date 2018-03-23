@@ -32,20 +32,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.2}Correlation with the Initial Field}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Analysis}{15}
+\contentsline {section}{\numberline {3.3}Analysis}{14}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Towards Realistic Reconstructions}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}The velocity field}{17}
+\contentsline {section}{\numberline {4.1}The Zel'dovich reconstruction}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Getting back to the linear regime}{17}
+\contentsline {section}{\numberline {4.2}Getting back to the linear regime}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Results}{17}
+\contentsline {section}{\numberline {4.3}Results}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Analysis}{18}
+\contentsline {section}{\numberline {4.4}Analysis}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusions}{22}
+\contentsline {chapter}{\numberline {5}Conclusions}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Information loss}{22}
+\contentsline {section}{\numberline {5.1}Information loss}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Future Work}{22}
+\contentsline {section}{\numberline {5.2}Future Work}{25}

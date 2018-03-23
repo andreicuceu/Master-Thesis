@@ -381,12 +381,14 @@ INPUT ./images/perfRecon/simComp.png
 INPUT ./images/perfRecon/simComp.png
 INPUT chapters/chapter05.tex
 INPUT chapters/chapter05.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm
 INPUT images/realRecon/zeld.png
 INPUT ./images/realRecon/zeld.png
 INPUT ./images/realRecon/zeld.png
-INPUT images/realRecon/sphVsAvg.png
-INPUT ./images/realRecon/sphVsAvg.png
-INPUT ./images/realRecon/sphVsAvg.png
+INPUT images/realRecon/binSize.png
+INPUT ./images/realRecon/binSize.png
+INPUT ./images/realRecon/binSize.png
 INPUT images/realRecon/filterComp.png
 INPUT ./images/realRecon/filterComp.png
 INPUT ./images/realRecon/filterComp.png
@@ -413,6 +415,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb
