@@ -1,15 +1,15 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
 [0] Config.pm:343> INFO - Logfile is 'thesis.blg'
-[39] biber:287> INFO - === Fri Mar 23, 2018, 22:45:57
-[139] Biber.pm:348> INFO - Reading 'thesis.bcf'
-[285] Biber.pm:742> INFO - Found 4 citekeys in bib section 0
-[294] Biber.pm:3151> INFO - Processing section 0
-[324] Biber.pm:3308> INFO - Looking for bibtex format file 'references.bib' for section 0
-[337] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[348] bibtex.pm:974> INFO - Found BibTeX data source 'references.bib'
-[451] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[451] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[451] Biber.pm:3028> INFO - Sorting list 'nyt/global' of type 'entry' with scheme 'nyt' and locale 'en-US'
-[451] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
-[457] bbl.pm:519> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[476] bbl.pm:615> INFO - Output to thesis.bbl
+[40] biber:287> INFO - === Sat Mar 24, 2018, 18:18:09
+[145] Biber.pm:348> INFO - Reading 'thesis.bcf'
+[292] Biber.pm:742> INFO - Found 6 citekeys in bib section 0
+[298] Biber.pm:3151> INFO - Processing section 0
+[327] Biber.pm:3308> INFO - Looking for bibtex format file 'references.bib' for section 0
+[347] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[365] bibtex.pm:974> INFO - Found BibTeX data source 'references.bib'
+[568] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[568] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[568] Biber.pm:3028> INFO - Sorting list 'nyt/global' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[568] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[577] bbl.pm:519> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[615] bbl.pm:615> INFO - Output to thesis.bbl

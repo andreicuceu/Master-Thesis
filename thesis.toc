@@ -6,11 +6,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Cosmological Context}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}The Cosmic Microwave Background}{5}
+\contentsline {section}{\numberline {1.2}The Cosmic Microwave Background}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Large Scale Structure and Galaxy Surveys}{5}
+\contentsline {section}{\numberline {1.3}Large Scale Structure and Galaxy Surveys}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}The Missing Link (Reconstruction)}{5}
+\contentsline {section}{\numberline {1.4}The Missing Link (Reconstruction)}{6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}The Growth of Structure}{8}
 \defcounter {refsection}{0}\relax 

@@ -46,6 +46,55 @@
       \endverb
       \keyw{Software}
     \endentry
+    \entry{2016ApJ...830...83C}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=046d94025ed44f1e2d6b40488a4b847f}{%
+           family={{Conselice}},
+           family_i={C\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           given_i={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=a9a410d550e3f3bcccc5d84a4ba7c096}{%
+           family={{Wilkinson}},
+           family_i={W\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=e3d8b6dc9abb96416b28fe54df2ce383}{%
+           family={{Duncan}},
+           family_i={D\bibinitperiod},
+           given={K.},
+           given_i={K\bibinitperiod}}}%
+        {{uniquename=0,hash=3e065b2d4b0443ad4c07125dfc809437}{%
+           family={{Mortlock}},
+           family_i={M\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6d3ded1086f5c1444bd3ff36b180f7b}
+      \strng{fullhash}{fd9ed4ba1170c53133017ec97336048e}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2016}
+      \field{labelmonth}{10}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{83}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\apj}
+      \field{month}{10}
+      \field{title}{{The Evolution of Galaxy Number Density at z = 8 and Its Implications}}
+      \field{volume}{830}
+      \field{year}{2016}
+      \field{pages}{83}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3847/0004-637X/830/2/83
+      \endverb
+      \verb{eprint}
+      \verb 1607.03909
+      \endverb
+      \keyw{galaxies: evolution,galaxies: fundamental parameters,galaxies: general,galaxies: high-redshift,galaxies: luminosity function,mass function,galaxies: structure}
+    \endentry
     \entry{Eisenstein_BAOpeak_reconstruction}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,hash=614786b954eedcfcba7140e1fdf45ad8}{%
@@ -92,6 +141,88 @@
       \verb astro-ph/0604362
       \endverb
       \keyw{Cosmology: Cosmic Microwave Background,Cosmology: Cosmological Parameters,Cosmology: Distance Scale,Cosmology: Large-Scale Structure of Universe}
+    \endentry
+    \entry{2016A&A...594A..13P}{article}{}
+      \name{author}{11}{}{%
+        {{uniquename=0,hash=94c122bef4a4d18cc4b21919b02952ac}{%
+           family={{Planck\bibnamedelimb Collaboration}},
+           family_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=5bbe5c2607c6ff76dbad114739ce99f1}{%
+           family={{Ade}},
+           family_i={A\bibinitperiod},
+           given={P.\bibnamedelimi A.\bibnamedelimi R.},
+           given_i={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{uniquename=0,hash=721d87272201fd063e5e7046d6c8bf94}{%
+           family={{Aghanim}},
+           family_i={A\bibinitperiod},
+           given={N.},
+           given_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=a1530ca93c2235e38bf16eafbbbbd69b}{%
+           family={{Arnaud}},
+           family_i={A\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=bb67d1311be76bc1b0eddfa4fb1cce1b}{%
+           family={{Ashdown}},
+           family_i={A\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=44a055505848eaaeaff8af943265d124}{%
+           family={{Aumont}},
+           family_i={A\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=c59e9913edf77f66e8319258d823f86c}{%
+           family={{Baccigalupi}},
+           family_i={B\bibinitperiod},
+           given={C.},
+           given_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=bd656e3cd85f42dc7deef2dfc6ad43a8}{%
+           family={{Banday}},
+           family_i={B\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           given_i={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=45033002e240c2819426dc98230a7fb2}{%
+           family={{Barreiro}},
+           family_i={B\bibinitperiod},
+           given={R.\bibnamedelimi B.},
+           given_i={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=f041779bac390a896931a216bd525b6e}{%
+           family={{Bartlett}},
+           family_i={B\bibinitperiod},
+           given={J.\bibnamedelimi G.},
+           given_i={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=a6f71317d170c3d8fdf0ecfd3bda1b6b}{%
+           prefix={et},
+           prefix_i={e\bibinitperiod},
+           family={al.},
+           family_i={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{1051df95ca7e49ec4b6876a591137642}
+      \strng{fullhash}{afe37ca2d3fb69b5e4ce6a747961d0a0}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{2016}
+      \field{labelmonth}{09}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{A13}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\aap}
+      \field{month}{09}
+      \field{title}{{Planck 2015 results. XIII. Cosmological parameters}}
+      \field{volume}{594}
+      \field{year}{2016}
+      \field{pages}{A13}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1051/0004-6361/201525830
+      \endverb
+      \verb{eprint}
+      \verb 1502.01589
+      \endverb
+      \keyw{cosmology: observations,cosmology: theory,cosmic background radiation,cosmological parameters}
     \endentry
     \entry{2013ascl.soft05002P}{misc}{}
       \name{author}{4}{uniquelist=2}{%

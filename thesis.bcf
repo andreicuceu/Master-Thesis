@@ -2051,9 +2051,11 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">Eisenstein_BAOpeak_reconstruction</bcf:citekey>
-    <bcf:citekey order="2">Pontzen_paired_simulations</bcf:citekey>
-    <bcf:citekey order="3">2013ascl.soft05002P</bcf:citekey>
-    <bcf:citekey order="4">2017ascl.soft06006B</bcf:citekey>
+    <bcf:citekey order="2">2016ApJ...830...83C</bcf:citekey>
+    <bcf:citekey order="3">2016A&amp;A...594A..13P</bcf:citekey>
+    <bcf:citekey order="4">Pontzen_paired_simulations</bcf:citekey>
+    <bcf:citekey order="5">2013ascl.soft05002P</bcf:citekey>
+    <bcf:citekey order="6">2017ascl.soft06006B</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nyt/global" type="entry" sortscheme="nyt" sortnamekeyscheme="global">
   <bcf:sorting>
