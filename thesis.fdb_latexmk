@@ -1,10 +1,11 @@
 # Fdb version 3
-["biber thesis"] 1521845156 "thesis.bcf" "thesis.bbl" "thesis" 1521845164
+["biber thesis"] 1521845156 "thesis.bcf" "thesis.bbl" "thesis" 1521910056
   "references.bib" 1521741199 2911 c4dcf019706b90eb3b209b3f759fecbb ""
-  "thesis.bcf" 1521845164 91736 f6e1e5ad1f773ef16ca2a1b16f4cbf77 ""
+  "thesis.bcf" 1521909978 91736 f6e1e5ad1f773ef16ca2a1b16f4cbf77 ""
   (generated)
   "thesis.bbl"
-["pdflatex"] 1521845162 "/home/andrei/Documents/project/Thesis/thesis.tex" "thesis.pdf" "thesis" 1521845164
+  "thesis.blg"
+["pdflatex"] 1521909975 "/home/andrei/Documents/project/Thesis/thesis.tex" "thesis.pdf" "thesis" 1521910056
   "/etc/texmf/web2c/texmf.cnf" 1510940014 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/andrei/Documents/project/Thesis/thesis.tex" 1521713238 1982 0f6022738b592ea7d37566bce3434102 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -196,7 +197,7 @@
   "chapters/chapter01.tex" 1520850515 1286 a83495c1371e3adf864a54f996490173 ""
   "chapters/chapter02.tex" 1521752223 3653 34a078aee0646601245376bdd0408d54 ""
   "chapters/chapter04.tex" 1521841903 12879 1cdba2a693aa783b284b8299e5744fb2 ""
-  "chapters/chapter05.tex" 1521844177 12674 b3feadc1bae256d8b6508ecd78a7502f ""
+  "chapters/chapter05.tex" 1521910056 21728 fb226722983cfd9ab124e596cd1f820a ""
   "chapters/chapter06.tex" 1521805904 465 8db34154881a1989b125be52023d3dd1 ""
   "images/misc/Planck_CMB.jpg" 1519583554 2373272 2f1d014dc91bc3484ffd3095c4b5b05d ""
   "images/misc/orangepie.jpg" 1520787273 622623 b4b3c24078e7b7c404f47f3448d0ad6a ""
@@ -210,15 +211,15 @@
   "images/realRecon/simBRecon.png" 1521805104 51865 495e4e8e030644d768e7a590fdd82636 ""
   "images/realRecon/z9SimComp.png" 1521804673 70252 1b4e955a148259ade0a9fbc3d7c3a52c ""
   "images/realRecon/zeld.png" 1521817492 103089 23dd70ba35c3b5408d0ed4c7d413c602 ""
-  "thesis.aux" 1521845164 18345 1088c5f51439e2ab0efd370838f3810d ""
+  "thesis.aux" 1521909978 20569 9f2957d9db75fdee4cc417c9bd418496 ""
   "thesis.bbl" 1521845157 6729 049d67146cfc5c20b0521c958bcf8b6e "biber thesis"
-  "thesis.run.xml" 1521845164 2326 f0c26861403cf111d1284f3404d7f0b9 ""
+  "thesis.run.xml" 1521909978 2326 f0c26861403cf111d1284f3404d7f0b9 ""
   "thesis.tex" 1521713238 1982 0f6022738b592ea7d37566bce3434102 ""
-  "thesis.toc" 1521845164 2657 ce2fef6efb1adaa572a5a0cc1a9095be ""
+  "thesis.toc" 1521909978 2657 f149c8b44c1510f9b08ec18c02ee173d ""
   (generated)
-  "thesis.pdf"
-  "thesis.run.xml"
   "thesis.toc"
-  "thesis.bcf"
   "thesis.aux"
+  "thesis.run.xml"
   "thesis.log"
+  "thesis.bcf"
+  "thesis.pdf"

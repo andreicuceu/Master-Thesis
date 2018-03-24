@@ -42,10 +42,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Results}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Analysis}{23}
+\contentsline {section}{\numberline {4.4}Analysis}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusions}{25}
+\contentsline {chapter}{\numberline {5}Conclusions}{30}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Information loss}{25}
+\contentsline {section}{\numberline {5.1}Information loss}{30}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Future Work}{25}
+\contentsline {section}{\numberline {5.2}Future Work}{30}
