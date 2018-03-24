@@ -315,6 +315,29 @@
       \verb 1511.04090
       \endverb
     \endentry
+    \entry{1999dpf..conf.....W}{proceedings}{}
+      \name{editor}{1}{}{%
+        {{uniquename=0,hash=fcabe4903e2ca57b11ef46697a02dcf2}{%
+           family={{White}},
+           family_i={W\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fcabe4903e2ca57b11ef46697a02dcf2}
+      \strng{fullhash}{fcabe4903e2ca57b11ef46697a02dcf2}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelyear}{1999}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of DPF99}
+      \field{title}{{Anisotropies in the CMB}}
+      \field{year}{1999}
+      \verb{eprint}
+      \verb astro-ph/9903232
+      \endverb
+    \endentry
   \endsortlist
 \endrefsection
 \endinput
