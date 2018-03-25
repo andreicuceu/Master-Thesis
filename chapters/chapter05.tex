@@ -1,17 +1,25 @@
 % \Huge
 
-With the tools developed in the previous chapter, and the perfect reconstruction serving as an upper limit for reconstruction, we are ready to dive into realistic reconstruction methods. In Chapter 2 we outlined \todo{hopefully} many reconstruction methods used in practice, based on both Standard Perturbation Theory and Lagrangian Perturbation Theory. In this project, we base our reconstructions on the first order approximation to LPT (the Zel'dovich Approximation).
+With the tools developed in the previous chapter, and the perfect reconstruction serving as an upper limit for reconstruction, we are ready to dive into realistic reconstruction methods. In Chapter 2 we outlined different reconstruction methods used in practice, based on both Standard Perturbation Theory and Lagrangian Perturbation Theory. In this project, we base our reconstructions on the first order approximation to LPT (the Zel'dovich Approximation).
 
 \section{The Zel'dovich reconstruction}
 
-The key ingredient that we will use to perform realistic reconstructions is the density field. The idea behind the Zel'dovich approximation is to calculate a linear displacement field (we refer this field as Zel'dovich offset) based on the current peculiar velocities while taking into account the Hubble flow (see Chapter 2). \textit{Pynbody} has tools for calculating the Zel'dovich offset using the particle velocities in a snapshot. This offset is given by: \todo{ref???}
+The key ingredient that we will use to perform realistic reconstructions is the density field. The idea behind the Zel'dovich approximation is to calculate a linear displacement field (we refer this field as Zel'dovich offset) based on the current peculiar velocities while taking into account the Hubble flow. 
 
+The peculiar velocity predicted by the ZA (\cite{1993sfu..book.....P}) is given by:
 \begin{equation}
-    \Psi_z(\textbf{q}) = (1+z) \times \textbf{v}(\textbf{q}) \times \frac{D(z)}{f(z)}
+    \textbf{V}(t) \equiv a(t)\frac{d\textbf{x}}{dt}    
+\end{equation}
+Using~\ref{eq:2.2}, we arrive at a peculiar velocity given by:
+\begin{equation}
+    \textbf{V} = a(t)\dot{b}\textbf{p}(\textbf{q})
+\end{equation}
+Finally, bringing the displacement field back ($\Psi(\textbf{q},t) = b(t) \textbf{p}(\textbf{q})$), and switching variables to redshift we obtain:
+\begin{equation}
+    \Psi_z(\textbf{q}) = \frac{\textbf{V}(\textbf{q})}{a(z)} \times \frac{b(z)}{f(z)}
     \label{eq:4.1}
 \end{equation} 
-
-Where $D(z)$ is the linear growth factor, $f(z)$ is the rate of linear growth and $\textbf{v}(\textbf{q})$ is the velocity field. 
+Where $b(z)$ is called the linear growth factor and $f(z) = \dot{b}(z)$ is the rate of linear growth. To calculate these two, we use the integration methods implemented in \textit{Pynbody} (\cite{2013ascl.soft05002P}).
 
 As we are interested in looking at the correlation between the reconstructed field  and the initial fields in our simulations (which are at $z=99$), we need to calculate the Zel'dovich offset up to $z=99$ only. In order to achieve this, we first used equation~\ref{eq:4.1} to calculate the offset starting from the redshift $z$ of the snapshot ($\Psi_z$). After that, we used the same equation to approximate this offset from $z=99$ ($\Psi_{99}$) using the same velocity field. The displacement field we are after is then given by:
 
@@ -19,7 +27,7 @@ As we are interested in looking at the correlation between the reconstructed fie
     \Psi(\textbf{q}) = \Psi_z(\textbf{q}) - \Psi_{99}(\textbf{q})
     \label{eq:4.2}
 \end{equation}
- 
+
 We first start out in our investigation by performing a reconstruction using the Zel'dovich offset calculated directly from the particle velocities in each snapshot. The methodology of the reconstruction resembles the Perfect Reconstruction. We first calculate the density field at the particle positions in a snapshot, and then we apply the Displacement field $\Psi(\textbf{q})$ to move the particles. The density field is carried along. After that, \textsc{GenPK} is used to measure the cross power-spectra of the reconstructed field with the initial ($z=99$) field.
 
 \begin{figure}

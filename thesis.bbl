@@ -19,6 +19,52 @@
 
 \refsection{0}
   \sortlist[entry]{nyt/global}
+    \entry{Bernardeau_PT}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=42acac1ab6c79b95426c26d6c35c4ffa}{%
+           family={{Bernardeau}},
+           family_i={B\bibinitperiod},
+           given={F.},
+           given_i={F\bibinitperiod}}}%
+        {{uniquename=0,hash=744c820bfaac0bdd68b3143c4f40b719}{%
+           family={{Colombi}},
+           family_i={C\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=75e45501d451a1f6985e01431d4eebd7}{%
+           family={{Gaztañaga}},
+           family_i={G\bibinitperiod},
+           given={E.},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=de28487816ecee939143ffaa69e6b55d}{%
+           family={{Scoccimarro}},
+           family_i={S\bibinitperiod},
+           given={R.},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a8c8e321240f8966d1725943cf7765e2}
+      \strng{fullhash}{ce920d8a0a267aa895df8294b80eb5c6}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2002}
+      \field{labelmonth}{09}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\physrep}
+      \field{month}{09}
+      \field{title}{{Large-scale structure of the Universe and cosmological perturbation theory}}
+      \field{volume}{367}
+      \field{year}{2002}
+      \field{pages}{1\bibrangedash 248}
+      \range{pages}{248}
+      \verb{doi}
+      \verb 10.1016/S0370-1573(02)00135-7
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0112551
+      \endverb
+    \endentry
     \entry{2017ascl.soft06006B}{misc}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=0d07a5cf660ee8f219c6bc7e997f1043}{%
@@ -45,6 +91,144 @@
       \verb 1706.006
       \endverb
       \keyw{Software}
+    \endentry
+    \entry{1992MNRAS.254..729B}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d52c98427cb28e28385531e9a36babac}{%
+           family={{Buchert}},
+           family_i={B\bibinitperiod},
+           given={T.},
+           given_i={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{d52c98427cb28e28385531e9a36babac}
+      \strng{fullhash}{d52c98427cb28e28385531e9a36babac}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{1992}
+      \field{labelmonth}{02}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\mnras}
+      \field{month}{02}
+      \field{title}{{Lagrangian theory of gravitational instability of Friedman-Lemaitre cosmologies and the 'Zel'dovich approximation'}}
+      \field{volume}{254}
+      \field{year}{1992}
+      \field{pages}{729\bibrangedash 737}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1093/mnras/254.4.729
+      \endverb
+      \keyw{Astronomical Models,Cosmology,Gravitation Theory,Gravitational Effects,Computational Astrophysics,Euler-Lagrange Equation,Linearization,Potential Flow,Three Dimensional Models,Transport Theory,Vorticity}
+    \endentry
+    \entry{1994MNRAS.267..811B}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d52c98427cb28e28385531e9a36babac}{%
+           family={{Buchert}},
+           family_i={B\bibinitperiod},
+           given={T.},
+           given_i={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{d52c98427cb28e28385531e9a36babac}
+      \strng{fullhash}{d52c98427cb28e28385531e9a36babac}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{1994}
+      \field{labelmonth}{04}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\mnras}
+      \field{month}{04}
+      \field{title}{{Lagrangian Theory of Gravitational Instability of Friedman-Lemaitre Cosmologies - a Generic Third-Order Model for Nonlinear Clustering}}
+      \field{volume}{267}
+      \field{year}{1994}
+      \field{pages}{811}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1093/mnras/267.4.811
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/9309055
+      \endverb
+    \endentry
+    \entry{1993MNRAS.264..375B}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=d52c98427cb28e28385531e9a36babac}{%
+           family={{Buchert}},
+           family_i={B\bibinitperiod},
+           given={T.},
+           given_i={T\bibinitperiod}}}%
+        {{uniquename=0,hash=acc39107a5fd71a3ce64a2e4d8bd29af}{%
+           family={{Ehlers}},
+           family_i={E\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4db180f6b59c75e3a80fde745f6f662f}
+      \strng{fullhash}{4db180f6b59c75e3a80fde745f6f662f}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{1993}
+      \field{labelmonth}{09}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\mnras}
+      \field{month}{09}
+      \field{title}{{Lagrangian theory of gravitational instability of Friedman-Lemaitre cosmologies -- second-order approach: an improved model for non-linear clustering}}
+      \field{volume}{264}
+      \field{year}{1993}
+      \verb{doi}
+      \verb 10.1093/mnras/264.2.375
+      \endverb
+      \keyw{instabilities - methods: analytical - galaxies: clustering - cosmology: theory - large-scale structure of Universe}
+    \endentry
+    \entry{Carlson_perturbation_theory}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=53dab41d514787887211dbac8ee49453}{%
+           family={{Carlson}},
+           family_i={C\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=fcabe4903e2ca57b11ef46697a02dcf2}{%
+           family={{White}},
+           family_i={W\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=1,hash=7e7367b9945b79e5ce362b1dd67d11ad}{%
+           family={{Padmanabhan}},
+           family_i={P\bibinitperiod},
+           given={N.},
+           given_i={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{074963de1581fa3decd250b7ef7ca894}
+      \strng{fullhash}{074963de1581fa3decd250b7ef7ca894}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2009}
+      \field{labelmonth}{08}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{043531}
+      \field{eprintclass}{astro-ph.CO}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\prd}
+      \field{month}{08}
+      \field{number}{4}
+      \field{title}{{Critical look at cosmological perturbation theory techniques}}
+      \field{volume}{80}
+      \field{year}{2009}
+      \field{pages}{043531}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.80.043531
+      \endverb
+      \verb{eprint}
+      \verb 0905.0479
+      \endverb
+      \keyw{Cosmology,Dark matter}
     \endentry
     \entry{2016ApJ...830...83C}{article}{}
       \name{author}{4}{}{%
@@ -95,6 +279,85 @@
       \endverb
       \keyw{galaxies: evolution,galaxies: fundamental parameters,galaxies: general,galaxies: high-redshift,galaxies: luminosity function,mass function,galaxies: structure}
     \endentry
+    \entry{2006PhRvD..73f3519C}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=bb572b9fe879f732e680427cf4ec85c8}{%
+           family={{Crocce}},
+           family_i={C\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=de28487816ecee939143ffaa69e6b55d}{%
+           family={{Scoccimarro}},
+           family_i={S\bibinitperiod},
+           given={R.},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{03dc42b5eecb41ccff03cc3e11c9cefc}
+      \strng{fullhash}{03dc42b5eecb41ccff03cc3e11c9cefc}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2006}
+      \field{labelmonth}{03}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{063519}
+      \field{journaltitle}{\prd}
+      \field{month}{03}
+      \field{number}{6}
+      \field{title}{{Renormalized cosmological perturbation theory}}
+      \field{volume}{73}
+      \field{year}{2006}
+      \field{pages}{063519}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.73.063519
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0509418
+      \endverb
+      \keyw{Cosmology}
+    \endentry
+    \entry{2008PhRvD..77b3533C}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=bb572b9fe879f732e680427cf4ec85c8}{%
+           family={{Crocce}},
+           family_i={C\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=de28487816ecee939143ffaa69e6b55d}{%
+           family={{Scoccimarro}},
+           family_i={S\bibinitperiod},
+           given={R.},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{03dc42b5eecb41ccff03cc3e11c9cefc}
+      \strng{fullhash}{03dc42b5eecb41ccff03cc3e11c9cefc}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2008}
+      \field{labelmonth}{01}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{023533}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\prd}
+      \field{month}{01}
+      \field{number}{2}
+      \field{title}{{Nonlinear evolution of baryon acoustic oscillations}}
+      \field{volume}{77}
+      \field{year}{2008}
+      \field{pages}{023533}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.77.023533
+      \endverb
+      \verb{eprint}
+      \verb 0704.2783
+      \endverb
+      \keyw{Cosmology}
+    \endentry
     \entry{Eisenstein_BAOpeak_reconstruction}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,hash=614786b954eedcfcba7140e1fdf45ad8}{%
@@ -141,6 +404,124 @@
       \verb astro-ph/0604362
       \endverb
       \keyw{Cosmology: Cosmic Microwave Background,Cosmology: Cosmological Parameters,Cosmology: Distance Scale,Cosmology: Large-Scale Structure of Universe}
+    \endentry
+    \entry{2008PhRvD..78h3519M}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d7470392ff4dbecff36a2a07377745dc}{%
+           family={{Matsubara}},
+           family_i={M\bibinitperiod},
+           given={T.},
+           given_i={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7470392ff4dbecff36a2a07377745dc}
+      \strng{fullhash}{d7470392ff4dbecff36a2a07377745dc}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{extrayear}{1}
+      \field{labelyear}{2008}
+      \field{labelmonth}{10}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{083519}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\prd}
+      \field{month}{10}
+      \field{number}{8}
+      \field{title}{{Nonlinear perturbation theory with halo bias and redshift-space distortions via the Lagrangian picture}}
+      \field{volume}{78}
+      \field{year}{2008}
+      \field{pages}{083519}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.78.083519
+      \endverb
+      \verb{eprint}
+      \verb 0807.1733
+      \endverb
+      \keyw{Cosmology,Dark matter,Dark energy,Galaxy groups clusters and superclusters,large scale structure of the Universe}
+    \endentry
+    \entry{2008PhRvD..77f3530M}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d7470392ff4dbecff36a2a07377745dc}{%
+           family={{Matsubara}},
+           family_i={M\bibinitperiod},
+           given={T.},
+           given_i={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7470392ff4dbecff36a2a07377745dc}
+      \strng{fullhash}{d7470392ff4dbecff36a2a07377745dc}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{extrayear}{2}
+      \field{labelyear}{2008}
+      \field{labelmonth}{03}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{063530}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\prd}
+      \field{month}{03}
+      \field{number}{6}
+      \field{title}{{Resumming cosmological perturbations via the Lagrangian picture: One-loop results in real space and in redshift space}}
+      \field{volume}{77}
+      \field{year}{2008}
+      \field{pages}{063530}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.77.063530
+      \endverb
+      \verb{eprint}
+      \verb 0711.2521
+      \endverb
+      \keyw{Cosmology,Approximations and expansions,Dark matter,Dark energy}
+    \endentry
+    \entry{1993sfu..book.....P}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=1,hash=e56ad118f3eedc5c741bca9dc8954b2e}{%
+           family={{Padmanabhan}},
+           family_i={P\bibinitperiod},
+           given={T.},
+           given_i={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{e56ad118f3eedc5c741bca9dc8954b2e}
+      \strng{fullhash}{e56ad118f3eedc5c741bca9dc8954b2e}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{1993}
+      \field{labelmonth}{05}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Structure Formation in the Universe, by T.~Padmanabhan, pp.~499.~ISBN 0521424860.~Cambridge, UK: Cambridge University Press, June 1993.}
+      \field{month}{05}
+      \field{title}{{Structure Formation in the Universe}}
+      \field{year}{1993}
+      \field{pages}{499}
+      \range{pages}{1}
+    \endentry
+    \entry{peebles1980large}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=35cb93426a6b4a67c50af3acc66fd0dc}{%
+           family={Peebles},
+           family_i={P\bibinitperiod},
+           given={Phillip\bibnamedelimb James\bibnamedelima Edwin},
+           given_i={P\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton university press}%
+      }
+      \strng{namehash}{35cb93426a6b4a67c50af3acc66fd0dc}
+      \strng{fullhash}{35cb93426a6b4a67c50af3acc66fd0dc}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{1980}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The large-scale structure of the universe}
+      \field{year}{1980}
     \endentry
     \entry{2016A&A...594A..13P}{article}{}
       \name{author}{11}{}{%
@@ -266,8 +647,8 @@
       \endverb
       \keyw{Software}
     \endentry
-    \entry{Pontzen_paired_simulations}{article}{}
-      \name{author}{4}{uniquelist=2}{%
+    \entry{2016PhRvD..93j3519P}{article}{}
+      \name{author}{4}{}{%
         {{uniquename=0,hash=c0fccd237181077bebbfbf6e5b2747c2}{%
            family={{Pontzen}},
            family_i={P\bibinitperiod},
@@ -289,10 +670,11 @@
            given={H.\bibnamedelimi V.},
            given_i={H\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
       }
-      \strng{namehash}{64eeedfd37fd4fd733da398e01d3c42f}
+      \strng{namehash}{1b75649e19dde9ce289f11d617e56fdf}
       \strng{fullhash}{be532ddcd6f600f6c56ea0c56403cea3}
       \field{sortinit}{P}
       \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{extrayear}{1}
       \field{labelyear}{2016}
       \field{labelmonth}{05}
       \field{datelabelsource}{}
@@ -314,6 +696,85 @@
       \verb{eprint}
       \verb 1511.04090
       \endverb
+    \endentry
+    \entry{Pontzen_paired_simulations}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=c0fccd237181077bebbfbf6e5b2747c2}{%
+           family={{Pontzen}},
+           family_i={P\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=5eb155e86be208ece7c3fb8c0ecfba82}{%
+           family={{Slosar}},
+           family_i={S\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=9648b6f5e773e85a1a4f8d8bae462357}{%
+           family={{Roth}},
+           family_i={R\bibinitperiod},
+           given={N.},
+           given_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=49bfdff634f43059f9325bdbae420a15}{%
+           family={{Peiris}},
+           family_i={P\bibinitperiod},
+           given={H.\bibnamedelimi V.},
+           given_i={H\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b75649e19dde9ce289f11d617e56fdf}
+      \strng{fullhash}{be532ddcd6f600f6c56ea0c56403cea3}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{extrayear}{2}
+      \field{labelyear}{2016}
+      \field{labelmonth}{05}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{103519}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\prd}
+      \field{month}{05}
+      \field{number}{10}
+      \field{title}{{Inverted initial conditions: Exploring the growth of cosmic structure and voids}}
+      \field{volume}{93}
+      \field{year}{2016}
+      \field{pages}{103519}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.93.103519
+      \endverb
+      \verb{eprint}
+      \verb 1511.04090
+      \endverb
+    \endentry
+    \entry{1983MNRAS.203..345V}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=eb7c91a822b2eb1b1255857b8a9a57ca}{%
+           family={{Vishniac}},
+           family_i={V\bibinitperiod},
+           given={E.\bibnamedelimi T.},
+           given_i={E\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb7c91a822b2eb1b1255857b8a9a57ca}
+      \strng{fullhash}{eb7c91a822b2eb1b1255857b8a9a57ca}
+      \field{sortinit}{V}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelyear}{1983}
+      \field{labelmonth}{04}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\mnras}
+      \field{month}{04}
+      \field{title}{{Why weakly non-linear effects are small in a zero-pressure cosmology}}
+      \field{volume}{203}
+      \field{year}{1983}
+      \field{pages}{345\bibrangedash 349}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1093/mnras/203.2.345
+      \endverb
+      \keyw{Astronomical Models,Cosmology,Gravitational Effects,Nonlinear Equations,Perturbation Theory,Space Density,Galactic Evolution,Newton Theory,Pressure Effects,Vacuum Effects}
     \endentry
     \entry{1999dpf..conf.....W}{proceedings}{}
       \name{editor}{1}{}{%
@@ -337,6 +798,31 @@
       \verb{eprint}
       \verb astro-ph/9903232
       \endverb
+    \endentry
+    \entry{1970A&A.....5...84Z}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=e12f7acb2b0883b34ecb39677802b5cf}{%
+           family={{Zel'dovich}},
+           family_i={Z\bibinitperiod},
+           given={Y.\bibnamedelimi B.},
+           given_i={Y\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{e12f7acb2b0883b34ecb39677802b5cf}
+      \strng{fullhash}{e12f7acb2b0883b34ecb39677802b5cf}
+      \field{sortinit}{Z}
+      \field{sortinithash}{fdda4caaa6b5fa63e0c081dcb159543a}
+      \field{labelyear}{1970}
+      \field{labelmonth}{03}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\aap}
+      \field{month}{03}
+      \field{title}{{Gravitational instability: An approximate theory for large density perturbations.}}
+      \field{volume}{5}
+      \field{year}{1970}
+      \field{pages}{84\bibrangedash 89}
+      \range{pages}{6}
     \endentry
   \endsortlist
 \endrefsection

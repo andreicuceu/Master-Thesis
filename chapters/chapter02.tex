@@ -4,20 +4,37 @@
 
 \section{Perturbation Theory}
 
-\todo[inline]{Give a brief introduction to the use of Perturbation theory to study the evolution of structure. Present advatages and shortcomings}
+\subsection{Overview}
 
-\todo[inline]{This could be merged with the next section.}
+The evolution of primordial perturbations into the structure we detect today is studied analytically using Perturbation Theory (PT). This field can be divided according to the frame used to study the Universe into Eulerian PT and Lagrangian PT (LPT). In the Eulerian frame the evolution of the spatial distribution of particles is studied (\cite{Bernardeau_PT}). On the other hand, in the Lagrangian frame, particles are tracked and their evolution with time is studied.
+
+The Eulerian frame has been so widely used to study the growth of perturbations, that we refer to it as Standard Perturbation Theory (e.g. \cite{1983MNRAS.203..345V}, \cite{peebles1980large}). The most popular approach is to consider an irrotational fluid characterized by its density and peculiar velocity distributions (\cite{Carlson_perturbation_theory}). However, this method suffers from divergences at large wavenumbers (on small scales). This lead to a number of extensions meant to bring it under control (\cite{2006PhRvD..73f3519C},~\cite{2008PhRvD..77b3533C}). 
+
+Lagrangian Perturbation Theory has been well developed in the 1990s (\cite{1992MNRAS.254..729B},~\cite{1993MNRAS.264..375B},~\cite{1994MNRAS.267..811B}). However, it has received less attention partly because the method breaks down after shell-crossing (\cite{Carlson_perturbation_theory}). This event will be discussed further in Section 2.2. Recently it has been demonstrated that LPT correctly reproduces the SPT power spectrum, but also even it's linear first order approximation correctly predicts the decay of the correlation between the final (non-linear) and the initial fields (\cite{2008PhRvD..77f3530M},~\cite{2008PhRvD..78h3519M}). As this correlation is the main tool used in this project, our main focus is on the Lagrangian Frame. 
+
+\subsection{The Zel'dovich Approximation}
+
+The central object of Lagrangian Perturbation Theory is the displacement field $\Psi(\textbf{q})$ which maps the initial particle positions expressed by the Lagrangian coordinate $\textbf{q}$ to the final Eulerian particle positions $\textbf{x}$ (\cite{Bernardeau_PT}):
+\begin{equation}
+     \textbf{x}(t) = \textbf{q} + \Psi(\textbf{q}, t)
+\end{equation}
+
+The first order approximation to this equation leads to a separation of variables $\textbf{q}$ and $t$ (\cite{1993sfu..book.....P}). After also adding the expanding background we obtain:
+\begin{equation}
+    \textbf{r}(t) = a(t) \textbf{x}(t) = a(t) [\textbf{q} + b(t) \textbf{p}(\textbf{q})]
+    \label{eq:2.2}
+\end{equation}
+Where $\textbf{x}(t)$ is now the comoving Eulerian coordinate.
+
+This approximation was first proposed by \cite{1970A&A.....5...84Z} and it now carries his name, as the Zel'dovich Approximation (ZA). It only works for scales much smaller than the horizon, where Newtonian analysis is possible. However, as our purpose is to study the growth of structure on scales smaller than the BAO, this approximation is a very good starting point. Also, the ZA is very good at predicting the loss of correlation between the initial and the final density fields (e.g.~\cite{2016PhRvD..93j3519P}). With all these considerations in mind, in this project we will investigate reconstruction methods within the Zel'dovich Approximation.
+
 \section{Linear vs Non-Linear Collapse}
 
 \todo[inline]{Talk about the Linear regime of collapse versus the non-linear regime. Present the difficulty of constructing analytical models of non-linear collapse. Motivate our use of simulations as well as our desire to get back to the linear regime for reconstruction.}
 
-\todo[inline]{Add images of the velocity field here}
+\section{The Power Spectrum}
 
-\section{The Zeldovich Approximation}
-
-\todo[inline]{Introduce the theory of the Zeldovich Approximation and motivate its use (+ background).}
-
-\section{Reconstruction (BAO)}
+\section{Reconstruction}
 
 This can be understood by thinking about the difference between looking at the large scales versus the small scales. For example, a very large (by scale) primordial underdensity will probably still be an underdensity at late times (as a huge void). However, on small scales, information tends to be destroyed. A small scale primordial underdensity might be caught in the larger bulk flows and collapse in a larger halo. In this case, the information about the small underdensity is lost. \todo{this paragraph could go in chapter 2}
 

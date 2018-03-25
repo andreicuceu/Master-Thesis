@@ -16,33 +16,37 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Perturbation Theory}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Linear vs Non-Linear Collapse}{8}
+\contentsline {subsection}{\numberline {2.1.1}Overview}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}The Zeldovich Approximation}{8}
+\contentsline {subsection}{\numberline {2.1.2}The Zel'dovich Approximation}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Reconstruction (BAO)}{9}
+\contentsline {section}{\numberline {2.2}Linear vs Non-Linear Collapse}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}The Perfect Reconstruction}{10}
+\contentsline {section}{\numberline {2.3}The Power Spectrum}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Methods}{10}
+\contentsline {section}{\numberline {2.4}Reconstruction}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}From Images to Statistics}{11}
+\contentsline {chapter}{\numberline {3}The Perfect Reconstruction}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}The Reconstructed Density Field}{11}
+\contentsline {section}{\numberline {3.1}Methods}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Correlation with the Initial Field}{12}
+\contentsline {section}{\numberline {3.2}From Images to Statistics}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Analysis}{14}
+\contentsline {subsection}{\numberline {3.2.1}The Reconstructed Density Field}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Towards Realistic Reconstructions}{17}
+\contentsline {subsection}{\numberline {3.2.2}Correlation with the Initial Field}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}The Zel'dovich reconstruction}{17}
+\contentsline {section}{\numberline {3.3}Analysis}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Getting back to the linear regime}{20}
+\contentsline {chapter}{\numberline {4}Towards Realistic Reconstructions}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Results}{21}
+\contentsline {section}{\numberline {4.1}The Zel'dovich reconstruction}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Analysis}{24}
+\contentsline {section}{\numberline {4.2}Getting back to the linear regime}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Results}{23}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Analysis}{25}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Conclusions}{29}
 \defcounter {refsection}{0}\relax 

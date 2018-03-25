@@ -2057,9 +2057,27 @@
     <bcf:citekey order="5">1999dpf..conf.....W</bcf:citekey>
     <bcf:citekey order="6">2016A&amp;A...594A..13P</bcf:citekey>
     <bcf:citekey order="7">2016A&amp;A...594A..13P</bcf:citekey>
-    <bcf:citekey order="8">Pontzen_paired_simulations</bcf:citekey>
-    <bcf:citekey order="9">2013ascl.soft05002P</bcf:citekey>
-    <bcf:citekey order="10">2017ascl.soft06006B</bcf:citekey>
+    <bcf:citekey order="8">Bernardeau_PT</bcf:citekey>
+    <bcf:citekey order="9">1983MNRAS.203..345V</bcf:citekey>
+    <bcf:citekey order="10">peebles1980large</bcf:citekey>
+    <bcf:citekey order="11">Carlson_perturbation_theory</bcf:citekey>
+    <bcf:citekey order="12">2006PhRvD..73f3519C</bcf:citekey>
+    <bcf:citekey order="13">2008PhRvD..77b3533C</bcf:citekey>
+    <bcf:citekey order="14">1992MNRAS.254..729B</bcf:citekey>
+    <bcf:citekey order="15">1993MNRAS.264..375B</bcf:citekey>
+    <bcf:citekey order="16">1994MNRAS.267..811B</bcf:citekey>
+    <bcf:citekey order="17">Carlson_perturbation_theory</bcf:citekey>
+    <bcf:citekey order="18">2008PhRvD..77f3530M</bcf:citekey>
+    <bcf:citekey order="19">2008PhRvD..78h3519M</bcf:citekey>
+    <bcf:citekey order="20">Bernardeau_PT</bcf:citekey>
+    <bcf:citekey order="21">1993sfu..book.....P</bcf:citekey>
+    <bcf:citekey order="22">1970A&amp;A.....5...84Z</bcf:citekey>
+    <bcf:citekey order="23">2016PhRvD..93j3519P</bcf:citekey>
+    <bcf:citekey order="24">Pontzen_paired_simulations</bcf:citekey>
+    <bcf:citekey order="25">2013ascl.soft05002P</bcf:citekey>
+    <bcf:citekey order="26">2017ascl.soft06006B</bcf:citekey>
+    <bcf:citekey order="27">1993sfu..book.....P</bcf:citekey>
+    <bcf:citekey order="28">2013ascl.soft05002P</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nyt/global" type="entry" sortscheme="nyt" sortnamekeyscheme="global">
   <bcf:sorting>
