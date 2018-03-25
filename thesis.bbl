@@ -150,6 +150,68 @@
       \endverb
       \keyw{Software}
     \endentry
+    \entry{2003MNRAS.346..501B}{article}{}
+      \name{author}{7}{}{%
+        {{uniquename=0,hash=226f8a3e2f88098ebd3fa104f6ffb29c}{%
+           family={{Brenier}},
+           family_i={B\bibinitperiod},
+           given={Y.},
+           given_i={Y\bibinitperiod}}}%
+        {{uniquename=0,hash=76728b7f7c16a5326a01d67665f94137}{%
+           family={{Frisch}},
+           family_i={F\bibinitperiod},
+           given={U.},
+           given_i={U\bibinitperiod}}}%
+        {{uniquename=0,hash=5d0258db6d2e75b6d95456c5975f0323}{%
+           family={{Hénon}},
+           family_i={H\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=57a6a8eb7e2b572d8957a7e7b0a5329e}{%
+           family={{Loeper}},
+           family_i={L\bibinitperiod},
+           given={G.},
+           given_i={G\bibinitperiod}}}%
+        {{uniquename=0,hash=31d4445e2783966408567713caa27606}{%
+           family={{Matarrese}},
+           family_i={M\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=87dc60f7a78c1e43ae00c58448969804}{%
+           family={{Mohayaee}},
+           family_i={M\bibinitperiod},
+           given={R.},
+           given_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=01a8e4a5dc149a0e5b0fe95d757cf911}{%
+           family={{Sobolevskiĭ}},
+           family_i={S\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9e16f14271144375900a31ff6844e295}
+      \strng{fullhash}{3080c87888cc5d049c8e62b97cce4604}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2003}
+      \field{labelmonth}{12}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\mnras}
+      \field{month}{12}
+      \field{title}{{Reconstruction of the early Universe as a convex optimization problem}}
+      \field{volume}{346}
+      \field{year}{2003}
+      \field{pages}{501\bibrangedash 524}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1046/j.1365-2966.2003.07106.x
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0304214
+      \endverb
+      \keyw{hydrodynamics,cosmology: theory,early Universe,large-scale structure of Universe}
+    \endentry
     \entry{1992MNRAS.254..729B}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=d52c98427cb28e28385531e9a36babac}{%
@@ -416,6 +478,43 @@
       \endverb
       \keyw{Cosmology}
     \endentry
+    \entry{1997MNRAS.285..793C}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=a22209dadb76fc7969db37ea3fdeccdf}{%
+           family={{Croft}},
+           family_i={C\bibinitperiod},
+           given={R.\bibnamedelimi A.\bibnamedelimi C.},
+           given_i={R\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=802053fa24f7c4d235c30e28a129c2d1}{%
+           family={{Gaztanaga}},
+           family_i={G\bibinitperiod},
+           given={E.},
+           given_i={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{03f3480b57a18fd6c37760a4cee8f46c}
+      \strng{fullhash}{03f3480b57a18fd6c37760a4cee8f46c}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{1997}
+      \field{labelmonth}{03}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\mnras}
+      \field{month}{03}
+      \field{title}{{Reconstruction of cosmological density and velocity fields in the Lagrangian Zel'dovich approximation}}
+      \field{volume}{285}
+      \field{year}{1997}
+      \field{pages}{793\bibrangedash 805}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1093/mnras/285.4.793
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/9602100
+      \endverb
+      \keyw{METHODS: NUMERICAL,METHODS: STATISTICAL,GALAXIES: CLUSTERS: GENERAL,LARGE-SCALE STRUCTURE OF UNIVERSE}
+    \endentry
     \entry{Davis_galaxy_survey}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,hash=976f3309575ad3cc2803ad9ae3425bd0}{%
@@ -459,6 +558,43 @@
       \verb 10.1086/159646
       \endverb
       \keyw{Cosmology,Galactic Clusters,Red Shift,Spatial Distribution,Astronomical Maps,Astronomical Models,Computerized Simulation,Galactic Evolution,Galactic Structure}
+    \endentry
+    \entry{2016arXiv161109787D}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=ec2c2b92389f59d848c9f5f8511a07c8}{%
+           family={{Desjacques}},
+           family_i={D\bibinitperiod},
+           given={V.},
+           given_i={V\bibinitperiod}}}%
+        {{uniquename=0,hash=0f82bf7fdb721ec79d91323be7310bda}{%
+           family={{Jeong}},
+           family_i={J\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=522889d0b2ddf23ba0f0cc68a91df8cd}{%
+           family={{Schmidt}},
+           family_i={S\bibinitperiod},
+           given={F.},
+           given_i={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{eddee060e78792915dc665ca32b90a98}
+      \strng{fullhash}{eddee060e78792915dc665ca32b90a98}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{2016}
+      \field{labelmonth}{11}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{ArXiv e-prints}
+      \field{month}{11}
+      \field{title}{{Large-Scale Galaxy Bias}}
+      \field{year}{2016}
+      \verb{eprint}
+      \verb 1611.09787
+      \endverb
+      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics,Astrophysics - Astrophysics of Galaxies,General Relativity and Quantum Cosmology,High Energy Physics - Phenomenology}
     \endentry
     \entry{Eisenstein_BAOpeak_reconstruction}{article}{}
       \name{author}{4}{}{%
@@ -506,6 +642,35 @@
       \verb astro-ph/0604362
       \endverb
       \keyw{Cosmology: Cosmic Microwave Background,Cosmology: Cosmological Parameters,Cosmology: Distance Scale,Cosmology: Large-Scale Structure of Universe}
+    \endentry
+    \entry{1993ApJ...405..449G}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=042b69307e7a070c4187833bf210a8f7}{%
+           family={{Gramann}},
+           family_i={G\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{042b69307e7a070c4187833bf210a8f7}
+      \strng{fullhash}{042b69307e7a070c4187833bf210a8f7}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelyear}{1993}
+      \field{labelmonth}{03}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\apj}
+      \field{month}{03}
+      \field{title}{{An improved reconstruction method for cosmological density fields}}
+      \field{volume}{405}
+      \field{year}{1993}
+      \field{pages}{449\bibrangedash 458}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1086/172377
+      \endverb
+      \keyw{Cosmology,Density (Mass/Volume),Galactic Clusters,Gravitational Fields,Radial Velocity,Fourier Analysis,Nonlinear Evolution Equations,Simulation}
     \endentry
     \entry{2011ApJS..192...18K}{article}{}
       \name{author}{21}{}{%
@@ -642,6 +807,173 @@
       \endverb
       \keyw{cosmic background radiation,cosmology: observations,dark matter,early universe,space vehicles}
     \endentry
+    \entry{2013arXiv1308.0847L}{article}{}
+      \name{author}{14}{}{%
+        {{uniquename=0,hash=5826323a12693a6aed05a835253cf51e}{%
+           family={{Levi}},
+           family_i={L\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=f212147725640d93f274b832aecd3ad6}{%
+           family={{Bebek}},
+           family_i={B\bibinitperiod},
+           given={C.},
+           given_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=7b1652dfb5ea203c012ef773d9c006da}{%
+           family={{Beers}},
+           family_i={B\bibinitperiod},
+           given={T.},
+           given_i={T\bibinitperiod}}}%
+        {{uniquename=0,hash=af49205e78703468b71d754088eef5eb}{%
+           family={{Blum}},
+           family_i={B\bibinitperiod},
+           given={R.},
+           given_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=93ccb088e104a14b74a3688d9dd98cfe}{%
+           family={{Cahn}},
+           family_i={C\bibinitperiod},
+           given={R.},
+           given_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=be1ddb79a84074d2a64fd77264b58d06}{%
+           family={{Eisenstein}},
+           family_i={E\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=6fffa9802f0fffbbed4d51cf7048976e}{%
+           family={{Flaugher}},
+           family_i={F\bibinitperiod},
+           given={B.},
+           given_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=717016eabf747916e2f974df16467337}{%
+           family={{Honscheid}},
+           family_i={H\bibinitperiod},
+           given={K.},
+           given_i={K\bibinitperiod}}}%
+        {{uniquename=0,hash=53732810edd71072a5e546b89e7ef7c9}{%
+           family={{Kron}},
+           family_i={K\bibinitperiod},
+           given={R.},
+           given_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=fff861307e97480541bc640195d0105d}{%
+           family={{Lahav}},
+           family_i={L\bibinitperiod},
+           given={O.},
+           given_i={O\bibinitperiod}}}%
+        {{uniquename=0,hash=96d1676251df65cc6a87f0ec2f238858}{%
+           family={{McDonald}},
+           family_i={M\bibinitperiod},
+           given={P.},
+           given_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=23c87013865158d9825c7b755bed29a5}{%
+           family={{Roe}},
+           family_i={R\bibinitperiod},
+           given={N.},
+           given_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=4221610d20af8f7d22592aee97984e20}{%
+           family={{Schlegel}},
+           family_i={S\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=d1e46350cf544ac2e66aadf2fbda4f47}{%
+           family={{representing\bibnamedelimb the\bibnamedelimb DESI\bibnamedelimb collaboration}},
+           family_i={r\bibinitperiod}}}%
+      }
+      \strng{namehash}{ace0827a4088c36a6341323352a2ffe9}
+      \strng{fullhash}{80c9e564beb7f2e2937a97003576b067}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelyear}{2013}
+      \field{labelmonth}{08}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.CO}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{ArXiv e-prints}
+      \field{month}{08}
+      \field{title}{{The DESI Experiment, a whitepaper for Snowmass 2013}}
+      \field{year}{2013}
+      \verb{eprint}
+      \verb 1308.0847
+      \endverb
+      \keyw{Astrophysics - Cosmology and Extragalactic Astrophysics,Astrophysics - Instrumentation and Methods for Astrophysics}
+    \endentry
+    \entry{2009arXiv0912.0201L}{article}{}
+      \name{author}{11}{}{%
+        {{uniquename=0,hash=608ec0264b270fe066d39d1649603679}{%
+           family={{LSST\bibnamedelimb Science\bibnamedelimb Collaboration}},
+           family_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=6052b1c30fdddc5c34cd1b7408bd3ae6}{%
+           family={{Abell}},
+           family_i={A\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           given_i={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=a6c59382d8b6a06a4c4cf8480faa7581}{%
+           family={{Allison}},
+           family_i={A\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=0d9d54c0374c2f510aabfd5a300e269b}{%
+           family={{Anderson}},
+           family_i={A\bibinitperiod},
+           given={S.\bibnamedelimi F.},
+           given_i={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{uniquename=0,hash=90098423886f2dcba3aae81982f517a3}{%
+           family={{Andrew}},
+           family_i={A\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           given_i={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{uniquename=0,hash=6ef9704e96902b0fdfd4ff5a14dc9b46}{%
+           family={{Angel}},
+           family_i={A\bibinitperiod},
+           given={J.\bibnamedelimi R.\bibnamedelimi P.},
+           given_i={J\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{uniquename=0,hash=dedd6c1aff9066ec3a70cf81c7b4faa2}{%
+           family={{Armus}},
+           family_i={A\bibinitperiod},
+           given={L.},
+           given_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=6bc9e710e936211e8319d0d790d0f1e4}{%
+           family={{Arnett}},
+           family_i={A\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=b3edb08a54ff2cc4f686f8a555d01afe}{%
+           family={{Asztalos}},
+           family_i={A\bibinitperiod},
+           given={S.\bibnamedelimi J.},
+           given_i={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=e660cf1a1e0f91368f24e59d93958426}{%
+           family={{Axelrod}},
+           family_i={A\bibinitperiod},
+           given={T.\bibnamedelimi S.},
+           given_i={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=a6f71317d170c3d8fdf0ecfd3bda1b6b}{%
+           prefix={et},
+           prefix_i={e\bibinitperiod},
+           family={al.},
+           family_i={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c17c5ac07dcfc13984cacd99df8b851}
+      \strng{fullhash}{80c2209b16a18ec8c9814b76dbf197bd}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelyear}{2009}
+      \field{labelmonth}{12}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.IM}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{ArXiv e-prints}
+      \field{month}{12}
+      \field{title}{{LSST Science Book, Version 2.0}}
+      \field{year}{2009}
+      \verb{eprint}
+      \verb 0912.0201
+      \endverb
+      \keyw{Astrophysics - Instrumentation and Methods for Astrophysics,Astrophysics - Cosmology and Extragalactic Astrophysics,Astrophysics - Earth and Planetary Astrophysics,Astrophysics - Galaxy Astrophysics,Astrophysics - Solar and Stellar Astrophysics}
+    \endentry
     \entry{2008PhRvD..78h3519M}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=d7470392ff4dbecff36a2a07377745dc}{%
@@ -713,6 +1045,76 @@
       \verb 0711.2521
       \endverb
       \keyw{Cosmology,Approximations and expansions,Dark matter,Dark energy}
+    \endentry
+    \entry{1999MNRAS.308..763M}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=e794671f2a545a6fee130fb49e8e6d4b}{%
+           family={{Monaco}},
+           family_i={M\bibinitperiod},
+           given={P.},
+           given_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=19bfce67e37e221667b42db98afcb9e3}{%
+           family={{Efstathiou}},
+           family_i={E\bibinitperiod},
+           given={G.},
+           given_i={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{264af9916c7a2bea15bf612f82a2f957}
+      \strng{fullhash}{264af9916c7a2bea15bf612f82a2f957}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{1999}
+      \field{labelmonth}{09}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\mnras}
+      \field{month}{09}
+      \field{title}{{Reconstruction of cosmological initial conditions from galaxy redshift catalogues}}
+      \field{volume}{308}
+      \field{year}{1999}
+      \field{pages}{763\bibrangedash 779}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1046/j.1365-8711.1999.02747.x
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/9902119
+      \endverb
+    \endentry
+    \entry{1992ApJ...391..443N}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=4355f8894b2e275edf0616bb6f2d63fe}{%
+           family={{Nusser}},
+           family_i={N\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=35399303869364a2723ecad378dba52c}{%
+           family={{Dekel}},
+           family_i={D\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{afc129bacab9f8c70e805b97f4dbe206}
+      \strng{fullhash}{afc129bacab9f8c70e805b97f4dbe206}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelyear}{1992}
+      \field{labelmonth}{06}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\apj}
+      \field{month}{06}
+      \field{title}{{Tracing large-scale fluctuations back in time}}
+      \field{volume}{391}
+      \field{year}{1992}
+      \field{pages}{443\bibrangedash 452}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1086/171360
+      \endverb
+      \keyw{Cosmology,Dark Matter,Galactic Clusters,Gravitation,Distribution Functions,Potential Flow,Power Spectra,Spatial Distribution,Velocity Distribution}
     \endentry
     \entry{1993sfu..book.....P}{book}{}
       \name{author}{1}{}{%
@@ -884,7 +1286,7 @@
       \endverb
       \keyw{Software}
     \endentry
-    \entry{2016PhRvD..93j3519P}{article}{}
+    \entry{Pontzen_paired_simulations}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,hash=c0fccd237181077bebbfbf6e5b2747c2}{%
            family={{Pontzen}},
@@ -934,7 +1336,7 @@
       \verb 1511.04090
       \endverb
     \endentry
-    \entry{Pontzen_paired_simulations}{article}{}
+    \entry{2016PhRvD..93j3519P}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,hash=c0fccd237181077bebbfbf6e5b2747c2}{%
            family={{Pontzen}},
@@ -1190,6 +1592,92 @@
       \verb 1405.2921
       \endverb
       \keyw{methods: numerical,cosmology: theory}
+    \endentry
+    \entry{1992MNRAS.254..315W}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=a751354b470b45cf3663576676e97304}{%
+           family={{Weinberg}},
+           family_i={W\bibinitperiod},
+           given={D.\bibnamedelimi H.},
+           given_i={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{a751354b470b45cf3663576676e97304}
+      \strng{fullhash}{a751354b470b45cf3663576676e97304}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelyear}{1992}
+      \field{labelmonth}{01}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\mnras}
+      \field{month}{01}
+      \field{title}{{Reconstructing primordial density fluctuations. I - Method}}
+      \field{volume}{254}
+      \field{year}{1992}
+      \field{pages}{315\bibrangedash 342}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1093/mnras/254.2.315
+      \endverb
+      \keyw{Galactic Evolution,Gravitational Effects,Normal Density Functions,Universe,Computational Astrophysics,Dark Matter,Density Distribution,Many Body Problem,Power Spectra,Spatial Distribution}
+    \endentry
+    \entry{2013PhR...530...87W}{article}{}
+      \name{author}{6}{uniquelist=1}{%
+        {{uniquename=0,hash=a751354b470b45cf3663576676e97304}{%
+           family={{Weinberg}},
+           family_i={W\bibinitperiod},
+           given={D.\bibnamedelimi H.},
+           given_i={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{uniquename=0,hash=08552fdd0201eba0e9a56dd7e03d4f3e}{%
+           family={{Mortonson}},
+           family_i={M\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           given_i={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=614786b954eedcfcba7140e1fdf45ad8}{%
+           family={{Eisenstein}},
+           family_i={E\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           given_i={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=46b8effc5eb6a742b908ade023b1a024}{%
+           family={{Hirata}},
+           family_i={H\bibinitperiod},
+           given={C.},
+           given_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=f346f9c602081e483eb27ef2f4f5f26c}{%
+           family={{Riess}},
+           family_i={R\bibinitperiod},
+           given={A.\bibnamedelimi G.},
+           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=e10e968b3ad33115f8d8e74e41675a40}{%
+           family={{Rozo}},
+           family_i={R\bibinitperiod},
+           given={E.},
+           given_i={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{7c77cb3bcb697da07134bc93a465b46f}
+      \strng{fullhash}{1c3e2de18add7eec9ee9ed6a6c06220e}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelyear}{2013}
+      \field{labelmonth}{09}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\physrep}
+      \field{month}{09}
+      \field{title}{{Observational probes of cosmic acceleration}}
+      \field{volume}{530}
+      \field{year}{2013}
+      \field{pages}{87\bibrangedash 255}
+      \range{pages}{169}
+      \verb{doi}
+      \verb 10.1016/j.physrep.2013.05.001
+      \endverb
+      \verb{eprint}
+      \verb 1201.2434
+      \endverb
     \endentry
     \entry{1999dpf..conf.....W}{proceedings}{}
       \name{editor}{1}{}{%

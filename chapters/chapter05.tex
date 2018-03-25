@@ -1,8 +1,30 @@
 % \Huge
 
-With the tools developed in the previous chapter, and the perfect reconstruction serving as an upper limit for reconstruction, we are ready to dive into realistic reconstruction methods. In Chapter 2 we outlined different reconstruction methods used in practice, based on both Standard Perturbation Theory and Lagrangian Perturbation Theory. In this project, we base our reconstructions on the first order approximation to LPT (the Zel'dovich Approximation).
+With the tools developed in the previous chapter, and the perfect reconstruction serving as an upper limit for reconstruction, we are ready to dive into realistic reconstruction methods. In Section 1.2.2 we outlined different reconstruction methods used in practice, based on both Standard Perturbation Theory and Lagrangian Perturbation Theory. In this project, we base our reconstructions on the first order approximation to LPT (the Zel'dovich Approximation).
 
-\section{The Zel'dovich reconstruction}
+\section{The Zel'dovich Approximation}
+
+\subsection{Background}
+
+The central object of Lagrangian Perturbation Theory is the displacement field $\Psi(\textbf{q})$ which maps the initial particle positions expressed by the Lagrangian coordinate $\textbf{q}$ to the final Eulerian particle positions $\textbf{x}$ (\cite{Bernardeau_PT}):
+\begin{equation}
+     \textbf{x}(t) = \textbf{q} + \Psi(\textbf{q}, t)
+\end{equation}
+
+The first order approximation to this equation leads to a separation of variables $\textbf{q}$ and $t$ (\cite{1993sfu..book.....P}). After also adding the expanding background we obtain:
+\begin{equation}
+    \textbf{r}(t) = a(t) \textbf{x}(t) = a(t) [\textbf{q} + b(t) \textbf{p}(\textbf{q})]
+    \label{eq:2.2}
+\end{equation}
+Where $\textbf{x}(t)$ is now the comoving Eulerian coordinate.
+
+This approximation was first proposed by \cite{1970A&A.....5...84Z} and it now carries his name, as the Zel'dovich Approximation (ZA). It only works for scales much smaller than the horizon, where Newtonian analysis is possible. However, as our purpose is to study the growth of structure on scales smaller than the BAO, this approximation is a very good starting point. 
+
+An important detail is that the ZA (up to a point) works even in the non-linear regime. This regime is defined in terms of the overdensity $\delta$. When $\delta \sim 1$ we enter the non-linear regime. Standard Perturbation Theory generally breaks down at this point. However, by switching to a description in terms of the particle trajectories, we can reach non-linear density contrasts without the particles being perturbed too much (\cite{1993sfu..book.....P}).
+
+On a final note, the ZA is very good at predicting the loss of correlation between the initial and the final density fields (e.g.~\cite{2016PhRvD..93j3519P}). With all these considerations in mind, in this project we will investigate reconstruction methods within the Zel'dovich Approximation.
+
+\subsection{Tracing particles back}
 
 The key ingredient that we will use to perform realistic reconstructions is the density field. The idea behind the Zel'dovich approximation is to calculate a linear displacement field (we refer this field as Zel'dovich offset) based on the current peculiar velocities while taking into account the Hubble flow. 
 
@@ -27,6 +49,9 @@ As we are interested in looking at the correlation between the reconstructed fie
     \Psi(\textbf{q}) = \Psi_z(\textbf{q}) - \Psi_{99}(\textbf{q})
     \label{eq:4.2}
 \end{equation}
+
+
+\subsection{The Reconstruction}
 
 We first start out in our investigation by performing a reconstruction using the Zel'dovich offset calculated directly from the particle velocities in each snapshot. The methodology of the reconstruction resembles the Perfect Reconstruction. We first calculate the density field at the particle positions in a snapshot, and then we apply the Displacement field $\Psi(\textbf{q})$ to move the particles. The density field is carried along. After that, \textsc{GenPK} is used to measure the cross power-spectra of the reconstructed field with the initial ($z=99$) field.
 
