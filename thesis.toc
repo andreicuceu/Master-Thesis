@@ -2,58 +2,56 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{5}
+\contentsline {chapter}{\numberline {1}Introduction}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Cosmological Context}{5}
+\contentsline {section}{\numberline {1.1}Cosmological Context}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}The Cosmic Microwave Background}{6}
+\contentsline {section}{\numberline {1.2}The Cosmic Microwave Background}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Large Scale Structure and Galaxy Surveys}{7}
+\contentsline {section}{\numberline {1.3}Large Scale Structure and Galaxy Surveys}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}The Missing Link (Reconstruction)}{7}
+\contentsline {section}{\numberline {1.4}The Missing Link (Reconstruction)}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}The Growth of Structure}{9}
+\contentsline {chapter}{\numberline {2}The Growth of Structure}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Perturbation Theory}{9}
+\contentsline {section}{\numberline {2.1}Perturbation Theory}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Overview}{9}
+\contentsline {subsection}{\numberline {2.1.1}Overview}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}The Zel'dovich Approximation}{10}
+\contentsline {subsection}{\numberline {2.1.2}The Zel'dovich Approximation}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}The non-linear regime}{10}
+\contentsline {section}{\numberline {2.2}The non-linear regime}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Cosmological simulations}{10}
+\contentsline {subsection}{\numberline {2.2.1}Cosmological simulations}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Information loss}{11}
+\contentsline {subsection}{\numberline {2.2.2}Information loss}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Reconstruction}{11}
+\contentsline {section}{\numberline {2.3}Reconstruction}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}The Matter Power Spectrum}{11}
+\contentsline {chapter}{\numberline {3}The Perfect Reconstruction}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}The Perfect Reconstruction}{12}
+\contentsline {section}{\numberline {3.1}Methods}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Methods}{12}
+\contentsline {section}{\numberline {3.2}From Images to Statistics}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}From Images to Statistics}{13}
+\contentsline {subsection}{\numberline {3.2.1}The Reconstructed Density Field}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}The Reconstructed Density Field}{13}
+\contentsline {subsection}{\numberline {3.2.2}Correlation with the Initial Field}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Correlation with the Initial Field}{14}
+\contentsline {section}{\numberline {3.3}Analysis}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Analysis}{16}
+\contentsline {chapter}{\numberline {4}Towards Realistic Reconstructions}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Towards Realistic Reconstructions}{19}
+\contentsline {section}{\numberline {4.1}The Zel'dovich reconstruction}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}The Zel'dovich reconstruction}{19}
+\contentsline {section}{\numberline {4.2}Getting back to the linear regime}{21}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Getting back to the linear regime}{22}
+\contentsline {section}{\numberline {4.3}Results}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Results}{24}
+\contentsline {section}{\numberline {4.4}Analysis}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Analysis}{26}
+\contentsline {chapter}{\numberline {5}Conclusions}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusions}{30}
+\contentsline {section}{\numberline {5.1}Information loss}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Information loss}{30}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Future Work}{30}
+\contentsline {section}{\numberline {5.2}Future Work}{29}

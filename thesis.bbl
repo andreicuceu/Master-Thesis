@@ -416,6 +416,50 @@
       \endverb
       \keyw{Cosmology}
     \endentry
+    \entry{Davis_galaxy_survey}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=976f3309575ad3cc2803ad9ae3425bd0}{%
+           family={{Davis}},
+           family_i={D\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=4cf0b2c92532d441a944d26cb3e6f652}{%
+           family={{Huchra}},
+           family_i={H\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=49a1e11ccde339cd395387bb37f706a5}{%
+           family={{Latham}},
+           family_i={L\bibinitperiod},
+           given={D.\bibnamedelimi W.},
+           given_i={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{uniquename=0,hash=2d3a9d50449b6969cd7c9babcb62d9d8}{%
+           family={{Tonry}},
+           family_i={T\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6b0ff1849a2c2f28908acd52a90c3d53}
+      \strng{fullhash}{cb22f440b7d690efb928303ed046eace}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{1982}
+      \field{labelmonth}{02}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\apj}
+      \field{month}{02}
+      \field{title}{{A survey of galaxy redshifts. II - The large scale space distribution}}
+      \field{volume}{253}
+      \field{year}{1982}
+      \field{pages}{423\bibrangedash 445}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1086/159646
+      \endverb
+      \keyw{Cosmology,Galactic Clusters,Red Shift,Spatial Distribution,Astronomical Maps,Astronomical Models,Computerized Simulation,Galactic Evolution,Galactic Structure}
+    \endentry
     \entry{Eisenstein_BAOpeak_reconstruction}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,hash=614786b954eedcfcba7140e1fdf45ad8}{%
@@ -462,6 +506,141 @@
       \verb astro-ph/0604362
       \endverb
       \keyw{Cosmology: Cosmic Microwave Background,Cosmology: Cosmological Parameters,Cosmology: Distance Scale,Cosmology: Large-Scale Structure of Universe}
+    \endentry
+    \entry{2011ApJS..192...18K}{article}{}
+      \name{author}{21}{}{%
+        {{uniquename=0,hash=435ee8e619788ff24c5cb45d24e57203}{%
+           family={{Komatsu}},
+           family_i={K\bibinitperiod},
+           given={E.},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=daca99e7be4f3558c02a401c31879ff6}{%
+           family={{Smith}},
+           family_i={S\bibinitperiod},
+           given={K.\bibnamedelimi M.},
+           given_i={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=732cb48e4bb9523cf6501cccb8da231e}{%
+           family={{Dunkley}},
+           family_i={D\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=e955fb66394544670b323e0a1cf95e2a}{%
+           family={{Bennett}},
+           family_i={B\bibinitperiod},
+           given={C.\bibnamedelimi L.},
+           given_i={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=430846ca12d6a6bb6d019aab40d15924}{%
+           family={{Gold}},
+           family_i={G\bibinitperiod},
+           given={B.},
+           given_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=89fa006e81eb7b5cf00116d75df146b2}{%
+           family={{Hinshaw}},
+           family_i={H\bibinitperiod},
+           given={G.},
+           given_i={G\bibinitperiod}}}%
+        {{uniquename=0,hash=18425adefa43bddaa8222db26081db96}{%
+           family={{Jarosik}},
+           family_i={J\bibinitperiod},
+           given={N.},
+           given_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=103f4ea10eeafa3a23f78aa11c6f393e}{%
+           family={{Larson}},
+           family_i={L\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=79afc0ccbbb247276e07b5ff867a6ef7}{%
+           family={{Nolta}},
+           family_i={N\bibinitperiod},
+           given={M.\bibnamedelimi R.},
+           given_i={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{uniquename=0,hash=1a508e6412334a77852e57d6b7203aeb}{%
+           family={{Page}},
+           family_i={P\bibinitperiod},
+           given={L.},
+           given_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=812a508994bce34e17030cb620acf117}{%
+           family={{Spergel}},
+           family_i={S\bibinitperiod},
+           given={D.\bibnamedelimi N.},
+           given_i={D\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{uniquename=0,hash=ec1b7f4c288ef3e190d721efab74802f}{%
+           family={{Halpern}},
+           family_i={H\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=847a2d527203982d326f695ee13c9fc1}{%
+           family={{Hill}},
+           family_i={H\bibinitperiod},
+           given={R.\bibnamedelimi S.},
+           given_i={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=4bd5396b9e598f87b8b555442ba35029}{%
+           family={{Kogut}},
+           family_i={K\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=cab2453dd7ea5a447cf1a387401965a4}{%
+           family={{Limon}},
+           family_i={L\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=a1099582074a7f3fd1cb10ad8891d149}{%
+           family={{Meyer}},
+           family_i={M\bibinitperiod},
+           given={S.\bibnamedelimi S.},
+           given_i={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=2c4bd33469b1b4e62b4950ed62ab3592}{%
+           family={{Odegard}},
+           family_i={O\bibinitperiod},
+           given={N.},
+           given_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=93cec251e6588bf207d77f62fac372e8}{%
+           family={{Tucker}},
+           family_i={T\bibinitperiod},
+           given={G.\bibnamedelimi S.},
+           given_i={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=963ff5c42d06daf1805bfd9aeb024d5e}{%
+           family={{Weiland}},
+           family_i={W\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           given_i={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=9da547cf4a14fe27cbaec62412d2b880}{%
+           family={{Wollack}},
+           family_i={W\bibinitperiod},
+           given={E.},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=764ac83251fc11b74701c207b99de45b}{%
+           family={{Wright}},
+           family_i={W\bibinitperiod},
+           given={E.\bibnamedelimi L.},
+           given_i={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f00a82dd42805e7468f3850bfa95e5f7}
+      \strng{fullhash}{0d3519404b8244e37419407c32e49cc3}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2011}
+      \field{labelmonth}{02}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{18}
+      \field{eprintclass}{astro-ph.CO}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\apjs}
+      \field{month}{02}
+      \field{title}{{Seven-year Wilkinson Microwave Anisotropy Probe (WMAP) Observations: Cosmological Interpretation}}
+      \field{volume}{192}
+      \field{year}{2011}
+      \field{pages}{18}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0067-0049/192/2/18
+      \endverb
+      \verb{eprint}
+      \verb 1001.4538
+      \endverb
+      \keyw{cosmic background radiation,cosmology: observations,dark matter,early universe,space vehicles}
     \endentry
     \entry{2008PhRvD..78h3519M}{article}{}
       \name{author}{1}{}{%
@@ -804,6 +983,111 @@
       \verb{eprint}
       \verb 1511.04090
       \endverb
+    \endentry
+    \entry{2005MNRAS.364.1105S}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=0ef85848ecf64b63065e7d36351e48f4}{%
+           family={{Springel}},
+           family_i={S\bibinitperiod},
+           given={V.},
+           given_i={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ef85848ecf64b63065e7d36351e48f4}
+      \strng{fullhash}{0ef85848ecf64b63065e7d36351e48f4}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2005}
+      \field{labelmonth}{12}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\mnras}
+      \field{month}{12}
+      \field{title}{{The cosmological simulation code GADGET-2}}
+      \field{volume}{364}
+      \field{year}{2005}
+      \field{pages}{1105\bibrangedash 1134}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1111/j.1365-2966.2005.09655.x
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0505010
+      \endverb
+      \keyw{methods: numerical,galaxies: interactions,dark matter}
+    \endentry
+    \entry{2008MNRAS.391.1685S}{article}{}
+      \name{author}{9}{uniquelist=1}{%
+        {{uniquename=0,hash=0ef85848ecf64b63065e7d36351e48f4}{%
+           family={{Springel}},
+           family_i={S\bibinitperiod},
+           given={V.},
+           given_i={V\bibinitperiod}}}%
+        {{uniquename=0,hash=8845475b32556b4a8eb724ec4cb86611}{%
+           family={{Wang}},
+           family_i={W\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=e8e80429a822c0e751accb9bb598fd12}{%
+           family={{Vogelsberger}},
+           family_i={V\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=140179fb977d1312e139b49c1a2526a8}{%
+           family={{Ludlow}},
+           family_i={L\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=bb1ab61d28c03aa08d44082bdc41aef5}{%
+           family={{Jenkins}},
+           family_i={J\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=40709183b0ac341f118b1bfaf5bec52f}{%
+           family={{Helmi}},
+           family_i={H\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=e189b95b36404065cd6f337960e9b326}{%
+           family={{Navarro}},
+           family_i={N\bibinitperiod},
+           given={J.\bibnamedelimi F.},
+           given_i={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{uniquename=0,hash=ec4d64fb832a8dc6453cbd14188a5b27}{%
+           family={{Frenk}},
+           family_i={F\bibinitperiod},
+           given={C.\bibnamedelimi S.},
+           given_i={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=abcf743541bcfa11c3864021dc10c279}{%
+           family={{White}},
+           family_i={W\bibinitperiod},
+           given={S.\bibnamedelimi D.\bibnamedelimi M.},
+           given_i={S\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f1654b4ba3c479b81cc56d9ce12c01e}
+      \strng{fullhash}{46825806da916b3829ac0314a9b66b8d}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2008}
+      \field{labelmonth}{12}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{12}
+      \field{title}{{The Aquarius Project: the subhaloes of galactic haloes}}
+      \field{volume}{391}
+      \field{year}{2008}
+      \field{pages}{1685\bibrangedash 1711}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1111/j.1365-2966.2008.14066.x
+      \endverb
+      \verb{eprint}
+      \verb 0809.0898
+      \endverb
+      \keyw{methods: numerical,dark matter}
     \endentry
     \entry{1983MNRAS.203..345V}{article}{}
       \name{author}{1}{}{%
