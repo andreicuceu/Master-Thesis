@@ -28,11 +28,24 @@ Where $\textbf{x}(t)$ is now the comoving Eulerian coordinate.
 
 This approximation was first proposed by \cite{1970A&A.....5...84Z} and it now carries his name, as the Zel'dovich Approximation (ZA). It only works for scales much smaller than the horizon, where Newtonian analysis is possible. However, as our purpose is to study the growth of structure on scales smaller than the BAO, this approximation is a very good starting point. Also, the ZA is very good at predicting the loss of correlation between the initial and the final density fields (e.g.~\cite{2016PhRvD..93j3519P}). With all these considerations in mind, in this project we will investigate reconstruction methods within the Zel'dovich Approximation.
 
-\section{Linear vs Non-Linear Collapse}
+\section{The non-linear regime}
+
+\subsection{Cosmological simulations}
+Analytic models generally make very good predictions in the linear regime, defined as $\delta \ll 1$ (where $\delta$ is the overdensity). However, once we get into the deeply non-linear regime, these methods break down. Instead we rely on large N-body simulations to continue our study of the evolution of structure.
+
+Generally, these simulations are used to help constrain Cosmological theories of the primordial universe or to test perturbation theories. A random initial field with properties based on the CMB and our general understanding of the early universe, is evolved through time until the present. The output of the simulation is then compared to observational data. Simulations like Millennium XXL (\cite{Millennium_XXL}) or Illustris (\cite{Illustris_sim}) gave us an unprecedented insight into structure formation and evolution.
+
+On the other hand, simulations are also used as a laboratory for testing reconstruction methods they give us access to both the initial and the final density fields. We can attempt a reconstruction on the final field and then compare it to the initial field and test how well it worked. 
+
+\subsection{Information loss}
+
+
+% \begin{equation}
+%     \delta(\textbf{x}) = \frac{\rho(\textbf{x}) - \overline{\rho}}{\overline{\rho}}
+% \end{equation}
+
 
 \todo[inline]{Talk about the Linear regime of collapse versus the non-linear regime. Present the difficulty of constructing analytical models of non-linear collapse. Motivate our use of simulations as well as our desire to get back to the linear regime for reconstruction.}
-
-\section{The Power Spectrum}
 
 \section{Reconstruction}
 
@@ -68,5 +81,5 @@ This can be understood by thinking about the difference between looking at the l
 % \label{fig:3}
 % \end{figure}
 
-
+\section{The Matter Power Spectrum}
 

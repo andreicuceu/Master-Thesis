@@ -19,6 +19,64 @@
 
 \refsection{0}
   \sortlist[entry]{nyt/global}
+    \entry{Millennium_XXL}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=b5446a0830478b049054c2fae55cb380}{%
+           family={{Angulo}},
+           family_i={A\bibinitperiod},
+           given={R.\bibnamedelimi E.},
+           given_i={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{uniquename=0,hash=0ef85848ecf64b63065e7d36351e48f4}{%
+           family={{Springel}},
+           family_i={S\bibinitperiod},
+           given={V.},
+           given_i={V\bibinitperiod}}}%
+        {{uniquename=0,hash=abcf743541bcfa11c3864021dc10c279}{%
+           family={{White}},
+           family_i={W\bibinitperiod},
+           given={S.\bibnamedelimi D.\bibnamedelimi M.},
+           given_i={S\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=bb1ab61d28c03aa08d44082bdc41aef5}{%
+           family={{Jenkins}},
+           family_i={J\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=0e750dc01231679bfd64431cd3b28e48}{%
+           family={{Baugh}},
+           family_i={B\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           given_i={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=ec4d64fb832a8dc6453cbd14188a5b27}{%
+           family={{Frenk}},
+           family_i={F\bibinitperiod},
+           given={C.\bibnamedelimi S.},
+           given_i={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d303baaa6e1a7d622e340f9d86b441f}
+      \strng{fullhash}{c5738e0803a88d4fe918c22c768bc118}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelyear}{2012}
+      \field{labelmonth}{11}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{11}
+      \field{title}{{Scaling relations for galaxy clusters in the Millennium-XXL simulation}}
+      \field{volume}{426}
+      \field{year}{2012}
+      \field{pages}{2046\bibrangedash 2062}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1111/j.1365-2966.2012.21830.x
+      \endverb
+      \verb{eprint}
+      \verb 1203.3216
+      \endverb
+      \keyw{cosmology: theory,large-scale structure of Universe}
+    \endentry
     \entry{Bernardeau_PT}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,hash=42acac1ab6c79b95426c26d6c35c4ffa}{%
@@ -775,6 +833,79 @@
       \verb 10.1093/mnras/203.2.345
       \endverb
       \keyw{Astronomical Models,Cosmology,Gravitational Effects,Nonlinear Equations,Perturbation Theory,Space Density,Galactic Evolution,Newton Theory,Pressure Effects,Vacuum Effects}
+    \endentry
+    \entry{Illustris_sim}{article}{}
+      \name{author}{9}{}{%
+        {{uniquename=0,hash=e8e80429a822c0e751accb9bb598fd12}{%
+           family={{Vogelsberger}},
+           family_i={V\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=1ed83ab926d1ac7bf57590c6b2f30ad9}{%
+           family={{Genel}},
+           family_i={G\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=0ef85848ecf64b63065e7d36351e48f4}{%
+           family={{Springel}},
+           family_i={S\bibinitperiod},
+           given={V.},
+           given_i={V\bibinitperiod}}}%
+        {{uniquename=0,hash=54819db2c440efba71a5809760dee4ce}{%
+           family={{Torrey}},
+           family_i={T\bibinitperiod},
+           given={P.},
+           given_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=13cd358daf954b37758055c05a0034cf}{%
+           family={{Sijacki}},
+           family_i={S\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=c396d84bb1ec1c855232dede0ab1d33a}{%
+           family={{Xu}},
+           family_i={X\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=35d4c86420f11315a8fb4bb24ac574be}{%
+           family={{Snyder}},
+           family_i={S\bibinitperiod},
+           given={G.},
+           given_i={G\bibinitperiod}}}%
+        {{uniquename=0,hash=e2bb8a4e7d667069835724f7acb4f055}{%
+           family={{Nelson}},
+           family_i={N\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=49883980adbb993066f572123bf76ac1}{%
+           family={{Hernquist}},
+           family_i={H\bibinitperiod},
+           given={L.},
+           given_i={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{e835f6e4b93a56302253f80a1b102d73}
+      \strng{fullhash}{d5f6f09691cda501a4fa40df3c67030d}
+      \field{sortinit}{V}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelyear}{2014}
+      \field{labelmonth}{10}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{10}
+      \field{title}{{Introducing the Illustris Project: simulating the coevolution of dark and visible matter in the Universe}}
+      \field{volume}{444}
+      \field{year}{2014}
+      \field{pages}{1518\bibrangedash 1547}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1093/mnras/stu1536
+      \endverb
+      \verb{eprint}
+      \verb 1405.2921
+      \endverb
+      \keyw{methods: numerical,cosmology: theory}
     \endentry
     \entry{1999dpf..conf.....W}{proceedings}{}
       \name{editor}{1}{}{%

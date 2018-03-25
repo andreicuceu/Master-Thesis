@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber thesis"] 1521984358 "thesis.bcf" "thesis.bbl" "thesis" 1521984411
-  "references.bib" 1521982457 12194 3976ec07effebeb1fb4a5e3687269184 ""
-  "thesis.bcf" 1521984411 93240 322d905c9248ab1cabe56cdcaf660dc4 ""
+["biber thesis"] 1521986825 "thesis.bcf" "thesis.bbl" "thesis" 1521987691
+  "references.bib" 1521986782 13526 9b85e1c8f0ab2192baa02928b388cfbe ""
+  "thesis.bcf" 1521987691 93353 98571bfbe99310c13dfe676930f8d4ca ""
   (generated)
   "thesis.bbl"
   "thesis.blg"
-["pdflatex"] 1521984408 "/home/andrei/Documents/project/Thesis/thesis.tex" "thesis.pdf" "thesis" 1521984411
+["pdflatex"] 1521987688 "/home/andrei/Documents/project/Thesis/thesis.tex" "thesis.pdf" "thesis" 1521987691
   "/etc/texmf/web2c/texmf.cnf" 1510940014 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/andrei/Documents/project/Thesis/thesis.tex" 1521970670 2000 cfb1733768de60f53185cc9bb82b988d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -38,6 +38,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb" 1248133631 24252 1e4e051947e12dfb50fee0b7f4e26e3a ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb" 1136849748 9356 a3851bc942e9b6995883193472ba1847 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb" 1136849748 15213 d999bbe8bd9c8f231f3f66a737c76478 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb" 1136849748 52406 dad2f72863a03727d5f536c64a69c452 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb" 1136849748 52665 661b1e6b26edb5f50dd491f8a701cb57 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb" 1136849748 50022 90249cba7e3e4e9845f80328d6f9bd13 ""
@@ -195,7 +196,7 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1513514637 857859 f644c4a2118ededa14cf94c61bcc093f ""
   "aas_macros.sty" 1520681250 5891 7d90a11ba58ca28323775a3a3f981322 ""
   "chapters/chapter01.tex" 1521972149 5886 b890f0253243be16d983047bdbfca61f ""
-  "chapters/chapter02.tex" 1521983239 6534 75bf505b3dc936a99688a5c575ec74f9 ""
+  "chapters/chapter02.tex" 1521987686 7858 c4d749ae0940c9839a2ab99fef402d03 ""
   "chapters/chapter04.tex" 1521841903 12879 1cdba2a693aa783b284b8299e5744fb2 ""
   "chapters/chapter05.tex" 1521984405 22103 067fdfba39bb421d7ec2d48f58e47644 ""
   "chapters/chapter06.tex" 1521805904 465 8db34154881a1989b125be52023d3dd1 ""
@@ -211,15 +212,15 @@
   "images/realRecon/simBRecon.png" 1521805104 51865 495e4e8e030644d768e7a590fdd82636 ""
   "images/realRecon/z9SimComp.png" 1521804673 70252 1b4e955a148259ade0a9fbc3d7c3a52c ""
   "images/realRecon/zeld.png" 1521817492 103089 23dd70ba35c3b5408d0ed4c7d413c602 ""
-  "thesis.aux" 1521984411 22447 e76bc962becf0839c32cad5120d32d31 ""
-  "thesis.bbl" 1521984359 30786 765c2cf9094abe592fa765a0b95c7077 "biber thesis"
-  "thesis.run.xml" 1521984411 2326 f0c26861403cf111d1284f3404d7f0b9 ""
+  "thesis.aux" 1521987691 22898 1005d0f1cb3b28cc911e03dcfbcf64c3 ""
+  "thesis.bbl" 1521986826 35886 f45eef519f0cdcbc196c994872014ff0 "biber thesis"
+  "thesis.run.xml" 1521987691 2326 f0c26861403cf111d1284f3404d7f0b9 ""
   "thesis.tex" 1521970670 2000 cfb1733768de60f53185cc9bb82b988d ""
-  "thesis.toc" 1521984411 2850 51f2c12875ac77d99f93c79038416750 ""
+  "thesis.toc" 1521987691 3067 fd4054ebbbd8db3a082c56ea2dd7be55 ""
   (generated)
-  "thesis.log"
   "thesis.bcf"
-  "thesis.pdf"
-  "thesis.toc"
   "thesis.run.xml"
   "thesis.aux"
+  "thesis.toc"
+  "thesis.pdf"
+  "thesis.log"
