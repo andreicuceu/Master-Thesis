@@ -44,7 +44,18 @@ The idea behind a perfect reconstruction is to use data about the initial state 
 
 As outlined above, the first step is to measure the density field in a snapshot. Each snapshot contains an indexed list with the positions, velocities and masses of all particles in the simulation. In this chapter, only the positions and masses are needed to perform a perfect reconstruction. To perform the first part of this analysis, we used the \textit{pynbody}\footnote{https://github.com/pynbody/pynbody} package (\cite{2013ascl.soft05002P}). 
 
-To have a visual understanding of the reconstruction, we first make some images of the density field. We use \textit{pynbody} to import the initial snapshot and the snapshot at $z=0$. The density field at the particle locations in the final snapshot is calculated and assigned as the density field of the initial snapshot. Density slices through this reconstructed field are compared to the initial and final fields in Figure \todo{put image in and ref}. 
+\begin{figure}
+    \centering
+    \includegraphics[width=1\columnwidth]{images/densityFields/densityField.pdf}%
+    
+    \caption{
+    Density slice through Simulation C. The left panel shows the final collapsed density field at redshift 0. The right panel shows the initial smooth density field at redshift 99. The centre panel shows the result of the perfect reconstruction applied to the final field. The collapsed filaments are stretched, but the result is not identical to the initial field. This means there is some information that cannot be recovered.
+    }
+    
+    \label{im:1}
+\end{figure}
+
+To have a visual understanding of the reconstruction, we first make some images of the density field. We use \textit{pynbody} to import the initial snapshot and the snapshot at $z=0$. The density field at the particle locations in the final snapshot is calculated and assigned as the density field of the initial snapshot. Density slices through this reconstructed field are compared to the initial and final fields in Figure~\ref{im:1}. 
 
 We can already see from this comparison that the reconstruction has not recovered all the information, as it is not identical to the initial filed. However, the reconstruction spreads out the matter from the collapsed filaments onto a more uniform field. This is exactly the opposite of small initial perturbations collapsing into the filaments. In a way we are trying to run gravity in reverse. Also notice the large difference in the values of the density field. The reconstructed field has density values about 3 orders of magnitude larger than the initial field.
 
@@ -82,7 +93,7 @@ The small $k$ convergence towards perfect correlation indicates that information
 
 Figure~\ref{fig:3.1} also shows the evolution of this correlation with redshift. The wavenumber at which the two fields decorrelate indicates the progress of gravitational collapse at that redshift. This results in the decorrelation scale moving to smaller wavenumbers with the progress of gravitational collapse. The objective of reconstruction methods is to bring this decorrelation scale to larger $k$ (in order to recover information about the initial field).
 
-\todo[inline]{Talk about errors here}
+The errors in Figure~\ref{fig:3.1} come from the measurement of the power spectrum. As we have a limited size box, when we measure the largest scales, we only have access to very few modes. This leads to a large error. The errors were propagated without taking into account the correlations between the power spectra when calculating the normalization. However, as these are definitely correlated, this is just an upper bound of the error. The large scale convergence towards perfect correlation also indicates that the actual errors are much smaller. As such, we will not be including them in the following plots.
 
 \begin{figure}
     \centering
@@ -109,20 +120,10 @@ The results of the perfect reconstruction can be seen in Figure~\ref{fig:3.2}, w
     
     \label{fig:3.3}
 \end{figure}
-However, in order to understand this perfect reconstruction, we need to look at the key role played by the resolution of the simulation. Figure~\ref{fig:3.3} shows a comparison of the cross-spectra across the three simulations. For the original correlations, the size of the simulation plays a larger role than the resolution. Simulation C (smaller size) shows a smaller scale of decorrelation. Simulations A and B (same size) are very close, with a slight edge for simulation B (lower resolution). \todo{better explination here}
+However, in order to understand this perfect reconstruction, we need to look at the key role played by the resolution of the simulation. Figure~\ref{fig:3.3} shows a comparison of the cross-spectra across the three simulations. For the original correlations, the size of the simulation plays a larger role than the resolution. Simulation C (smaller size) shows a smaller scale of decorrelation. Simulations A and B (same size) are very close, with a slight edge for Simulation B (lower resolution). 
 
 A completely different structure can be seen once we perform the perfect reconstruction. Simulation A and C (same resolution) show identical reconstructed correlation, while the reconstruction in Simulation B (lower resolution) does not perform as well. This indicates that resolution plays a decisive role in the perfect reconstruction. The other limiting factor is the starting redshift. As we have seen, more and more information is lost as we go to lower redshift. The right panel in Figure~\ref{fig:3.3} shows the lowest scale that can be reconstructed from $z=9$ depending on the resolution of our simulation.
 
 The reconstructions in Figure~\ref{fig:3.2} demonstrate that a perfect correlation cannot be achieved even in the ideal case of existing knowledge of all the starting particle positions. Therefore, we have shown the limits of reconstruction techniques. However, a large improvement in the correlation can be seen, with the decorrelation scale moving to very small scales (of the order $1 Mpc$). This ideal reconstruction using perfect knowledge of the particle positions serves as a theoretical upper limit to reconstruction techniques. The perfect reconstruction, along with the original correlation, will always be present in the next chapter when we look at realistic reconstructions. This can give us a better understanding to how well our techniques work.
 
 
-% \begin{figure}
-%     \centering
-%     \includegraphics[width=1\columnwidth]{images/crossSpectra/Spec_3_perf.png}%
-    
-%     \caption{
-%     Perfect Reconstruction from different redshifts in Sim A and Sim B
-%     }
-    
-%     \label{fig:6}
-% \end{figure}
