@@ -27,15 +27,13 @@ The first step in studying reconstruction is to find a way to test its effective
         \hline
         
     \end{tabular}
-    \caption{The sizes and number of particles of the three simulations used in this project.}
+    \caption{Details of the three simulations used in this project. They were setup in away that allows us to study the impact of the resolution (Sim A vs Sim B) and size (sim A vs Sim C)}
     \label{table:1}
 \end{table}
 
 The simulations only contain dark matter and the cosmological parameters used were the ones recommended by the WMAP 7-year observations (\cite{2011ApJS..192...18K}). These are no longer our best estimates (\cite{2016A&A...594A..13P}), however for our present purposes they are sufficient as we do not compare to observational data. The simulations were evolved from $z=99$ to $z=0$ using the \textsc{P-Gadget-3} code (\cite{2005MNRAS.364.1105S},~\cite{2008MNRAS.391.1685S}). 
 
 The idea behind a perfect reconstruction is to use data about the initial state of the simulation to perform the reconstruction. We have access to multiple snapshots at various redshifts in our simulations, including the initial positions of all particles (at $z = 99$). Therefore, we used this information to reconstruct the density field. We first measured the density field of various snapshots in the redshift interval $z = 0 - 9$. The field was measured at the particle positions instead of being measured on a regular grid. This is because the density field will be moved along with the particles as described in the next section. After that, the particle positions were replaced with their initial positions taken from the initial snapshot at $z = 99$.
-
-
 
 
 \section{From Images to Statistics}
@@ -48,17 +46,19 @@ As outlined above, the first step is to measure the density field in a snapshot.
 
 To have a visual understanding of the reconstruction, we first make some images of the density field. We use \textit{pynbody} to import the initial snapshot and the snapshot at $z=0$. The density field at the particle locations in the final snapshot is calculated and assigned as the density field of the initial snapshot. Density slices through this reconstructed field are compared to the initial and final fields in Figure \todo{put image in and ref}. 
 
-We can already see from this comparison that the reconstruction has not recovered all the information, as it is not identical to the initial filed. However, the reconstruction spreads out the matter from the collapsed filaments onto a more uniform field. This is exactly the opposite of initial perturbations on a mostly uniform field collapsing into the filaments. In a way we are trying to run gravity in reverse. Also notice the large difference in the values of the density field. The reconstructed field has density values about 3 orders of magnitude larger than the initial field. \todo{also talk about the density distribution}
+We can already see from this comparison that the reconstruction has not recovered all the information, as it is not identical to the initial filed. However, the reconstruction spreads out the matter from the collapsed filaments onto a more uniform field. This is exactly the opposite of small initial perturbations collapsing into the filaments. In a way we are trying to run gravity in reverse. Also notice the large difference in the values of the density field. The reconstructed field has density values about 3 orders of magnitude larger than the initial field.
+
+% \todo{also talk about the density distribution}
 
 This large difference is an interesting side effect of our method. At late times, most particles tend to be clumped together. Therefore, when measuring the density field at the particle positions, we will mostly get very high values. These values do not change when moving the particles, so the final field will also have very high values, but this time distributed on an almost uniform grid. This results in an apparent increase in the total mass of the simulation. As this increase is just a result of the way we represent the density field, it needs to be accounted for when analysing the results. To conserve the mass of the simulation, we just divide the density field by the ratio of the total final mass to the total initial mass.
 
 \subsection{Correlation with the Initial Field}
 
-\todo[inline]{TALK ABOUT TAKING THE LOG OF THE DENSITY FIELD}
+\todo[inline]{TALK ABOUT TAKING THE LOG OF THE DENSITY FIELD + Introduce Power Spectrum}
 
-In order to get a better understanding of how well this reconstruction worked, we turn to statistics. A good way to represent the reconstruction  is to look at the normalized Cross-Spectrum between the initial and the reconstructed field: $$ \frac{P_{IX}(k)}{\sqrt{P_I(k) * P_X(k)}} $$ where $I$ represents the initial field, and $X$ the reconstructed field. \todo{The power-spectrum will be introduced in chapter 2}
+In order to get a better understanding of how well this reconstruction worked, we turn to statistics. A good way to represent the reconstruction  is to look at the normalized Cross-Spectrum between the initial and the reconstructed field: $$ \frac{P_{IX}(k)}{\sqrt{P_I(k) * P_X(k)}} $$ where $I$ represents the initial field, and $X$ the reconstructed field.
 
-We used the \textsc{GenPK} code\footnote{https://github.com/sbird/GenPK.git} (\cite{2017ascl.soft06006B}) to measure auto and cross power-spectra of \textsc{Gadget} outputs. The original normalized cross-spectra between the initial and the final fields (from Sim A) can be seen in Figure \ref{fig:3.1}. For small wavenumbers $k$ (corresponding to large scales), the correlation is very good (converges to 1: perfect correlation). On the other hand, for large wavenumbers (corresponding to small scales), the two fields are completely decorrelated. 
+We used the \textsc{GenPK} code\footnote{https://github.com/sbird/GenPK.git} (\cite{2017ascl.soft06006B}) to measure auto and cross power-spectra of \textsc{Gadget} outputs. In order to analyse reconstructed fields, we also modified \textsc{GenPK} to read the fields generated by \textit{pynbody}. The original normalized cross-spectra between the initial and the final fields (from Sim A) can be seen in Figure \ref{fig:3.1}. For small wavenumbers $k$ (corresponding to large scales), the correlation is very good (converges to 1: perfect correlation). On the other hand, for large wavenumbers (corresponding to small scales), the two fields are completely decorrelated. 
 \todo[inline]{Talk about the binning??}
 
 \begin{figure}
@@ -74,11 +74,9 @@ We used the \textsc{GenPK} code\footnote{https://github.com/sbird/GenPK.git} (\c
 
 The small $k$ convergence towards perfect correlation indicates that information is preserved on these scales. Because of this, both the initial and the final density fields tend to be very uniform, which preserves the correlation. However, over small scales information is lost. The results is a large discrepancy between massive collapsed regions and mostly empty voids. This is in stark contrast to the relative uniformity of the initial field, leading to a breakdown in correlation.
 
-Figure \ref{fig:3.1} also shows the evolution of this correlation with redshift. The wavenumber at which the two fields decorrelate indicates the progress of gravitational collapse at that redshift. This results in the decorrelation scale moving to smaller wavenumbers with the progress of gravitational collapse. The objective of reconstruction methods is to bring this decorrelation scale to larger $k$ (in order to recover information about the initial field).
+Figure~\ref{fig:3.1} also shows the evolution of this correlation with redshift. The wavenumber at which the two fields decorrelate indicates the progress of gravitational collapse at that redshift. This results in the decorrelation scale moving to smaller wavenumbers with the progress of gravitational collapse. The objective of reconstruction methods is to bring this decorrelation scale to larger $k$ (in order to recover information about the initial field).
 
 \todo[inline]{Talk about errors here}
-
-In order to measure the power-spectra of our reconstructed fields, we modified \textsc{GenPK} to read the fields generated by \textit{pynbody}. The results of the perfect reconstruction can be seen in Figure \ref{fig:3.2}, where we compare it with the original correlation at different redshifts. 
 
 \begin{figure}
     \centering
@@ -93,7 +91,7 @@ In order to measure the power-spectra of our reconstructed fields, we modified \
 
 \section{Analysis}
 
-The cross-spectra presented in Figure~\ref{fig:3.2} show a large improvement in the correlation with the initial field. There is also an increase in the amount of information recovered for lower redshifts. This means redshift does not play a role as large in the perfect reconstruction as it originally did. 
+The results of the perfect reconstruction can be seen in Figure~\ref{fig:3.2}, where we compare it with the original correlation at different redshifts. The cross-spectra presented show a large improvement in the correlation with the initial field. There is also an increase in the amount of information recovered for lower redshifts. This means redshift does not play a role as large in the perfect reconstruction as it originally did. 
 
 \begin{figure}
     \centering
@@ -109,7 +107,7 @@ However, in order to understand this perfect reconstruction, we need to look at 
 
 A completely different structure can be seen once we perform the perfect reconstruction. Simulation A and C (same resolution) show identical reconstructed correlation, while the reconstruction in Simulation B (lower resolution) does not perform as well. This indicates that resolution plays a decisive role in the perfect reconstruction. The other limiting factor is the starting redshift. As we have seen, more and more information is lost as we go to lower redshift. The right panel in Figure~\ref{fig:3.3} shows the lowest scale that can be reconstructed from $z=9$ depending on the resolution of our simulation.
 
-The perfect reconstructions in Figure~\ref{fig:3.2} demonstrate that a perfect correlation cannot be achieved even in the ideal case of perfect knowledge of all the starting particle positions. Therefore, we have shown the limits of reconstruction techniques. However, a large improvement in the correlation can be seen, with the decorrelation scale moving to very small scales (of the order $1 Mpc$). This ideal reconstruction using perfect knowledge of the particle positions serves as a theoretical upper limit to reconstruction techniques. The perfect reconstruction, along with the original correlation, will always be present in the next chapter when we look at realistic reconstructions. This can give us a better understanding to how well our techniques work.
+The reconstructions in Figure~\ref{fig:3.2} demonstrate that a perfect correlation cannot be achieved even in the ideal case of existing knowledge of all the starting particle positions. Therefore, we have shown the limits of reconstruction techniques. However, a large improvement in the correlation can be seen, with the decorrelation scale moving to very small scales (of the order $1 Mpc$). This ideal reconstruction using perfect knowledge of the particle positions serves as a theoretical upper limit to reconstruction techniques. The perfect reconstruction, along with the original correlation, will always be present in the next chapter when we look at realistic reconstructions. This can give us a better understanding to how well our techniques work.
 
 
 % \begin{figure}

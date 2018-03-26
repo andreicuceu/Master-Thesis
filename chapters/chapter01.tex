@@ -48,6 +48,11 @@ This feature is even more important at these late times, because it was locked o
 
 These methods have been instrumental in using survey data to its fullest.~\cite{2013PhR...530...87W} estimate that this increase in precision is equivalent to a factor $2-4$ increase in survey size.
 
+The peculiar velocity field is of key interest to this project, as most or our work in Chapter 3 is based on it. We introduce it in this section as the ultimate goal of any reconstruction technique is to be used in practice, so we start with an overview of how these peculiar velocities can be measured. 
+
+Measuring galaxy velocities has been done extensively through spectroscopic redshift surveys (e.g.~\cite{2013AJ....145...10D}). The problem appears when trying to separate the Hubble flow contribution from peculiar velocities. As peculiar velocities are usually of the order of a few hundred $km/sec$, they are very hard to detect once we get to scales of 50 to 100 Mpc (with a hubble flow of $(5-10) \times 10^3 km/sec$).\todo{ref} 
+
+The other widely used technique to measure peculiar velocities is more indirect. We instead construct a 3 dimensional map of the universe as outlined at beginning of this section. However, to find the distance to an object we are actually measuring its redshift. If we plot this redshift space distribution, we can detect deviations from the expected structure distribution (redshift space distortions). These distortions allow us to indirectly measure peculiar velocities. This technique works very well when studying galaxy clusters\todo{ref}.
 
 % \begin{figure}
 %     \centering
@@ -73,4 +78,12 @@ Once we get into the deeply non-linear regime, these analytic methods break down
 On the other hand, simulations are also used as a laboratory for testing reconstruction methods they give us access to both the initial and the final density fields. We can attempt a reconstruction on the final field and then compare it to the initial field and test how well it worked. 
 
 \section{Recovering Lost Information}
+
+As we have seen, the CMB shows us the early universe as a very uniform field with a mostly Gaussian distribution of anisotropies. This field then evolves into the present day large scale structure of the Universe. The aim of this project is to investigate the information lost during this evolution and methods of recovering it. In section 1.2.2. we discussed the importance of good reconstruction methods to make full use of galaxy survey data. A very active topic of research is the hunt for non-gaussianities in the primordial universe. Good reconstruction methods combined with the next generation of galaxy surveys could be instrumental in detecting these non-gaussianities.\todo{refs}
+
+In section 1.2.2 we introduced various reconstruction methods whose main goal is to reconstruct the Baryon Acoustic Peak. This is a large scale feature and therefore attempts at reconstructing it are quite successful. Our objective is to go beyond these scales and attempt reconstructing intermediate scales that are in the non-linear regime. 
+
+Information is mostly destroyed on small scales deep in the non-linear regime. For example, a very large (by scale) primordial underdensity will probably still be an underdensity at late times (as a huge void). On the other hand, a small scale primordial underdensity might be caught in the larger bulk flows and collapse into a larger halo. In this case, the information about the small underdensity is lost. 
+
+We will first study the limits of reconstruction techniques in Chapter 2. This will be achieved by performing a `perfect' reconstruction, in order to quantify the information that is forever lost. This also gives us an insight into the information that is actually preserved during gravitational collapse and just needs to be recovered. After that, in Chapter 3, we will move towards realistic reconstructions. In particular, we will use the first order approximation of Lagrangian Perturbation Theory (the Zel'dovich Approximation) to perform our reconstructions. This class of reconstructions uses the velocity field information to reconstruct the density field. Finally, we conclude in Chapter 4 with some of the insights we have gained and interesting results that should be studied further.
 
