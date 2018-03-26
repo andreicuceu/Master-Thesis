@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.17)  26 MAR 2018 12:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.17)  26 MAR 2018 22:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1215,7 +1215,7 @@ Package biblatex Info: ... file 'thesis.bbl' found.
 (./thesis.bbl)
 Package biblatex Info: Reference section=0 on input line 39.
 Package biblatex Info: Reference segment=0 on input line 39.
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <50> not available
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <40> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 50.
@@ -1269,8 +1269,10 @@ Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 3.
 
-
-LaTeX Warning: Marginpar on page 4 moved.
+Overfull \hbox (4.69746pt too wide) in paragraph at lines 7--8
+[]\OT1/ppl/m/n/12 Our two main ob-ser-va-tional tools to-day, are the cos-mic m
+i-crowave back-ground
+ []
 
 
 LaTeX Warning: Marginpar on page 4 moved.
@@ -1279,7 +1281,7 @@ LaTeX Warning: Marginpar on page 4 moved.
 LaTeX Warning: Marginpar on page 4 moved.
 
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 19.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 22.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1290,7 +1292,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: images/misc/Planck_CMB.jpg Graphic file (type jpg)
 
 <use images/misc/Planck_CMB.jpg>
-Package pdftex.def Info: images/misc/Planck_CMB.jpg used on input line 27.
+Package pdftex.def Info: images/misc/Planck_CMB.jpg used on input line 30.
 (pdftex.def)             Requested size: 384.10959pt x 192.05493pt.
 
 Underfull \vbox (badness 1248) has occurred while \output is active []
@@ -1310,7 +1312,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6 <./images/misc/Planck_CMB.jpg>]
-Overfull \hbox (3.53278pt too wide) in paragraph at lines 49--50
+Overfull \hbox (3.53278pt too wide) in paragraph at lines 52--53
 []\OT1/ppl/m/n/12 These meth-ods have been in-stru-men-tal in us-ing sur-vey da
 ta to its fullest. []Wein-
  []
@@ -1322,10 +1324,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [7]
-Overfull \hbox (3.11299pt too wide) in paragraph at lines 74--75
+Overfull \hbox (3.11299pt too wide) in paragraph at lines 75--77
 []\OT1/ppl/m/n/12 Lagrangian Per-tur-ba-tion The-ory has been well de-vel-oped 
 in the 1990s ([]Buchert
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1372,39 +1378,31 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Warning: Marginpar on page 12 moved.
 
-<images/perfRecon/orig.png, id=48, 651.43375pt x 527.9725pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12] <images/perfRecon/orig.png, id=53, 651.43375pt x 527.9725pt>
 File: images/perfRecon/orig.png Graphic file (type png)
 
 <use images/perfRecon/orig.png>
-Package pdftex.def Info: images/perfRecon/orig.png used on input line 66.
+Package pdftex.def Info: images/perfRecon/orig.png used on input line 72.
 (pdftex.def)             Requested size: 426.79134pt x 345.91716pt.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[12]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[13 <./images/perfRecon/orig.png>]
-<images/perfRecon/perfRecon.png, id=59, 931.48pt x 687.56876pt>
+<images/perfRecon/perfRecon.png, id=55, 931.48pt x 687.56876pt>
 File: images/perfRecon/perfRecon.png Graphic file (type png)
 
 <use images/perfRecon/perfRecon.png>
-Package pdftex.def Info: images/perfRecon/perfRecon.png used on input line 83.
+Package pdftex.def Info: images/perfRecon/perfRecon.png used on input line 89.
 (pdftex.def)             Requested size: 426.79134pt x 315.03699pt.
 
-<images/perfRecon/simComp.png, id=60, 820.06375pt x 364.36125pt>
+<images/perfRecon/simComp.png, id=56, 820.06375pt x 364.36125pt>
 File: images/perfRecon/simComp.png Graphic file (type png)
 
 <use images/perfRecon/simComp.png>
-Package pdftex.def Info: images/perfRecon/simComp.png used on input line 98.
+Package pdftex.def Info: images/perfRecon/simComp.png used on input line 104.
 (pdftex.def)             Requested size: 426.79134pt x 189.63016pt.
 
 
@@ -1413,7 +1411,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14 <./images/perfRecon/perfRecon.png>]
+[13]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14 <./images/perfRecon/orig.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15 <./images/perfRecon/perfRecon.png>]
 Underfull \vbox (badness 1502) has occurred while \output is active []
 
 
@@ -1423,16 +1435,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15 <./images/perfRecon/simComp.png>])
+[16 <./images/perfRecon/simComp.png>])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16]
+[17]
 Chapter 3.
-(./chapters/chapter05.tex [17
+(./chapters/chapter05.tex [18
 
 ]
 
@@ -1441,7 +1453,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18] <images/realRecon/zeld.png, id=79, 948.54375pt x 687.56876pt>
+[19] <images/realRecon/zeld.png, id=83, 948.54375pt x 687.56876pt>
 File: images/realRecon/zeld.png Graphic file (type png)
 
 <use images/realRecon/zeld.png>
@@ -1454,41 +1466,41 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19 <./images/realRecon/zeld.png>]
-Underfull \vbox (badness 1264) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [20]
 
-LaTeX Warning: Marginpar on page 21 moved.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
+[21 <./images/realRecon/zeld.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21]
-
-LaTeX Warning: Marginpar on page 22 moved.
-
-
-Overfull \hbox (9.45221pt too wide) in paragraph at lines 92--93
+[22]
+Overfull \hbox (9.45221pt too wide) in paragraph at lines 93--94
 \OT1/ppl/m/n/12 meth-ods to have a sim-i-lar per-for-mance when start-ing from 
 this quasi-linear regime. 
  []
 
-<images/realRecon/binSize.png, id=91, 651.43375pt x 364.36125pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23] <images/realRecon/binSize.png, id=97, 651.43375pt x 364.36125pt>
 File: images/realRecon/binSize.png Graphic file (type png)
 
 <use images/realRecon/binSize.png>
-Package pdftex.def Info: images/realRecon/binSize.png used on input line 98.
+Package pdftex.def Info: images/realRecon/binSize.png used on input line 99.
 (pdftex.def)             Requested size: 426.79134pt x 238.72229pt.
 
 
@@ -1497,23 +1509,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[23 <./images/realRecon/binSize.png>]
-<images/realRecon/filterComp.png, id=99, 961.5925pt x 472.76625pt>
+[24 <./images/realRecon/binSize.png>]
+<images/realRecon/filterComp.png, id=102, 961.5925pt x 472.76625pt>
 File: images/realRecon/filterComp.png Graphic file (type png)
 
 <use images/realRecon/filterComp.png>
-Package pdftex.def Info: images/realRecon/filterComp.png used on input line 111
+Package pdftex.def Info: images/realRecon/filterComp.png used on input line 112
 .
 (pdftex.def)             Requested size: 426.79134pt x 209.83566pt.
 
-Overfull \hbox (15.39174pt too wide) in paragraph at lines 120--121
+Overfull \hbox (15.39174pt too wide) in paragraph at lines 121--122
 \OT1/ppl/m/n/12 some in-for-ma-tion on in-ter-me-di-ate scales, but the large s
 cales be-come anti-correlated.
  []
@@ -1528,12 +1533,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24 <./images/realRecon/filterComp.png>]
-<images/realRecon/z9SimComp.png, id=104, 931.48pt x 418.56375pt>
+[25 <./images/realRecon/filterComp.png>]
+<images/realRecon/z9SimComp.png, id=108, 931.48pt x 418.56375pt>
 File: images/realRecon/z9SimComp.png Graphic file (type png)
 
 <use images/realRecon/z9SimComp.png>
-Package pdftex.def Info: images/realRecon/z9SimComp.png used on input line 132.
+Package pdftex.def Info: images/realRecon/z9SimComp.png used on input line 133.
 
 (pdftex.def)             Requested size: 426.79134pt x 191.78163pt.
 
@@ -1543,14 +1548,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25 <./images/realRecon/z9SimComp.png>]
-<images/realRecon/simBRecon.png, id=110, 763.85374pt x 472.76625pt>
+[26 <./images/realRecon/z9SimComp.png>]
+<images/realRecon/simBRecon.png, id=113, 763.85374pt x 472.76625pt>
 File: images/realRecon/simBRecon.png Graphic file (type png)
 
 <use images/realRecon/simBRecon.png>
-Package pdftex.def Info: images/realRecon/simBRecon.png used on input line 147.
+Package pdftex.def Info: images/realRecon/simBRecon.png used on input line 148.
 
 (pdftex.def)             Requested size: 426.79134pt x 264.14854pt.
+
+Underfull \vbox (badness 1460) has occurred while \output is active []
+
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1558,37 +1566,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26 <./images/realRecon/simBRecon.png>]
-<images/realRecon/simARecon.png, id=115, 763.85374pt x 472.76625pt>
+[27 <./images/realRecon/simBRecon.png>]
+<images/realRecon/simARecon.png, id=118, 763.85374pt x 472.76625pt>
 File: images/realRecon/simARecon.png Graphic file (type png)
 
 <use images/realRecon/simARecon.png>
-Package pdftex.def Info: images/realRecon/simARecon.png used on input line 161.
+Package pdftex.def Info: images/realRecon/simARecon.png used on input line 162.
 
 (pdftex.def)             Requested size: 426.79134pt x 264.14854pt.
-
-Underfull \vbox (badness 1817) has occurred while \output is active []
-
-
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27 <./images/realRecon/simARecon.png>])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[28]
+[28 <./images/realRecon/simARecon.png>]
 Chapter 4.
 (./chapters/chapter06.tex [29
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1264) has occurred while \output is active []
 
 
 
@@ -1601,7 +1599,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: images/realRecon/1MpcBinAvg.png Graphic file (type png)
 
 <use images/realRecon/1MpcBinAvg.png>
-Package pdftex.def Info: images/realRecon/1MpcBinAvg.png used on input line 28.
+Package pdftex.def Info: images/realRecon/1MpcBinAvg.png used on input line 27.
 
 (pdftex.def)             Requested size: 426.79134pt x 254.46037pt.
 )
@@ -1626,6 +1624,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [33]
+Overfull \hbox (4.98871pt too wide) in paragraph at lines 104--104
+\OT1/ppl/m/n/12 growth of cos-mic struc-ture and voids". In: Phys. Rev. D 93.10
+, 103519, p. 103519.
+ []
+
+
 Overfull \hbox (17.49707pt too wide) in paragraph at lines 104--104
 [][]\OT1/ppl/m/n/12 Weinberg, D. H. (1992). \  Re-con-struct-ing pri-mor-dial d
 en-sity fluc-tu-a-tions. I - Method".
@@ -1647,13 +1651,13 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 ### semi simple group (level 1) entered at line 20 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21657 strings out of 494901
- 405722 string characters out of 6179485
- 819349 words of memory out of 5000000
- 24498 multiletter control sequences out of 15000+600000
- 36165 words of font info for 99 fonts, out of 8000000 for 9000
+ 21636 strings out of 494901
+ 405220 string characters out of 6179485
+ 811924 words of memory out of 5000000
+ 24476 multiletter control sequences out of 15000+600000
+ 36774 words of font info for 100 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 62i,12n,80p,1322b,18599s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,12n,80p,1379b,18535s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
@@ -1665,7 +1669,7 @@ blic/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatin
 o/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (34 pages, 3077562 bytes).
+Output written on thesis.pdf (34 pages, 3080517 bytes).
 PDF statistics:
  184 PDF objects out of 1000 (max. 8388607)
  114 compressed objects within 2 object streams

@@ -1,17 +1,17 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
 [0] Config.pm:343> INFO - Logfile is 'thesis.blg'
-[40] biber:287> INFO - === Sun Mar 25, 2018, 23:56:07
-[141] Biber.pm:348> INFO - Reading 'thesis.bcf'
-[297] Biber.pm:742> INFO - Found 38 citekeys in bib section 0
-[303] Biber.pm:3151> INFO - Processing section 0
-[333] Biber.pm:3308> INFO - Looking for bibtex format file 'references.bib' for section 0
-[471] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[585] bibtex.pm:974> INFO - Found BibTeX data source 'references.bib'
-[589] Utils.pm:147> WARN - Duplicate entry key: 'Eisenstein_BAOpeak_reconstruction' in file 'references.bib', skipping ...
-[1548] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1548] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1549] Biber.pm:3028> INFO - Sorting list 'nyt/global' of type 'entry' with scheme 'nyt' and locale 'en-US'
-[1549] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
-[1623] bbl.pm:519> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[1934] bbl.pm:615> INFO - Output to thesis.bbl
-[1934] Biber.pm:109> INFO - WARNINGS: 1
+[44] biber:287> INFO - === Mon Mar 26, 2018, 22:05:18
+[161] Biber.pm:348> INFO - Reading 'thesis.bcf'
+[344] Biber.pm:742> INFO - Found 37 citekeys in bib section 0
+[350] Biber.pm:3151> INFO - Processing section 0
+[391] Biber.pm:3308> INFO - Looking for bibtex format file 'references.bib' for section 0
+[576] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[726] bibtex.pm:974> INFO - Found BibTeX data source 'references.bib'
+[730] Utils.pm:147> WARN - Duplicate entry key: 'Eisenstein_BAOpeak_reconstruction' in file 'references.bib', skipping ...
+[1793] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1793] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1793] Biber.pm:3028> INFO - Sorting list 'nyt/global' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[1793] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[1876] bbl.pm:519> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[2226] bbl.pm:615> INFO - Output to thesis.bbl
+[2227] Biber.pm:109> INFO - WARNINGS: 1

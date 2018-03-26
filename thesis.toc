@@ -14,7 +14,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}The Growth of Structure}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Recovering Lost Information}{8}
+\contentsline {section}{\numberline {1.4}Recovering Lost Information}{9}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}The Perfect Reconstruction}{10}
 \defcounter {refsection}{0}\relax 
@@ -26,23 +26,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Correlation with the Initial Field}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Analysis}{14}
+\contentsline {section}{\numberline {2.3}Analysis}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Towards Realistic Reconstructions}{17}
+\contentsline {chapter}{\numberline {3}Towards Realistic Reconstructions}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}The Zel'dovich Approximation}{17}
+\contentsline {section}{\numberline {3.1}The Zel'dovich Approximation}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Background}{17}
+\contentsline {subsection}{\numberline {3.1.1}Background}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Tracing particles back}{18}
+\contentsline {subsection}{\numberline {3.1.2}Tracing particles back}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.3}The Reconstruction}{19}
+\contentsline {subsection}{\numberline {3.1.3}The Reconstruction}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Getting back to linear velocities}{21}
+\contentsline {section}{\numberline {3.2}Getting back to linear velocities}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Results}{22}
+\contentsline {section}{\numberline {3.3}Results}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Analysis}{25}
+\contentsline {subsection}{\numberline {3.3.1}Method analysis}{24}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}Simulation comparison}{26}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Conclusions}{29}
 \defcounter {refsection}{0}\relax 
