@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber thesis"] 1522102364 "thesis.bcf" "thesis.bbl" "thesis" 1522106863
-  "references.bib" 1522102253 31051 280dc535701ad3bd607ba4eb01fa6b53 ""
-  "thesis.bcf" 1522106863 94822 29f0ed528d8b4f0cb4e191ba4825dc97 ""
+["biber thesis"] 1522143198 "thesis.bcf" "thesis.bbl" "thesis" 1522143211
+  "references.bib" 1522143191 37151 d5870f8c2ee599ffe159ca4e4b68d414 ""
+  "thesis.bcf" 1522143211 95130 3f6f7379e368effaeee3a779e290976a ""
   (generated)
-  "thesis.bbl"
   "thesis.blg"
-["pdflatex"] 1522106860 "/home/andrei/Documents/project/Thesis/thesis.tex" "thesis.pdf" "thesis" 1522106863
+  "thesis.bbl"
+["pdflatex"] 1522143208 "/home/andrei/Documents/project/Thesis/thesis.tex" "thesis.pdf" "thesis" 1522143211
   "/etc/texmf/web2c/texmf.cnf" 1510940014 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/andrei/Documents/project/Thesis/thesis.tex" 1522092517 2028 edb0d8a7ce6fec1120e4dd2daf9b3306 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -196,10 +196,10 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1510940040 127805 5c3c5fac7370b5e0b4000550316abe76 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1513514637 857859 f644c4a2118ededa14cf94c61bcc093f ""
   "aas_macros.sty" 1520681250 5891 7d90a11ba58ca28323775a3a3f981322 ""
-  "chapters/chapter01.tex" 1522102377 15868 566e9ac8ab337b9902a231443e9770b9 ""
+  "chapters/chapter01.tex" 1522143191 15961 1abaa3b96a3d4a59171899ce28f3a1d4 ""
   "chapters/chapter04.tex" 1522106857 15431 7703bfe20726f3af5676d98d872ed999 ""
   "chapters/chapter05.tex" 1522085487 24066 3f7142bb1198c82a219394aef7654213 ""
-  "chapters/chapter06.tex" 1522100323 6354 779a223869eb46a6db0d1bf434586566 ""
+  "chapters/chapter06.tex" 1522141884 9417 9114ca28c9ae88682ea66a654e2079ba ""
   "images/densityFields/densityField.pdf" 1522106559 1193228 c7d23d612d9389c6a9b3672ce5f097b3 ""
   "images/misc/Planck_CMB.jpg" 1519583554 2373272 2f1d014dc91bc3484ffd3095c4b5b05d ""
   "images/perfRecon/orig.png" 1521749755 45156 16245cd34277f71186fad399612b5e3b ""
@@ -212,15 +212,15 @@
   "images/realRecon/simBRecon.png" 1521805104 51865 495e4e8e030644d768e7a590fdd82636 ""
   "images/realRecon/z9SimComp.png" 1521804673 70252 1b4e955a148259ade0a9fbc3d7c3a52c ""
   "images/realRecon/zeld.png" 1521817492 103089 23dd70ba35c3b5408d0ed4c7d413c602 ""
-  "thesis.aux" 1522106863 19656 10e49487bf58cff62e06528329a33a96 ""
-  "thesis.bbl" 1522102368 132524 4a4b40b0b6ec98a3afa0df0415c95ffd "biber thesis"
-  "thesis.run.xml" 1522106863 2326 f0c26861403cf111d1284f3404d7f0b9 ""
+  "thesis.aux" 1522143211 18525 b5d1de2a2e0250a062e0fc700f6c921b ""
+  "thesis.bbl" 1522143202 185558 1541e234018a5bd73ac1681d3f82a0ad "biber thesis"
+  "thesis.run.xml" 1522143211 2326 f0c26861403cf111d1284f3404d7f0b9 ""
   "thesis.tex" 1522092517 2028 edb0d8a7ce6fec1120e4dd2daf9b3306 ""
-  "thesis.toc" 1522106863 2798 72e2ff262a349d76947a4489e19ca307 ""
+  "thesis.toc" 1522143211 2798 073f510db1fa886a0169daa802c1eb95 ""
   (generated)
-  "thesis.log"
   "thesis.bcf"
-  "thesis.aux"
-  "thesis.toc"
   "thesis.pdf"
+  "thesis.toc"
+  "thesis.aux"
+  "thesis.log"
   "thesis.run.xml"
