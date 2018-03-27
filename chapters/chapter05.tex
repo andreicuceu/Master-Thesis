@@ -1,6 +1,6 @@
 % \Huge
 
-With the tools developed in the previous chapter, and the perfect reconstruction serving as an upper limit for reconstruction, we are ready to dive into realistic reconstruction methods. In Section 1.2.2 we outlined different reconstruction methods used in practice. This project will study reconstruction within the Zel'dovich approximation. We will use the velocities of particles to attempt to track their motion back in time. As before, the density field will be carried along with the particles.
+With the tools developed in the previous chapter, and the perfect reconstruction serving as an upper limit for reconstruction, we are ready to dive into realistic reconstruction methods. In Section 1.2.2 we outlined different reconstruction methods used in practice. This project will study reconstruction within the Zel'dovich approximation. We will use particle velocities to attempt to track their motion back in time. As before, the density field will be carried along with the particles.
 
 \section{The Zel'dovich Approximation}
 
@@ -27,7 +27,7 @@ On a final note, the ZA is very good at predicting the loss of correlation betwe
 
 \subsection{Tracing particles back}
 
-The key ingredient that we will use to perform realistic reconstructions is the peculiar velocity field. The idea behind the Zel'dovich approximation is to calculate a linear displacement field (we refer this field as Zel'dovich offset) based on the current peculiar velocities while taking into account the Hubble flow. 
+The key ingredient that we will use to perform realistic reconstructions is the peculiar velocity field. The idea behind the Zel'dovich approximation is to calculate a linear displacement field (we refer to this field as the Zel'dovich offset) based on the current peculiar velocities while taking into account the Hubble flow. 
 
 The peculiar velocity predicted by the ZA (\cite{1993sfu..book.....P}) is given by:
 \begin{equation}
@@ -54,7 +54,7 @@ As we are interested in looking at the correlation between the reconstructed fie
 
 \subsection{The Reconstruction}
 
-We first start out in our investigation by performing a reconstruction using the Zel'dovich offset calculated directly from the particle velocities in each snapshot. The methodology of the reconstruction resembles the perfect reconstruction. We first measure the density field at the particle positions in a snapshot, and then we apply the Displacement field $\Psi(\textbf{q})$ to move the particles. The density field is carried along. After that, \textsc{GenPK} is used to measure the cross power-spectra of the reconstructed field with the initial ($z=99$) field. This method is still unrealistic as we are using perfect knowledge of all the particle velocities, however it is the first step in our method. Therefore, we want to gain an understanding of how it performs and what are it's limitations.
+We first start out in our investigation by performing a reconstruction using the Zel'dovich offset calculated directly from the particle velocities in each snapshot. The methodology of the reconstruction resembles the perfect reconstruction. We first measure the density field at the particle positions in a snapshot, and then we apply the Displacement field $\Psi(\textbf{q})$ to move the particles. The density field is carried along. After that, \textsc{GenPK} is used to measure the cross power-spectra of the reconstructed field with the initial ($z=99$) field. This method is still unrealistic as we are using perfect knowledge of all the particle velocities, however it is the first step in our method. Therefore, we want to gain an understanding of how it performs and what are its limitations.
 
 \begin{figure}
     \centering
@@ -90,9 +90,9 @@ Before we move on to the results, an interesting side effect that should be ment
 \section{Results}
 
 \subsection{Method analysis}
-The first step in our investigation is to understand the effect of the velocity smoothing scale on the reconstruction. In section 4.1 we found that the Zel'dovich reconstruction works very well when starting from $z=9$. We expect our new methods to have a similar performance when starting from this quasi-linear regime. 
+The first step in our investigation is to understand the effect of the velocity smoothing scale on the reconstruction. In section 3.1 we found that the Zel'dovich reconstruction works very well when starting from $z=9$. We expect our new methods to have a similar performance when starting from this quasi-linear regime. 
 
-Figure~\ref{fig:4.2} shows the impact of the velocity smoothing on the $z=9$ Zel'dovich reconstruction. In this case we only present the first method of calculating an average velocity over 1 Mpc and 10 Mpc scales. For brevity we refer to them as 1 Mpc reconstruction and 10 Mpc reconstruction. As expected, when starting at $z=9$, both methods work in reconstructing the density field. However, the 1 Mpc reconstruction performs better than the 10 Mpc one. This demonstrates a further loss of information when smoothing the velocity field. The 1 Mpc reconstruction produces a correlation which is very close to the original Zel'dovich reconstruction.
+Figure~\ref{fig:4.2} shows the impact of the velocity smoothing on the $z=9$ Zel'dovich reconstruction. In this case we only present the first method of calculating an average velocity over 1 Mpc and 10 Mpc scales. For brevity, we refer to them as 1 Mpc reconstruction and 10 Mpc reconstruction. As expected, when starting at $z=9$, both methods work in reconstructing the density field. However, the 1 Mpc reconstruction performs better than the 10 Mpc one. This demonstrates a further loss of information when smoothing the velocity field. The 1 Mpc reconstruction produces a correlation which is very close to the original Zel'dovich reconstruction.
 
 \begin{figure}
     \centering
@@ -112,13 +112,13 @@ Once we know the impact of the smoothing scale and that the reconstruction still
     \includegraphics[width=1\columnwidth]{images/realRecon/filterComp.png}%
     
     \caption{
-        Normalized cross-spectra of fields reconstructed from $z=0$ with the initial density field. We compare the two methods of smoothing velocities outlined in section 4.2 for the two scales of interest. The left panel shows the comparison between the performance of the two methods when velocities are smoothed over 1 Mpc scales, while the right panel shows 10 Mpc scales. If we just average velocities over those scales, we still obtain an anti-correlation over the largest scales. However, when averaging over 0.5 Mpc scales and then applying a Gaussian Filter over the required scales, we see a large improvement in the reconstruction. An interesting effect is that for the 10 Mpc reconstructions, the first method slightly outperforms the second on intermediate scales. 
+        Normalized cross-spectra of fields reconstructed from $z=0$ with the initial density field. We compare the two methods of smoothing velocities outlined in Section 3.2 for the two scales of interest. The left panel shows the comparison between the performance of the two methods when velocities are smoothed over 1 Mpc scales, while the right panel shows 10 Mpc scales. If we just average velocities over those scales, we still obtain an anti-correlation over the largest scales. However, when averaging over 0.5 Mpc scales and then applying a Gaussian Filter over the required scales, we see a large improvement in the reconstruction. An interesting effect is that for the 10 Mpc reconstructions, the first method slightly outperforms the second on intermediate scales. 
     }
     
     \label{fig:4.3}
 \end{figure}
 
-A normal velocity average over the interest scales produces results similar to what we found in section 4.1 with the Zel'dovich reconstruction. We recover some information on intermediate scales, but the large scales become anti-correlated. Here, this seems to be taken to an extreme, in the sense that we have almost perfect anti-correlation on the largest scales. This result is very interesting and should be studied further in the future.
+A normal velocity average over the interest scales produces results similar to what we found in Section 3.1 with the Zel'dovich reconstruction. We recover some information on intermediate scales, but the large scales become anti-correlated. Here, this seems to be taken to an extreme, in the sense that we have almost perfect anti-correlation on the largest scales. This result is very interesting and should be studied further in the future.
 
 On the other hand, when we use smaller bins and a Gaussian filter, we get a much better correlation. We recover quite a bit of information over intermediate to large scales. However, the largest scales still seem to decorrelate. We will investigate this further in the next section where we compare results from different simulations. 
 
@@ -141,14 +141,14 @@ An interesting outcome of these procedures is also the fact that for a small reg
     
 We now turn our attention to how these methods work when we apply them to different simulations. We have so far only looked at results from Simulation A, as it is the largest one and it has the best resolution. Figure~\ref{fig:4.4} presents the correlation of the $z=9$ reconstructed field with the initial density field in Simulation C and Simulation A. It shows that we are recovering information up to a smaller scale in the smaller simulation (C). This is not entirely surprising, as the smaller simulation is better correlated to begin with (as discussed in Chapter 2). What is surprising is how close to the perfect reconstruction the correlation gets.
 
-The best overall correlation when reconstructing the $z=0$ density field was achieved in Simulation B. This result is shown in Figure~\ref{fig:4.5}. Both the 1 Mpc and the 10 Mpc reconstructions achieve a better correlation than the original on most scales. This simulation also gives us the best solution from a practical standpoint. When we calculate the average velocity field using $(0.5 Mpc)^3)$ bins we have, on average, about 0.25 particles per bin. This means that most of our bins are actually empty, which for such small bins is exactly the case for observers as well. This is in contrast with simulation A, which has about 2 particles per bin.
+The best overall correlation when reconstructing the $z=0$ density field was achieved in Simulation B. This result is shown in Figure~\ref{fig:4.5}. Both the 1 Mpc and the 10 Mpc reconstructions achieve a better correlation than the original on most scales. This simulation also gives us the best solution from a practical standpoint. When we calculate the average velocity field using $(0.5$ Mpc$)^3$ bins we have, on average, about 0.25 particles per bin. This means that most of our bins are actually empty, which for such small bins is exactly the case for observers as well. This is in contrast with simulation A, which has about 2 particles per bin.
 
 \begin{figure}
     \centering
     \includegraphics[width=1\columnwidth]{images/realRecon/simBRecon.png}%
     
     \caption{
-        Normalized cross-spectra of the $z=0$ reconstructed fields with the initial density field within Simulation B. Our reconstruction methods work very well in this low resolution simulation in the sense that we don't destroy the correlation that was there to begin with (the largest scales). We also recover some information on intermediate scales, however, it is very far away from the perfect reconstruction. Also, we again encounter the effect found in Section 4.3: we recover less information when we smooth velocities over 10 Mpc compared to 1 Mpc. 
+        Normalized cross-spectra of the $z=0$ reconstructed fields with the initial density field within Simulation B. Our reconstruction methods work very well in this low resolution simulation in the sense that we don't destroy the correlation that was there to begin with (the largest scales). We also recover some information on intermediate scales, however, it is very far away from the perfect reconstruction. Also, we again encounter the effect found in Section 3.3.1: we recover less information when we smooth velocities over 10 Mpc compared to 1 Mpc. 
     }
     
     \label{fig:4.5}
@@ -162,7 +162,7 @@ The best results for Simulation A are presented in Figure~\ref{fig:4.6}. Compare
     \includegraphics[width=1\columnwidth]{images/realRecon/simARecon.png}%
     
     \caption{
-        Normalized cross-spectra of the $z=0$ reconstructed field with the initial density field within Simulation A. By smoothing velocities over 10 Mpc scales, we achieve a better correlation of the large scales, however we have a worse correlation over intermediate scales. The result for the intermediate scales was discussed in section 4.3. It is an outcome of the information lost when smoothing velocities. The interesting result is that within the Zel'dovich approximation, we manage to preserve the large scale correlation only by using less velocity information.
+        Normalized cross-spectra of the $z=0$ reconstructed field with the initial density field within Simulation A. By smoothing velocities over 10 Mpc scales, we achieve a better correlation of the large scales, however we have a worse correlation over intermediate scales. The result for the intermediate scales was discussed in section 3.3.1. It is an outcome of the information lost when smoothing velocities. The interesting result is that within the Zel'dovich approximation, we manage to preserve the large scale correlation only by using less velocity information.
     }
     
     \label{fig:4.6}

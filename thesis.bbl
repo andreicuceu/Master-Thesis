@@ -150,6 +150,36 @@
       \verb astro-ph/0406398
       \endverb
     \endentry
+    \entry{bassett2010baryon}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=da1eedc9308d401375011a40e7803e7f}{%
+           family={Bassett},
+           family_i={B\bibinitperiod},
+           given={Bruce},
+           given_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=4befd09f01964054dc8935018c30bfe8}{%
+           family={Hlozek},
+           family_i={H\bibinitperiod},
+           given={Renée},
+           given_i={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press: Cambridge, UK}%
+      }
+      \strng{namehash}{9587e1acf396cb7b38c8e0cbb407d044}
+      \strng{fullhash}{9587e1acf396cb7b38c8e0cbb407d044}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dark energy: observational and theoretical approaches}
+      \field{title}{Baryon acoustic oscillations}
+      \field{year}{2010}
+      \field{pages}{246}
+      \range{pages}{1}
+    \endentry
     \entry{Bernardeau_PT}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,hash=42acac1ab6c79b95426c26d6c35c4ffa}{%
@@ -194,6 +224,47 @@
       \endverb
       \verb{eprint}
       \verb astro-ph/0112551
+      \endverb
+    \endentry
+    \entry{BERTONE2005279}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=45173e651a575c22d3d5aeb1decbed73}{%
+           family={Bertone},
+           family_i={B\bibinitperiod},
+           given={Gianfranco},
+           given_i={G\bibinitperiod}}}%
+        {{uniquename=0,hash=32d7396024041de7456d6ae92ee17fad}{%
+           family={Hooper},
+           family_i={H\bibinitperiod},
+           given={Dan},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=cfa0d38dc2ecec4f5ed5dc344139e369}{%
+           family={Silk},
+           family_i={S\bibinitperiod},
+           given={Joseph},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{eeb3231995637bc4579770eed7dffb62}
+      \strng{fullhash}{eeb3231995637bc4579770eed7dffb62}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2005}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0370-1573}
+      \field{journaltitle}{Physics Reports}
+      \field{number}{5}
+      \field{title}{Particle dark matter: evidence, candidates and constraints}
+      \field{volume}{405}
+      \field{year}{2005}
+      \field{pages}{279\bibrangedash 390}
+      \range{pages}{112}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.physrep.2004.08.031
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0370157304003515
       \endverb
     \endentry
     \entry{2017ascl.soft06006B}{misc}{}
@@ -3333,17 +3404,15 @@
     \endentry
     \entry{peebles1980large}{book}{}
       \name{author}{1}{}{%
-        {{uniquename=0,hash=35cb93426a6b4a67c50af3acc66fd0dc}{%
+        {{uniquename=1,hash=00109a189a74417911e0174bb9debd2a}{%
            family={Peebles},
-           family_i={P\bibinitperiod},
-           given={Phillip\bibnamedelimb James\bibnamedelima Edwin},
-           given_i={P\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+           family_i={P\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Princeton university press}%
       }
-      \strng{namehash}{35cb93426a6b4a67c50af3acc66fd0dc}
-      \strng{fullhash}{35cb93426a6b4a67c50af3acc66fd0dc}
+      \strng{namehash}{00109a189a74417911e0174bb9debd2a}
+      \strng{fullhash}{00109a189a74417911e0174bb9debd2a}
       \field{sortinit}{P}
       \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
       \field{labelyear}{1980}
@@ -3716,6 +3785,46 @@
       \endverb
       \verb{eprint}
       \verb 1511.04090
+      \endverb
+    \endentry
+    \entry{PhysRevD.37.3406}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=c2c28677221c419a631087e73697b496}{%
+           family={Ratra},
+           family_i={R\bibinitperiod},
+           given={Bharat},
+           given_i={B\bibinitperiod}}}%
+        {{uniquename=1,hash=2361e2e56f7b908a279910a5f81d9423}{%
+           family={Peebles},
+           family_i={P\bibinitperiod},
+           given={P.\bibnamedelimi J.\bibnamedelimi E.},
+           given_i={P\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{c6cf914a8e52da08ecfee73e014d198f}
+      \strng{fullhash}{c6cf914a8e52da08ecfee73e014d198f}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{1988}
+      \field{labelmonth}{06}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{12}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{month}{06}
+      \field{title}{Cosmological consequences of a rolling homogeneous scalar field}
+      \field{volume}{37}
+      \field{year}{1988}
+      \field{pages}{3406\bibrangedash 3427}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.37.3406
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.37.3406
       \endverb
     \endentry
     \entry{Riess_accelerated_expansion}{article}{}

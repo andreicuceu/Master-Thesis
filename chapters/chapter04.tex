@@ -5,7 +5,7 @@ Our first step is to try to understand how much information from the primordial 
 
 As a field is defined at every point in space, any attempt at representing it with data is inherently imperfect. We would have to measure the density field at every point in the Universe in order to obtain all the information it contains. This fact already implies that no data driven reconstruction will ever succeed at perfectly recovering the primordial density field (unless we manage to make an infinity of measurements).
 
-To show this unavoidable loss of information we performed a `perfect' reconstruction. We call this reconstruction `perfect', as it uses data about the initial positions of all particles (which obviously is not available to observers). However, as we will show in this chapter, not even this perfect reconstruction succeeds at perfectly recovering the primordial matter distribution.
+To show this unavoidable loss of information we performed a `perfect' reconstruction. We call this reconstruction `perfect' because it uses data about the initial positions of all particles (which obviously is not available to observers). However, as we will show in this chapter, not even this perfect reconstruction succeeds at perfectly recovering the primordial matter distribution.
 
 \section{Methods}
 
@@ -27,7 +27,7 @@ The first step in studying reconstruction is to find a way to test its effective
         \hline
         
     \end{tabular}
-    \caption{Details of the three simulations used in this project. They were setup in away that allows us to study the impact of the resolution (Sim A vs Sim B) and size (sim A vs Sim C)}
+    \caption{Details of the three simulations used in this project. They were setup in a way that allows us to study the impact of the resolution (Sim A vs Sim B) and size (sim A vs Sim C)}
     \label{table:1}
 \end{table}
 
@@ -69,7 +69,7 @@ In order to get a better understanding of how well this reconstruction worked, w
 \begin{equation}
     P(k) = \int{d^3y e^{i\textbf{k} \cdot \textbf{y}} \xi(y)}
 \end{equation} 
-and the correlation function of two density fields is given by:
+and the correlation function of two overdensity fields is given by:
 \begin{equation}
     \xi(|\textbf{x}-\textbf{y}|) = \langle \delta_A(\textbf{x})\delta_B(\textbf{y}) \rangle
 \end{equation}
@@ -89,7 +89,7 @@ The original normalized cross-spectra between the initial and the final fields (
     \label{fig:3.1}
 \end{figure}
 
-The small $k$ convergence towards perfect correlation indicates that information is preserved on these scales. Because of this, both the initial and the final density fields tend to be very uniform, which preserves the correlation. However, over small scales information is lost. The results is a large discrepancy between massive collapsed regions and mostly empty voids. This is in stark contrast to the relative uniformity of the initial field, leading to a breakdown in correlation.
+The small $k$ convergence towards perfect correlation indicates that information is preserved on these scales. Because of this, both the initial and the final density fields tend to be very uniform, which preserves the correlation. However, over small scales information is lost. The result is a large discrepancy between massive collapsed regions and mostly empty voids. This is in stark contrast to the relative uniformity of the initial field, leading to a breakdown in correlation.
 
 Figure~\ref{fig:3.1} also shows the evolution of this correlation with redshift. The wavenumber at which the two fields decorrelate indicates the progress of gravitational collapse at that redshift. This results in the decorrelation scale moving to smaller wavenumbers with the progress of gravitational collapse. The objective of reconstruction methods is to bring this decorrelation scale to larger $k$ (in order to recover information about the initial field).
 

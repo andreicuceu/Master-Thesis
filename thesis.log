@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.17)  27 MAR 2018 10:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.17)  27 MAR 2018 14:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1221,47 +1221,53 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 50.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 76.
 
-]
-(./thesis.toc
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 5.
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 7.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 7.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 76.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 7.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 76.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 7.
+(Font)              scaled to size 12.50409pt on input line 76.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 7.
+(Font)              scaled to size 9.37807pt on input line 76.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 7.
+(Font)              scaled to size 7.29405pt on input line 76.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 7.
+(Font)              scaled to size 12.50409pt on input line 76.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 7.
+(Font)              scaled to size 9.37807pt on input line 76.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 7.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 7.
+(Font)              scaled to size 7.29405pt on input line 76.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 76.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-))
+) [2
+
+] (./thesis.toc
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 5.
+)
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
- [3
+
+[3
 
 ]
 Chapter 1.
@@ -1279,7 +1285,7 @@ i-crowave back-ground
 ]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 21.
- <images/misc/Planck_CMB.jpg, id=22, 1927.2pt x 963.6pt>
+ <images/misc/Planck_CMB.jpg, id=23, 1927.2pt x 963.6pt>
 File: images/misc/Planck_CMB.jpg Graphic file (type jpg)
 
 <use images/misc/Planck_CMB.jpg>
@@ -1331,7 +1337,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8])
+[8]
+Overfull \hbox (1.56534pt too wide) in paragraph at lines 87--88
+[]\OT1/ppl/m/n/12 Information is mostly de-stroyed on small scales, deep in the
+ non-linear regime.
+ []
+
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1622,11 +1634,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ] [35
 
 ]
-Overfull \hbox (2.20033pt too wide) in paragraph at lines 107--107
-[][]\OT1/ppl/m/n/12 Matsubara, T. (2008a). \  Non-lin-ear per-tur-ba-tion the-o
-ry with halo bias and redshift-
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1634,6 +1641,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [36]
+Overfull \hbox (2.20033pt too wide) in paragraph at lines 107--107
+[][]\OT1/ppl/m/n/12 Matsubara, T. (2008a). \  Non-lin-ear per-tur-ba-tion the-o
+ry with halo bias and redshift-
+ []
+
+
 Overfull \hbox (4.98871pt too wide) in paragraph at lines 107--107
 \OT1/ppl/m/n/12 growth of cos-mic struc-ture and voids". In: Phys. Rev. D 93.10
 , 103519, p. 103519.
@@ -1667,13 +1680,13 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 ### semi simple group (level 1) entered at line 20 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21467 strings out of 494901
- 401278 string characters out of 6179485
- 801710 words of memory out of 5000000
- 24305 multiletter control sequences out of 15000+600000
+ 21478 strings out of 494901
+ 401483 string characters out of 6179485
+ 801791 words of memory out of 5000000
+ 24316 multiletter control sequences out of 15000+600000
  36774 words of font info for 100 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 62i,12n,56p,1379b,18258s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,12n,56p,1380b,18247s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
@@ -1685,7 +1698,7 @@ blic/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatin
 o/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (38 pages, 4183686 bytes).
+Output written on thesis.pdf (38 pages, 4185962 bytes).
 PDF statistics:
  240 PDF objects out of 1000 (max. 8388607)
  137 compressed objects within 2 object streams
