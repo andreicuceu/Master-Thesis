@@ -2095,20 +2095,23 @@
     <bcf:citekey order="43">2008PhRvD..78h3519M</bcf:citekey>
     <bcf:citekey order="44">Millennium_XXL</bcf:citekey>
     <bcf:citekey order="45">Illustris_sim</bcf:citekey>
-    <bcf:citekey order="46">Pontzen_paired_simulations</bcf:citekey>
-    <bcf:citekey order="47">2011ApJS..192...18K</bcf:citekey>
-    <bcf:citekey order="48">2016A&amp;A...594A..13P</bcf:citekey>
-    <bcf:citekey order="49">2005MNRAS.364.1105S</bcf:citekey>
-    <bcf:citekey order="50">2008MNRAS.391.1685S</bcf:citekey>
-    <bcf:citekey order="51">2013ascl.soft05002P</bcf:citekey>
-    <bcf:citekey order="52">2017ascl.soft06006B</bcf:citekey>
-    <bcf:citekey order="53">Bernardeau_PT</bcf:citekey>
-    <bcf:citekey order="54">1993sfu..book.....P</bcf:citekey>
-    <bcf:citekey order="55">1970A&amp;A.....5...84Z</bcf:citekey>
-    <bcf:citekey order="56">1993sfu..book.....P</bcf:citekey>
-    <bcf:citekey order="57">Pontzen_paired_simulations</bcf:citekey>
-    <bcf:citekey order="58">1993sfu..book.....P</bcf:citekey>
-    <bcf:citekey order="59">2013ascl.soft05002P</bcf:citekey>
+    <bcf:citekey order="46">2004PhR...402..103B</bcf:citekey>
+    <bcf:citekey order="47">Pontzen_paired_simulations</bcf:citekey>
+    <bcf:citekey order="48">2011ApJS..192...18K</bcf:citekey>
+    <bcf:citekey order="49">2016A&amp;A...594A..13P</bcf:citekey>
+    <bcf:citekey order="50">2005MNRAS.364.1105S</bcf:citekey>
+    <bcf:citekey order="51">2008MNRAS.391.1685S</bcf:citekey>
+    <bcf:citekey order="52">2013ascl.soft05002P</bcf:citekey>
+    <bcf:citekey order="53">2017ascl.soft06006B</bcf:citekey>
+    <bcf:citekey order="54">Bernardeau_PT</bcf:citekey>
+    <bcf:citekey order="55">1993sfu..book.....P</bcf:citekey>
+    <bcf:citekey order="56">1970A&amp;A.....5...84Z</bcf:citekey>
+    <bcf:citekey order="57">1993sfu..book.....P</bcf:citekey>
+    <bcf:citekey order="58">Pontzen_paired_simulations</bcf:citekey>
+    <bcf:citekey order="59">1993sfu..book.....P</bcf:citekey>
+    <bcf:citekey order="60">2013ascl.soft05002P</bcf:citekey>
+    <bcf:citekey order="61">dodelson2003modern</bcf:citekey>
+    <bcf:citekey order="62">dewdney2009square</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nyt/global" type="entry" sortscheme="nyt" sortnamekeyscheme="global">
   <bcf:sorting>

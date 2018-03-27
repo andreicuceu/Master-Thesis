@@ -2725,6 +2725,48 @@
       \endverb
       \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics,Astrophysics - Astrophysics of Galaxies,General Relativity and Quantum Cosmology,High Energy Physics - Phenomenology}
     \endentry
+    \entry{dewdney2009square}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=e2cc09024589d13a2c11141afedb962b}{%
+           family={Dewdney},
+           family_i={D\bibinitperiod},
+           given={Peter\bibnamedelima E},
+           given_i={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{uniquename=0,hash=7e06500e2ecc4edae26c2733dcce34af}{%
+           family={Hall},
+           family_i={H\bibinitperiod},
+           given={Peter\bibnamedelima J},
+           given_i={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=e7de31c8abbc0b0390e4d52e99ba1d48}{%
+           family={Schilizzi},
+           family_i={S\bibinitperiod},
+           given={Richard\bibnamedelima T},
+           given_i={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{uniquename=0,hash=ef7366f64eb65aed23f6f76bc6efecf7}{%
+           family={Lazio},
+           family_i={L\bibinitperiod},
+           given={T\bibnamedelima Joseph\bibnamedelima LW},
+           given_i={T\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{9f7e48c6dafa41950361d589c1b77a1b}
+      \strng{fullhash}{4272230fc8718f8c50a8d38b8a03a039}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the IEEE}
+      \field{number}{8}
+      \field{title}{The square kilometre array}
+      \field{volume}{97}
+      \field{year}{2009}
+      \field{pages}{1482\bibrangedash 1496}
+      \range{pages}{15}
+    \endentry
     \entry{dodelson2003modern}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=d3698fbc1727820bb2fd421387b59c1b}{%
