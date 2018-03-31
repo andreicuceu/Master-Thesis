@@ -2,52 +2,52 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{4}
+\contentsline {chapter}{\numberline {1}Introduction}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Cosmological Context}{4}
+\contentsline {section}{\numberline {1.1}Cosmological Context}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Observational Probes}{5}
+\contentsline {section}{\numberline {1.2}Observational Probes}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}The Cosmic Microwave Background}{5}
+\contentsline {subsection}{\numberline {1.2.1}The Cosmic Microwave Background}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Large Scale Structure and Galaxy Surveys}{6}
+\contentsline {subsection}{\numberline {1.2.2}Large Scale Structure and Galaxy Surveys}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}The Growth of Structure}{8}
+\contentsline {section}{\numberline {1.3}The Growth of Structure}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Recovering Lost Information}{9}
+\contentsline {section}{\numberline {1.4}Recovering Lost Information}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}The Perfect Reconstruction}{10}
+\contentsline {chapter}{\numberline {2}The Perfect Reconstruction}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Methods}{10}
+\contentsline {section}{\numberline {2.1}Methods}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}From Images to Statistics}{11}
+\contentsline {section}{\numberline {2.2}From Images to Statistics}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}The Reconstructed Density Field}{11}
+\contentsline {subsection}{\numberline {2.2.1}The Reconstructed Density Field}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Correlation with the Initial Field}{13}
+\contentsline {subsection}{\numberline {2.2.2}Correlation with the Initial Field}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Analysis}{14}
+\contentsline {section}{\numberline {2.3}Analysis}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Towards Realistic Reconstructions}{19}
+\contentsline {chapter}{\numberline {3}Towards Realistic Reconstructions}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}The Zel'dovich Approximation}{19}
+\contentsline {section}{\numberline {3.1}The Zel'dovich Approximation}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Background}{19}
+\contentsline {subsection}{\numberline {3.1.1}Background}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Tracing particles back}{20}
+\contentsline {subsection}{\numberline {3.1.2}Tracing particles back}{21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.3}The Reconstruction}{21}
+\contentsline {subsection}{\numberline {3.1.3}The Reconstruction}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Getting back to linear velocities}{23}
+\contentsline {section}{\numberline {3.2}Getting back to linear velocities}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Results}{25}
+\contentsline {section}{\numberline {3.3}Results}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Method analysis}{25}
+\contentsline {subsection}{\numberline {3.3.1}Method analysis}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Simulation comparison}{27}
+\contentsline {subsection}{\numberline {3.3.2}Simulation comparison}{28}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusions}{30}
+\contentsline {chapter}{\numberline {4}Conclusions}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Information loss and potential recovery}{30}
+\contentsline {section}{\numberline {4.1}Information loss and potential recovery}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Future Work}{32}
+\contentsline {section}{\numberline {4.2}Future Work}{33}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.17)  27 MAR 2018 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.17)  27 MAR 2018 15:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -501,51 +501,34 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
-Package: subfig 2005/06/28 ver: 1.3 subfig package
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen115
-\captionmargin@=\dimen116
-\captionwidth=\dimen117
-\caption@tempdima=\dimen118
-\caption@indent=\dimen119
-\caption@parindent=\dimen120
-\caption@hangindent=\dimen121
-)
-\c@KVtest=\count109
-\sf@farskip=\skip55
-\sf@captopadj=\dimen122
-\sf@capskip=\skip56
-\sf@nearskip=\skip57
-\c@subfigure=\count110
-\c@subfigure@save=\count111
-\c@lofdepth=\count112
-\c@subtable=\count113
-\c@subtable@save=\count114
-\c@lotdepth=\count115
-\sf@top=\skip58
-\sf@bottom=\skip59
-)
-(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
-Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
-Package: todonotes 2012/07/25
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks24
-\XKV@tempa@toks=\toks25
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count109
+\calc@Bcount=\count110
+\calc@Adimen=\dimen115
+\calc@Bdimen=\dimen116
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count111
+\calc@Cskip=\skip57
 )
-\XKV@depth=\count116
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
@@ -563,18 +546,72 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+\AM@pagewidth=\dimen117
+\AM@pageheight=\dimen118
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
 )
+\AM@pagebox=\box30
+\AM@toc@title=\toks24
+\c@AM@survey=\count112
+\AM@templatesizebox=\box31
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen119
+\captionmargin@=\dimen120
+\captionwidth=\dimen121
+\caption@tempdima=\dimen122
+\caption@indent=\dimen123
+\caption@parindent=\dimen124
+\caption@hangindent=\dimen125
+)
+\c@KVtest=\count113
+\sf@farskip=\skip58
+\sf@captopadj=\dimen126
+\sf@capskip=\skip59
+\sf@nearskip=\skip60
+\c@subfigure=\count114
+\c@subfigure@save=\count115
+\c@lofdepth=\count116
+\c@subtable=\count117
+\c@subtable@save=\count118
+\c@lotdepth=\count119
+\sf@top=\skip61
+\sf@bottom=\skip62
+)
+(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
+)
+\XKV@depth=\count120
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks26
-\pgfutil@tempdima=\dimen123
-\pgfutil@tempdimb=\dimen124
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen127
+\pgfutil@tempdimb=\dimen128
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box30
+\pgfutil@abb=\box32
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -589,30 +626,30 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks27
-\pgfkeys@temptoks=\toks28
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks29
+\pgfkeys@tmptoks=\toks30
 ))
-\pgf@x=\dimen125
-\pgf@y=\dimen126
-\pgf@xa=\dimen127
-\pgf@ya=\dimen128
-\pgf@xb=\dimen129
-\pgf@yb=\dimen130
-\pgf@xc=\dimen131
-\pgf@yc=\dimen132
+\pgf@x=\dimen129
+\pgf@y=\dimen130
+\pgf@xa=\dimen131
+\pgf@ya=\dimen132
+\pgf@xb=\dimen133
+\pgf@yb=\dimen134
+\pgf@xc=\dimen135
+\pgf@yc=\dimen136
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count117
-\c@pgf@countb=\count118
-\c@pgf@countc=\count119
-\c@pgf@countd=\count120
-\t@pgf@toka=\toks30
-\t@pgf@tokb=\toks31
-\t@pgf@tokc=\toks32
+\c@pgf@counta=\count121
+\c@pgf@countb=\count122
+\c@pgf@countc=\count123
+\c@pgf@countd=\count124
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -628,8 +665,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count121
-\pgfsyssoftpath@bigbuffer@items=\count122
+\pgfsyssoftpath@smallbuffer@items=\count125
+\pgfsyssoftpath@bigbuffer@items=\count126
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -642,12 +679,12 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen133
-\pgfmath@count=\count123
-\pgfmath@box=\box31
-\pgfmath@toks=\toks33
-\pgfmath@stack@operand=\toks34
-\pgfmath@stack@operation=\toks35
+\pgfmath@dimen=\dimen137
+\pgfmath@count=\count127
+\pgfmath@box=\box33
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -667,57 +704,57 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count124
+\c@pgfmathroundto@lastzeros=\count128
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen134
-\pgf@picmaxx=\dimen135
-\pgf@picminy=\dimen136
-\pgf@picmaxy=\dimen137
-\pgf@pathminx=\dimen138
-\pgf@pathmaxx=\dimen139
-\pgf@pathminy=\dimen140
-\pgf@pathmaxy=\dimen141
-\pgf@xx=\dimen142
-\pgf@xy=\dimen143
-\pgf@yx=\dimen144
-\pgf@yy=\dimen145
-\pgf@zx=\dimen146
-\pgf@zy=\dimen147
+\pgf@picminx=\dimen138
+\pgf@picmaxx=\dimen139
+\pgf@picminy=\dimen140
+\pgf@picmaxy=\dimen141
+\pgf@pathminx=\dimen142
+\pgf@pathmaxx=\dimen143
+\pgf@pathminy=\dimen144
+\pgf@pathmaxy=\dimen145
+\pgf@xx=\dimen146
+\pgf@xy=\dimen147
+\pgf@yx=\dimen148
+\pgf@yy=\dimen149
+\pgf@zx=\dimen150
+\pgf@zy=\dimen151
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen148
-\pgf@path@lasty=\dimen149
+\pgf@path@lastx=\dimen152
+\pgf@path@lasty=\dimen153
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen150
-\pgf@shorten@start@additional=\dimen151
+\pgf@shorten@end@additional=\dimen154
+\pgf@shorten@start@additional=\dimen155
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box32
-\pgf@hbox=\box33
-\pgf@layerbox@main=\box34
-\pgf@picture@serial@count=\count125
+\pgfpic=\box34
+\pgf@hbox=\box35
+\pgf@layerbox@main=\box36
+\pgf@picture@serial@count=\count129
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen152
+\pgflinewidth=\dimen156
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen153
-\pgf@pt@y=\dimen154
-\pgf@pt@temp=\dimen155
+\pgf@pt@x=\dimen157
+\pgf@pt@y=\dimen158
+\pgf@pt@temp=\dimen159
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -733,12 +770,12 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen156
+\pgfarrowsep=\dimen160
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen157
-\pgf@sys@shading@range@num=\count126
+\pgf@max=\dimen161
+\pgf@sys@shading@range@num=\count130
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -746,7 +783,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
 tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box35
+\pgfexternal@startupbox=\box37
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
 x
@@ -762,15 +799,15 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box36
+\pgfnodeparttextbox=\box38
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen158
-\pgf@nodesepend=\dimen159
+\pgf@nodesepstart=\dimen162
+\pgf@nodesepend=\dimen163
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -784,10 +821,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen160
-\pgffor@skip=\dimen161
-\pgffor@stack=\toks36
-\pgffor@toks=\toks37
+\pgffor@iter=\dimen164
+\pgffor@skip=\dimen165
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
@@ -795,31 +832,31 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count127
-\pgfplotmarksize=\dimen162
+\pgf@plot@mark@count=\count131
+\pgfplotmarksize=\dimen166
 )
-\tikz@lastx=\dimen163
-\tikz@lasty=\dimen164
-\tikz@lastxsaved=\dimen165
-\tikz@lastysaved=\dimen166
-\tikzleveldistance=\dimen167
-\tikzsiblingdistance=\dimen168
-\tikz@figbox=\box37
-\tikz@figbox@bg=\box38
-\tikz@tempbox=\box39
-\tikz@tempbox@bg=\box40
-\tikztreelevel=\count128
-\tikznumberofchildren=\count129
-\tikznumberofcurrentchild=\count130
-\tikz@fig@count=\count131
+\tikz@lastx=\dimen167
+\tikz@lasty=\dimen168
+\tikz@lastxsaved=\dimen169
+\tikz@lastysaved=\dimen170
+\tikzleveldistance=\dimen171
+\tikzsiblingdistance=\dimen172
+\tikz@figbox=\box39
+\tikz@figbox@bg=\box40
+\tikz@tempbox=\box41
+\tikz@tempbox@bg=\box42
+\tikztreelevel=\count132
+\tikznumberofchildren=\count133
+\tikznumberofcurrentchild=\count134
+\tikz@fig@count=\count135
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count132
-\pgfmatrixcurrentcolumn=\count133
-\pgf@matrix@numberofcolumns=\count134
+\pgfmatrixcurrentrow=\count136
+\pgfmatrixcurrentcolumn=\count137
+\pgf@matrix@numberofcolumns=\count138
 )
-\tikz@expandcount=\count135
+\tikz@expandcount=\count139
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -829,20 +866,7 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 zlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count136
-\calc@Bcount=\count137
-\calc@Adimen=\dimen169
-\calc@Bdimen=\dimen170
-\calc@Askip=\skip60
-\calc@Bskip=\skip61
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count138
-\calc@Cskip=\skip62
-)
-\c@@todonotes@numberoftodonotes=\count139
+\c@@todonotes@numberoftodonotes=\count140
 )
 (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write4
@@ -851,10 +875,6 @@ Excluding comment 'comment')
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
@@ -862,18 +882,18 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count140
-\Gm@cntv=\count141
-\c@Gm@tempcnt=\count142
-\Gm@bindingoffset=\dimen171
-\Gm@wd@mp=\dimen172
-\Gm@odd@mp=\dimen173
-\Gm@even@mp=\dimen174
-\Gm@layoutwidth=\dimen175
-\Gm@layoutheight=\dimen176
-\Gm@layouthoffset=\dimen177
-\Gm@layoutvoffset=\dimen178
-\Gm@dimlist=\toks38
+\Gm@cnth=\count141
+\Gm@cntv=\count142
+\c@Gm@tempcnt=\count143
+\Gm@bindingoffset=\dimen173
+\Gm@wd@mp=\dimen174
+\Gm@odd@mp=\dimen175
+\Gm@even@mp=\dimen176
+\Gm@layoutwidth=\dimen177
+\Gm@layoutheight=\dimen178
+\Gm@layouthoffset=\dimen179
+\Gm@layoutvoffset=\dimen180
+\Gm@dimlist=\toks39
 )
 (./aas_macros.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
@@ -903,7 +923,7 @@ Package etexcmds Info: Could not find \expanded.
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count143
+\lrq@indent=\count144
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -912,44 +932,44 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count144
-\c@listtotal=\count145
-\c@listcount=\count146
-\c@liststart=\count147
-\c@liststop=\count148
-\c@citecount=\count149
-\c@citetotal=\count150
-\c@multicitecount=\count151
-\c@multicitetotal=\count152
-\c@instcount=\count153
-\c@maxnames=\count154
-\c@minnames=\count155
-\c@maxitems=\count156
-\c@minitems=\count157
-\c@citecounter=\count158
-\c@savedcitecounter=\count159
-\c@uniquelist=\count160
-\c@uniquename=\count161
-\c@refsection=\count162
-\c@refsegment=\count163
-\c@maxextratitle=\count164
-\c@maxextratitleyear=\count165
-\c@maxextrayear=\count166
-\c@maxextraalpha=\count167
-\c@abbrvpenalty=\count168
-\c@highnamepenalty=\count169
-\c@lownamepenalty=\count170
-\c@maxparens=\count171
-\c@parenlevel=\count172
-\blx@tempcnta=\count173
-\blx@tempcntb=\count174
-\blx@tempcntc=\count175
-\blx@maxsection=\count176
-\blx@maxsegment@0=\count177
-\blx@notetype=\count178
-\blx@parenlevel@text=\count179
-\blx@parenlevel@foot=\count180
-\blx@sectionciteorder@0=\count181
+\c@tabx@nest=\count145
+\c@listtotal=\count146
+\c@listcount=\count147
+\c@liststart=\count148
+\c@liststop=\count149
+\c@citecount=\count150
+\c@citetotal=\count151
+\c@multicitecount=\count152
+\c@multicitetotal=\count153
+\c@instcount=\count154
+\c@maxnames=\count155
+\c@minnames=\count156
+\c@maxitems=\count157
+\c@minitems=\count158
+\c@citecounter=\count159
+\c@savedcitecounter=\count160
+\c@uniquelist=\count161
+\c@uniquename=\count162
+\c@refsection=\count163
+\c@refsegment=\count164
+\c@maxextratitle=\count165
+\c@maxextratitleyear=\count166
+\c@maxextrayear=\count167
+\c@maxextraalpha=\count168
+\c@abbrvpenalty=\count169
+\c@highnamepenalty=\count170
+\c@lownamepenalty=\count171
+\c@maxparens=\count172
+\c@parenlevel=\count173
+\blx@tempcnta=\count174
+\blx@tempcntb=\count175
+\blx@tempcntc=\count176
+\blx@maxsection=\count177
+\blx@maxsegment@0=\count178
+\blx@notetype=\count179
+\blx@parenlevel@text=\count180
+\blx@parenlevel@foot=\count181
+\blx@sectionciteorder@0=\count182
 \labelnumberwidth=\skip63
 \labelalphawidth=\skip64
 \biblabelsep=\skip65
@@ -960,9 +980,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip70
 \blx@bcfin=\read2
 \blx@bcfout=\write5
-\c@mincomprange=\count182
-\c@maxcomprange=\count183
-\c@mincompwidth=\count184
+\c@mincomprange=\count183
+\c@maxcomprange=\count184
+\c@mincompwidth=\count185
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -971,72 +991,72 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count185
-\c@savedafterword=\count186
-\c@annotator=\count187
-\c@savedannotator=\count188
-\c@author=\count189
-\c@savedauthor=\count190
-\c@bookauthor=\count191
-\c@savedbookauthor=\count192
-\c@commentator=\count193
-\c@savedcommentator=\count194
-\c@editor=\count195
-\c@savededitor=\count196
-\c@editora=\count197
-\c@savededitora=\count198
-\c@editorb=\count199
-\c@savededitorb=\count266
-\c@editorc=\count267
-\c@savededitorc=\count268
-\c@foreword=\count269
-\c@savedforeword=\count270
-\c@holder=\count271
-\c@savedholder=\count272
-\c@introduction=\count273
-\c@savedintroduction=\count274
-\c@namea=\count275
-\c@savednamea=\count276
-\c@nameb=\count277
-\c@savednameb=\count278
-\c@namec=\count279
-\c@savednamec=\count280
-\c@translator=\count281
-\c@savedtranslator=\count282
-\c@shortauthor=\count283
-\c@savedshortauthor=\count284
-\c@shorteditor=\count285
-\c@savedshorteditor=\count286
-\c@labelname=\count287
-\c@savedlabelname=\count288
-\c@institution=\count289
-\c@savedinstitution=\count290
-\c@lista=\count291
-\c@savedlista=\count292
-\c@listb=\count293
-\c@savedlistb=\count294
-\c@listc=\count295
-\c@savedlistc=\count296
-\c@listd=\count297
-\c@savedlistd=\count298
-\c@liste=\count299
-\c@savedliste=\count300
-\c@listf=\count301
-\c@savedlistf=\count302
-\c@location=\count303
-\c@savedlocation=\count304
-\c@organization=\count305
-\c@savedorganization=\count306
-\c@origlocation=\count307
-\c@savedoriglocation=\count308
-\c@origpublisher=\count309
-\c@savedorigpublisher=\count310
-\c@publisher=\count311
-\c@savedpublisher=\count312
-\c@language=\count313
-\c@savedlanguage=\count314
-\c@pageref=\count315
-\c@savedpageref=\count316
+\c@afterword=\count186
+\c@savedafterword=\count187
+\c@annotator=\count188
+\c@savedannotator=\count189
+\c@author=\count190
+\c@savedauthor=\count191
+\c@bookauthor=\count192
+\c@savedbookauthor=\count193
+\c@commentator=\count194
+\c@savedcommentator=\count195
+\c@editor=\count196
+\c@savededitor=\count197
+\c@editora=\count198
+\c@savededitora=\count199
+\c@editorb=\count266
+\c@savededitorb=\count267
+\c@editorc=\count268
+\c@savededitorc=\count269
+\c@foreword=\count270
+\c@savedforeword=\count271
+\c@holder=\count272
+\c@savedholder=\count273
+\c@introduction=\count274
+\c@savedintroduction=\count275
+\c@namea=\count276
+\c@savednamea=\count277
+\c@nameb=\count278
+\c@savednameb=\count279
+\c@namec=\count280
+\c@savednamec=\count281
+\c@translator=\count282
+\c@savedtranslator=\count283
+\c@shortauthor=\count284
+\c@savedshortauthor=\count285
+\c@shorteditor=\count286
+\c@savedshorteditor=\count287
+\c@labelname=\count288
+\c@savedlabelname=\count289
+\c@institution=\count290
+\c@savedinstitution=\count291
+\c@lista=\count292
+\c@savedlista=\count293
+\c@listb=\count294
+\c@savedlistb=\count295
+\c@listc=\count296
+\c@savedlistc=\count297
+\c@listd=\count298
+\c@savedlistd=\count299
+\c@liste=\count300
+\c@savedliste=\count301
+\c@listf=\count302
+\c@savedlistf=\count303
+\c@location=\count304
+\c@savedlocation=\count305
+\c@organization=\count306
+\c@savedorganization=\count307
+\c@origlocation=\count308
+\c@savedoriglocation=\count309
+\c@origpublisher=\count310
+\c@savedorigpublisher=\count311
+\c@publisher=\count312
+\c@savedpublisher=\count313
+\c@language=\count314
+\c@savedlanguage=\count315
+\c@pageref=\count316
+\c@savedpageref=\count317
 \shorthandwidth=\skip71
 \shortjournalwidth=\skip72
 \shortserieswidth=\skip73
@@ -1054,13 +1074,13 @@ Package biblatex Info: ... file 'biblatex_.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex_.def
 File: biblatex_.def 
-\c@textcitecount=\count317
-\c@textcitetotal=\count318
-\c@textcitemaxnames=\count319
-\c@biburlnumpenalty=\count320
-\c@biburlucpenalty=\count321
-\c@biburllcpenalty=\count322
-\c@smartand=\count323
+\c@textcitecount=\count318
+\c@textcitetotal=\count319
+\c@textcitemaxnames=\count320
+\c@biburlnumpenalty=\count321
+\c@biburlucpenalty=\count322
+\c@biburllcpenalty=\count323
+\c@smartand=\count324
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
@@ -1072,8 +1092,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2016/03/03 v3.3 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count324
-\c@bbx:relatedtotal=\count325
+\c@bbx:relatedcount=\count325
+\c@bbx:relatedtotal=\count326
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -1111,35 +1131,35 @@ LaTeX Warning: Unused global option(s):
 (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 40.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count326
-\scratchdimen=\dimen179
-\scratchbox=\box41
-\nofMPsegments=\count327
-\nofMParguments=\count328
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count329
-\MPscratchDim=\dimen180
-\MPnumerator=\count330
-\makeMPintoPDFobject=\count331
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count327
+\scratchdimen=\dimen181
+\scratchbox=\box43
+\nofMPsegments=\count328
+\nofMParguments=\count329
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count330
+\MPscratchDim=\dimen182
+\MPnumerator=\count331
+\makeMPintoPDFobject=\count332
+\everyMPtoPDFconversion=\toks41
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1166,6 +1186,16 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+\AtBeginShipoutBox=\box44
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1213,51 +1243,85 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
 (./thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 39.
-Package biblatex Info: Reference segment=0 on input line 39.
+Package biblatex Info: Reference section=0 on input line 40.
+Package biblatex Info: Reference segment=0 on input line 40.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <40> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 44.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 50.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 51.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 76.
+<meh.pdf, id=11, 598.235pt x 845.1575pt>
+File: meh.pdf Graphic file (type pdf)
+ <use meh.pdf>
+Package pdftex.def Info: meh.pdf used on input line 73.
+(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+File: meh.pdf Graphic file (type pdf)
+ <use meh.pdf>
+Package pdftex.def Info: meh.pdf used on input line 73.
+(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+
+<meh.pdf, id=14, page=1, 598.235pt x 845.1575pt>
+File: meh.pdf Graphic file (type pdf)
+ <use meh.pdf, page 1>
+Package pdftex.def Info: meh.pdf, page1 used on input line 73.
+(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+File: meh.pdf Graphic file (type pdf)
+
+<use meh.pdf, page 1>
+Package pdftex.def Info: meh.pdf, page1 used on input line 73.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: meh.pdf Graphic file (type pdf)
+ <use meh.pdf, page 1>
+Package pdftex.def Info: meh.pdf, page1 used on input line 73.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: meh.pdf Graphic file (type pdf)
+ <use meh.pdf, page 1>
+Package pdftex.def Info: meh.pdf, page1 used on input line 73.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: meh.pdf Graphic file (type pdf)
+
+<use meh.pdf, page 1>
+Package pdftex.def Info: meh.pdf, page1 used on input line 73.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [2 <./meh.pdf>]
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 77.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 76.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 77.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 76.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 77.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 76.
+(Font)              scaled to size 12.50409pt on input line 77.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 76.
+(Font)              scaled to size 9.37807pt on input line 77.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 76.
+(Font)              scaled to size 7.29405pt on input line 77.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 76.
+(Font)              scaled to size 12.50409pt on input line 77.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 76.
+(Font)              scaled to size 9.37807pt on input line 77.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 76.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 76.
+(Font)              scaled to size 7.29405pt on input line 77.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 77.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-) [2
+) [3
 
 ] (./thesis.toc
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
@@ -1267,7 +1331,7 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
 \openout6 = `thesis.toc'.
 
 
-[3
+[4
 
 ]
 Chapter 1.
@@ -1280,12 +1344,12 @@ Overfull \hbox (4.69746pt too wide) in paragraph at lines 7--8
 i-crowave back-ground
  []
 
-[4
+[5
 
 ]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 21.
- <images/misc/Planck_CMB.jpg, id=23, 1927.2pt x 963.6pt>
+ <images/misc/Planck_CMB.jpg, id=33, 1927.2pt x 963.6pt>
 File: images/misc/Planck_CMB.jpg Graphic file (type jpg)
 
 <use images/misc/Planck_CMB.jpg>
@@ -1298,14 +1362,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5]
+[6]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6 <./images/misc/Planck_CMB.jpg>]
+[7 <./images/misc/Planck_CMB.jpg>]
 Overfull \hbox (3.53278pt too wide) in paragraph at lines 51--52
 []\OT1/ppl/m/n/12 These meth-ods have been in-stru-men-tal in us-ing sur-vey da
 ta to its fullest. []Wein-
@@ -1321,7 +1385,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7]
+[8]
 Overfull \hbox (3.11299pt too wide) in paragraph at lines 74--76
 []\OT1/ppl/m/n/12 Lagrangian Per-tur-ba-tion The-ory has been well de-vel-oped 
 in the 1990s ([]Buchert
@@ -1337,7 +1401,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8]
+[9]
 Overfull \hbox (1.56534pt too wide) in paragraph at lines 87--88
 []\OT1/ppl/m/n/12 Information is mostly de-stroyed on small scales, deep in the
  non-linear regime.
@@ -1350,13 +1414,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9]
+[10]
 Chapter 2.
 (./chapters/chapter04.tex
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10
+[11
 
 ]
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -1371,7 +1435,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.91925pt on input line 45.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.25204pt on input line 45.
- <images/densityFields/densityField.pdf, id=45, 1011.78pt x 722.7pt>
+ <images/densityFields/densityField.pdf, id=55, 1011.78pt x 722.7pt>
 File: images/densityFields/densityField.pdf Graphic file (type pdf)
 
 <use images/densityFields/densityField.pdf>
@@ -1385,28 +1449,28 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11]
+[12]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12 <./images/densityFields/densityField.pdf>]
+[13 <./images/densityFields/densityField.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13] <images/perfRecon/orig.png, id=98, 651.43375pt x 527.9725pt>
+[14] <images/perfRecon/orig.png, id=108, 651.43375pt x 527.9725pt>
 File: images/perfRecon/orig.png Graphic file (type png)
 
 <use images/perfRecon/orig.png>
 Package pdftex.def Info: images/perfRecon/orig.png used on input line 83.
 (pdftex.def)             Requested size: 426.79134pt x 345.91716pt.
 
-<images/perfRecon/perfRecon.png, id=100, 931.48pt x 687.56876pt>
+<images/perfRecon/perfRecon.png, id=110, 931.48pt x 687.56876pt>
 File: images/perfRecon/perfRecon.png Graphic file (type png)
 
 <use images/perfRecon/perfRecon.png>
@@ -1420,22 +1484,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14]
+[15]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15 <./images/perfRecon/orig.png>]
+[16 <./images/perfRecon/orig.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16 <./images/perfRecon/perfRecon.png>]
-<images/perfRecon/simComp.png, id=112, 820.06375pt x 364.36125pt>
+[17 <./images/perfRecon/perfRecon.png>]
+<images/perfRecon/simComp.png, id=122, 820.06375pt x 364.36125pt>
 File: images/perfRecon/simComp.png Graphic file (type png)
 
 <use images/perfRecon/simComp.png>
@@ -1448,16 +1512,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17 <./images/perfRecon/simComp.png>])
+[18 <./images/perfRecon/simComp.png>])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18]
+[19]
 Chapter 3.
-(./chapters/chapter05.tex [19
+(./chapters/chapter05.tex [20
 
 ]
 
@@ -1466,7 +1530,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20] <images/realRecon/zeld.png, id=127, 948.54375pt x 687.56876pt>
+[21] <images/realRecon/zeld.png, id=137, 948.54375pt x 687.56876pt>
 File: images/realRecon/zeld.png Graphic file (type png)
 
 <use images/realRecon/zeld.png>
@@ -1479,21 +1543,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21]
+[22]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22 <./images/realRecon/zeld.png>]
+[23 <./images/realRecon/zeld.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23]
+[24]
 Overfull \hbox (9.45221pt too wide) in paragraph at lines 93--94
 \OT1/ppl/m/n/12 meth-ods to have a sim-i-lar per-for-mance when start-ing from 
 this quasi-linear regime. 
@@ -1509,7 +1573,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24] <images/realRecon/binSize.png, id=141, 651.43375pt x 364.36125pt>
+[25] <images/realRecon/binSize.png, id=152, 651.43375pt x 364.36125pt>
 File: images/realRecon/binSize.png Graphic file (type png)
 
 <use images/realRecon/binSize.png>
@@ -1522,8 +1586,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25 <./images/realRecon/binSize.png>]
-<images/realRecon/filterComp.png, id=147, 961.5925pt x 472.76625pt>
+[26 <./images/realRecon/binSize.png>]
+<images/realRecon/filterComp.png, id=157, 961.5925pt x 472.76625pt>
 File: images/realRecon/filterComp.png Graphic file (type png)
 
 <use images/realRecon/filterComp.png>
@@ -1546,8 +1610,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26 <./images/realRecon/filterComp.png>]
-<images/realRecon/z9SimComp.png, id=152, 931.48pt x 418.56375pt>
+[27 <./images/realRecon/filterComp.png>]
+<images/realRecon/z9SimComp.png, id=162, 931.48pt x 418.56375pt>
 File: images/realRecon/z9SimComp.png Graphic file (type png)
 
 <use images/realRecon/z9SimComp.png>
@@ -1561,8 +1625,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27 <./images/realRecon/z9SimComp.png>]
-<images/realRecon/simBRecon.png, id=157, 763.85374pt x 472.76625pt>
+[28 <./images/realRecon/z9SimComp.png>]
+<images/realRecon/simBRecon.png, id=167, 763.85374pt x 472.76625pt>
 File: images/realRecon/simBRecon.png Graphic file (type png)
 
 <use images/realRecon/simBRecon.png>
@@ -1579,8 +1643,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28 <./images/realRecon/simBRecon.png>]
-<images/realRecon/simARecon.png, id=162, 763.85374pt x 472.76625pt>
+[29 <./images/realRecon/simBRecon.png>]
+<images/realRecon/simARecon.png, id=172, 763.85374pt x 472.76625pt>
 File: images/realRecon/simARecon.png Graphic file (type png)
 
 <use images/realRecon/simARecon.png>
@@ -1594,9 +1658,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29 <./images/realRecon/simARecon.png>]
+[30 <./images/realRecon/simARecon.png>]
 Chapter 4.
-(./chapters/chapter06.tex [30
+(./chapters/chapter06.tex [31
 
 ]
 Underfull \vbox (badness 1264) has occurred while \output is active []
@@ -1608,7 +1672,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31] <images/realRecon/1MpcBinAvg.png, id=175, 792.9625pt x 472.76625pt>
+[32] <images/realRecon/1MpcBinAvg.png, id=185, 792.9625pt x 472.76625pt>
 File: images/realRecon/1MpcBinAvg.png Graphic file (type png)
 
 <use images/realRecon/1MpcBinAvg.png>
@@ -1622,16 +1686,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[32])
+[33])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33 <./images/realRecon/1MpcBinAvg.png>] [34
+[34 <./images/realRecon/1MpcBinAvg.png>] [35
 
-] [35
+] [36
 
 ]
 
@@ -1640,14 +1704,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36]
-Overfull \hbox (2.20033pt too wide) in paragraph at lines 107--107
+[37]
+Overfull \hbox (2.20033pt too wide) in paragraph at lines 108--108
 [][]\OT1/ppl/m/n/12 Matsubara, T. (2008a). \  Non-lin-ear per-tur-ba-tion the-o
 ry with halo bias and redshift-
  []
 
 
-Overfull \hbox (4.98871pt too wide) in paragraph at lines 107--107
+Overfull \hbox (4.98871pt too wide) in paragraph at lines 108--108
 \OT1/ppl/m/n/12 growth of cos-mic struc-ture and voids". In: Phys. Rev. D 93.10
 , 103519, p. 103519.
  []
@@ -1658,8 +1722,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37]
-Overfull \hbox (17.49707pt too wide) in paragraph at lines 107--107
+[38]
+Overfull \hbox (17.49707pt too wide) in paragraph at lines 108--108
 [][]\OT1/ppl/m/n/12 Weinberg, D. H. (1992). \  Re-con-struct-ing pri-mor-dial d
 en-sity fluc-tu-a-tions. I - Method".
  []
@@ -1670,23 +1734,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38] (./thesis.aux)
+[39] (./thesis.aux)
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 20 (\begingroup)
+### semi simple group (level 1) entered at line 21 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21478 strings out of 494901
- 401483 string characters out of 6179485
- 801791 words of memory out of 5000000
- 24316 multiletter control sequences out of 15000+600000
+ 22166 strings out of 494901
+ 412886 string characters out of 6179485
+ 816191 words of memory out of 5000000
+ 24980 multiletter control sequences out of 15000+600000
  36774 words of font info for 100 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 62i,12n,56p,1380b,18247s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,18n,56p,1380b,17746s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
@@ -1698,10 +1762,10 @@ blic/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatin
 o/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (38 pages, 4185962 bytes).
+Output written on thesis.pdf (39 pages, 4213299 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
+ 250 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 
